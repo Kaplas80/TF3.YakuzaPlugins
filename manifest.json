@@ -1,0 +1,741 @@
+{
+  "homepages": [],
+  "source_base_path": "/home/runner/work/TF3.YakuzaPlugins/TF3.YakuzaPlugins/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../CONTRIBUTING.md",
+      "output": {
+        ".html": {
+          "relative_path": "CONTRIBUTING.html",
+          "hash": "K/re+hyNseq59LdwAIFkbQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html",
+          "hash": "ydgilozJJm9XytuDACIJKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Reader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Reader.html",
+          "hash": "UKRsVLxYXpjWX5GsqeDc5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Writer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Writer.html",
+          "hash": "voUqGiLzVz25xP6EdjEdYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.html",
+          "hash": "MXISCuJBzfWLUZjrfgF5eA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.html",
+          "hash": "8WCKC5Kk3HIB+hWT7JES5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress.html",
+          "hash": "pQdzjSMU6Uy/E/DadnLmIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressStandard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressStandard.html",
+          "hash": "MiyxK6xM85jicqjAzB63bg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressZlib.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressZlib.html",
+          "hash": "0+nNu6IsiUq1fHaS6XXszg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressorParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressorParameters.html",
+          "hash": "2fbdX2hiCyZ25HwpxHfcnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Decompress.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Decompress.html",
+          "hash": "5DQy9yE4HcMyTEAJczT2yw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.DecompressStandard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.DecompressStandard.html",
+          "hash": "fp/U3Nii/dH+Z353j7yt6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.DecompressZlib.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.DecompressZlib.html",
+          "hash": "qB8BGhAeIWW2sGL/ym9ovA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.SllzException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.SllzException.html",
+          "hash": "BQ/1AXHhH/MjhH8P2ofRkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.html",
+          "hash": "xcX+DDYyPc2IKi5gMW+SMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Enums.CompressionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Enums.CompressionType.html",
+          "hash": "6RgKfgxtB5phgwINrUWZkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Enums.Endianness.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Enums.Endianness.html",
+          "hash": "LorA1NvE8AvZ3Y3FYebl1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Enums.Platform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Enums.Platform.html",
+          "hash": "tKjZ+uF/KxAQP94v+SGbhQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Enums.html",
+          "hash": "gq/IyO/PYr6E2MVvfUOnXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Formats.ParFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Formats.ParFile.html",
+          "hash": "Rgb7dUTabel/ZWNw+u9Feg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Formats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Formats.html",
+          "hash": "n/ROnWf26EYorJgrUZgXjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader.html",
+          "hash": "TkvTKdimOewDtDuP7FLN0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Types.ParDirectoryInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Types.ParDirectoryInfo.html",
+          "hash": "KB+A/IEWJzsl5r6Q794GwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo.html",
+          "hash": "5qN8ZWCli9q6fx9dmyi7vQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Types.ParIndex.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Types.ParIndex.html",
+          "hash": "mHSl20kaLkzcDCTgg/GA7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Types.SllzHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Types.SllzHeader.html",
+          "hash": "PxYIu20slYsEUp7b2LdsEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Types.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Types.html",
+          "hash": "UGjWhlMgv/ClMFqKmEiFOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ExtractStrings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ExtractStrings.html",
+          "hash": "bxLi3F2FLMqxqSpelVIpXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.FromXlsx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.FromXlsx.html",
+          "hash": "Puwo7NMXLuKvCyU5lOAIBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Reader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Reader.html",
+          "hash": "KN8ex1wmcJ1g2zKDsLGp9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ToXlsx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ToXlsx.html",
+          "hash": "L3JmiNE6szrPXIl4pID9HA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Translate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Translate.html",
+          "hash": "niP3aue3uqzJU/QEHmogfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Writer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Writer.html",
+          "hash": "FkMaqOWOgt6132QXZSTVGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.html",
+          "hash": "57rc/FPUwyEzxveERnTEYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.BinaryPoSplitter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.BinaryPoSplitter.html",
+          "hash": "tGzAqQkiV6/sDDOBBSuZ4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Merger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Merger.html",
+          "hash": "0ePueD23b8BDbvoZQUcjFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Splitter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Splitter.html",
+          "hash": "tkUKhRAB5Q8rdZ5oCFGi2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.html",
+          "hash": "y0LA6mtQxYOutkgkXnl5RA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Enums.Endianness.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Enums.Endianness.html",
+          "hash": "kxcjvreQP0l6JgHjm23e2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Enums.FieldType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Enums.FieldType.html",
+          "hash": "8zrx5l25NozmrYZoHc3zqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Enums.html",
+          "hash": "zVh5f3h/J3TtsaYAt6R2Og=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.html",
+          "hash": "I2vhfEpMZ1y7lIcA8Ik0gQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Formats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Formats.html",
+          "hash": "G8HiO3jNL5GVQR1cLTUwEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.html",
+          "hash": "8jLrsWjfSXI9naGIbTarEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader.html",
+          "hash": "ac7TGgr7N0yZGoiTCaEwDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Types.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Types.html",
+          "hash": "xOKTseveB4yYItew+KzioA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "dev/Changelog.md",
+      "output": {
+        ".html": {
+          "relative_path": "dev/Changelog.html",
+          "hash": "YIiRMF3oB3rfUC0h40fGkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "dev/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "dev/toc.html",
+          "hash": "OJfron2S1spMis8g3M9mvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guides/Contributing.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/Contributing.html",
+          "hash": "KL75qO+DAqyV8nxni/uGhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guides/First-Steps.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/First-Steps.html",
+          "hash": "IKlm0nZYHxYsQSoXHZvWxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "guides/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "guides/toc.html",
+          "hash": "GpD1UeriQPvrBrKwMHHfyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/favicon.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/favicon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo_128.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo_128.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo_48.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo_48.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "mkkVUzGf7VvsAt0vV2srkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "qMQHUM3T8s3bItCqK3++Ew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 6,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 44,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
