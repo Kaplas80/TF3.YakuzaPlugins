@@ -83,8 +83,20 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Par
             var files = new List<Node>();
             uint fileOffset = 0;
 
-            directories.Add(source.Root);
-            foreach (Node node in Navigator.IterateNodes(source.Root))
+            Node root = source.Root;
+            if (_writerParameters.DotRoot && source.Root.Name != ".")
+            {
+                root = NodeFactory.CreateContainer(".");
+                foreach ((string key, dynamic value) in source.Root.Tags)
+                {
+                    root.Tags[key] = value;
+                }
+
+                source.MoveChildrenTo(root);
+            }
+
+            directories.Add(root);
+            foreach (Node node in Navigator.IterateNodes(root))
             {
                 if (!node.IsContainer)
                 {
@@ -146,13 +158,19 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Par
                 long returnPosition = writer.Stream.Position;
                 _ = writer.Stream.Seek(directoryStartOffset + (i * 0x20), System.IO.SeekOrigin.Begin);
 
+                uint attributes = 0x10;
+                if (node.Tags.ContainsKey("RawAttributes"))
+                {
+                    attributes = (uint)node.Tags["RawAttributes"];
+                }
+
                 var directoryInfo = new ParDirectoryInfo
                 {
                     SubdirectoryCount = (uint)node.Tags["SubdirectoryCount"],
                     SubdirectoryStartIndex = (uint)node.Tags["SubdirectoryStartIndex"],
                     FileCount = (uint)node.Tags["FileCount"],
                     FileStartIndex = (uint)node.Tags["FileStartIndex"],
-                    RawAttributes = (uint)node.Tags["RawAttributes"],
+                    RawAttributes = attributes,
                 };
 
                 writer.WriteOfType(directoryInfo);

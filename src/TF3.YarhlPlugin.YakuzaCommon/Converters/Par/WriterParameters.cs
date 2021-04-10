@@ -36,6 +36,7 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Par
             Endianness = Endianness.BigEndian;
             Version = 0x00020001;
             WriteDataSize = false;
+            DotRoot = true;
             OutputStream = null;
         }
 
@@ -58,6 +59,11 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Par
         /// Gets or sets a value indicating whether the data size is written in header (only in Kenzan).
         /// </summary>
         public bool WriteDataSize { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether the root name is a dot or a full name.
+        /// </summary>
+        public bool DotRoot { get; set; }
 
         /// <summary>
         /// Gets or sets the DataStream to write the file.
