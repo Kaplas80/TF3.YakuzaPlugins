@@ -1,4 +1,4 @@
-// Copyright (c) 2020 Benito Palacios Sánchez
+// Copyright (c) 2021 Kaplas
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -17,17 +17,41 @@
 // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
-namespace MyTests
-{
-    using MyLibrary;
-    using NUnit.Framework;
 
-    public class VersionTests
+namespace TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po
+{
+    using System;
+    using Yarhl.FileFormat;
+    using Yarhl.FileSystem;
+
+    /// <summary>
+    /// Po files merger.
+    /// </summary>
+    public class Merger : IConverter<NodeContainerFormat, Yarhl.Media.Text.Po>
     {
-        [Test]
-        public void TestVersionNotNull()
+        /// <summary>
+        /// Merges all parts (BinaryFormat) in a Po file.
+        /// </summary>
+        /// <param name="source">Po parts.</param>
+        /// <returns>The merged Po.</returns>
+        public Yarhl.Media.Text.Po Convert(NodeContainerFormat source)
         {
-            Assert.That(LibVersion.GetVersion(), Is.Not.Null);
+            if (source == null)
+            {
+                throw new ArgumentNullException(nameof(source));
+            }
+
+            Yarhl.Media.Text.Po po = new ();
+
+            foreach (Node part in source.Root.Children)
+            {
+                part.TransformWith<Yarhl.Media.Text.Binary2Po>();
+                Yarhl.Media.Text.Po poPart = part.GetFormatAs<Yarhl.Media.Text.Po>();
+                po.Header = poPart.Header;
+                po.Add(poPart.Entries);
+            }
+
+            return po;
         }
     }
 }

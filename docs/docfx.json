@@ -4,7 +4,8 @@
         "src": [
           {
             "files": [
-              "MyLibrary/MyLibrary.csproj"
+              "TF3.YarhlPlugin.YakuzaCommon/TF3.YarhlPlugin.YakuzaCommon.csproj",
+              "TF3.YarhlPlugin.YakuzaKiwami2/TF3.YarhlPlugin.YakuzaKiwami2.csproj"
             ],
             "src": "../src"
           }

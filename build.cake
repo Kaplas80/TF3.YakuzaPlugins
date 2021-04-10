@@ -1,17 +1,19 @@
-// Remember to fix a version with "&version=x.y.z"
-#load "nuget:?package=PleOps.Cake&prerelease"
+#load "nuget:?package=PleOps.Cake&version=0.4.2"
 
 Task("Define-Project")
     .Description("Fill specific project information")
     .Does<BuildInfo>(info =>
 {
-    info.AddLibraryProjects("MyLibrary");
-    info.AddApplicationProjects("src/MyConsole/MyConsole.csproj");
-    info.AddTestProjects("MyTests");
+    info.AddLibraryProjects("TF3.YarhlPlugin.YakuzaCommon");
+    info.AddLibraryProjects("TF3.YarhlPlugin.YakuzaKiwami2");
+    info.AddTestProjects("TF3.Tests.Yakuza");
+    info.AddTestProjects("TF3.Tests.YakuzaKiwami2");
 
-    // No need to set if you want to use nuget.org
-    info.PreviewNuGetFeed = "https://pkgs.dev.azure.com/benito356/NetDevOpsTest/_packaging/Example-Preview/nuget/v3/index.json";
-    info.StableNuGetFeed = "https://pkgs.dev.azure.com/benito356/NetDevOpsTest/_packaging/Example-Preview/nuget/v3/index.json";
+    info.CoverageTarget = 75;
+    info.PreviewNuGetFeed = "https://nuget.pkg.github.com/Kaplas80/index.json";
+    info.PreviewNuGetFeedToken = info.GitHubToken;
+    info.StableNuGetFeed = "https://nuget.pkg.github.com/Kaplas80/index.json";
+    info.StableNuGetFeedToken = info.GitHubToken;
 });
 
 Task("Default")

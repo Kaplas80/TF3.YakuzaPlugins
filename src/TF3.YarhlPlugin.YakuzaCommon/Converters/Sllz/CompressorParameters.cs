@@ -1,4 +1,4 @@
-﻿// Copyright (c) 2020 Benito Palacios Sánchez
+// Copyright (c) 2021 Kaplas
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -17,26 +17,40 @@
 // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
-namespace MyConsole
+namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz
 {
-    using System;
+    using TF3.YarhlPlugin.YakuzaCommon.Enums;
+    using Yarhl.IO;
 
     /// <summary>
-    /// Main program class.
+    /// Parameters for SLLZ compressor.
     /// </summary>
-    public static class Program
+    public class CompressorParameters
     {
         /// <summary>
-        /// Main entry-point.
+        /// Initializes a new instance of the <see cref="CompressorParameters"/> class.
         /// </summary>
-        /// <param name="args">Application arguments.</param>
-        public static void Main(string[] args)
+        public CompressorParameters()
         {
-            string consoleVersion = typeof(Program).Assembly.GetName().Version.ToString();
-            Console.WriteLine($"Console version: {consoleVersion}");
-
-            string libVersion = MyLibrary.LibVersion.GetVersion();
-            Console.WriteLine($"Library version: {libVersion}");
+            CompressionType = CompressionType.Standard;
+            Endianness = Endianness.LittleEndian;
+            OutputStream = null;
         }
+
+        /// <summary>
+        /// Gets or sets the compression algorithm type.
+        /// </summary>
+        public CompressionType CompressionType { get; set; }
+
+        /// <summary>
+        /// Gets or sets the compression algorithm endianness.
+        /// </summary>
+        public Endianness Endianness { get; set; }
+
+        /// <summary>
+        /// Gets or sets the DataStream to write the file.
+        /// </summary>
+        /// <remarks>It can be null. In that case, it will be written in memory.</remarks>
+        public DataStream OutputStream { get; set; }
     }
 }
