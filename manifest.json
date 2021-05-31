@@ -38,11 +38,119 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Extractor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Extractor.html",
+          "hash": "QbwVo2yN3i2JUXyIuinoUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.FromText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.FromText.html",
+          "hash": "S/jkYVp4NaiieP6vUF9mLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReaderParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReaderParameters.html",
+          "hash": "eXMT/TzO78EOpqhG9JH9GA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReplacementMerger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReplacementMerger.html",
+          "hash": "mFgGhhP2kklfFESeAklSYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.html",
+          "hash": "sTlLVpeXetc5R5+7j0wQvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingReader.html",
+          "hash": "NWSwB5vrYpAYsaMVXIEjwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingWriter.html",
+          "hash": "jnO9IRTmUUZovV2GiQKVkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ToText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ToText.html",
+          "hash": "F2XSW8NX9dh5MVeRaYuMwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.html",
+          "hash": "v3DqInWIlhi9ACAFj+0WJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Reader.yml",
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Reader.html",
-          "hash": "UKRsVLxYXpjWX5GsqeDc5w=="
+          "hash": "tU+DdAWNhb7YfVYrgPTy5A=="
         }
       },
       "is_incremental": false,
@@ -54,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Writer.html",
-          "hash": "voUqGiLzVz25xP6EdjEdYw=="
+          "hash": "Etg5131Wn80BaCDWziTBpA=="
         }
       },
       "is_incremental": false,
@@ -66,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.html",
-          "hash": "MXISCuJBzfWLUZjrfgF5eA=="
+          "hash": "X421pk2wormBg5p1dzipnQ=="
         }
       },
       "is_incremental": false,
@@ -78,7 +186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.html",
-          "hash": "8WCKC5Kk3HIB+hWT7JES5g=="
+          "hash": "urcoq/xdjjfaxoTYpba+4Q=="
         }
       },
       "is_incremental": false,
@@ -90,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress.html",
-          "hash": "pQdzjSMU6Uy/E/DadnLmIw=="
+          "hash": "NcWnUSCWGiLrmp6Z1FVzxw=="
         }
       },
       "is_incremental": false,
@@ -102,7 +210,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressStandard.html",
-          "hash": "MiyxK6xM85jicqjAzB63bg=="
+          "hash": "eqklt+8E138kI9/3fDgaJw=="
         }
       },
       "is_incremental": false,
@@ -114,7 +222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressZlib.html",
-          "hash": "0+nNu6IsiUq1fHaS6XXszg=="
+          "hash": "q0KVlD/Ccpsw6qYtffcmlw=="
         }
       },
       "is_incremental": false,
@@ -126,7 +234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressorParameters.html",
-          "hash": "2fbdX2hiCyZ25HwpxHfcnA=="
+          "hash": "5lfeSFFwlckrmvEW0squ2g=="
         }
       },
       "is_incremental": false,
@@ -138,7 +246,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Decompress.html",
-          "hash": "5DQy9yE4HcMyTEAJczT2yw=="
+          "hash": "6IQUD1Qqu7PDejusRgv4Tw=="
         }
       },
       "is_incremental": false,
@@ -150,7 +258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.DecompressStandard.html",
-          "hash": "fp/U3Nii/dH+Z353j7yt6w=="
+          "hash": "OcJ+AdYvDuTV9ilZUGF/1g=="
         }
       },
       "is_incremental": false,
@@ -162,7 +270,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.DecompressZlib.html",
-          "hash": "qB8BGhAeIWW2sGL/ym9ovA=="
+          "hash": "+z6dB3W0/E7iBpVknVlrQw=="
         }
       },
       "is_incremental": false,
@@ -174,7 +282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.SllzException.html",
-          "hash": "BQ/1AXHhH/MjhH8P2ofRkQ=="
+          "hash": "O8jfLNU00KNCvR2j7PpcYA=="
         }
       },
       "is_incremental": false,
@@ -186,7 +294,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.html",
-          "hash": "xcX+DDYyPc2IKi5gMW+SMA=="
+          "hash": "EhLPKUt+PLi745g2xRQvjw=="
         }
       },
       "is_incremental": false,
@@ -198,7 +306,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Enums.CompressionType.html",
-          "hash": "6RgKfgxtB5phgwINrUWZkQ=="
+          "hash": "iCX9mkbb4j2xqmjQmRUPtQ=="
         }
       },
       "is_incremental": false,
@@ -210,7 +318,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Enums.Endianness.html",
-          "hash": "LorA1NvE8AvZ3Y3FYebl1Q=="
+          "hash": "dMbyW57Z/gx/beMAqKEfcA=="
         }
       },
       "is_incremental": false,
@@ -222,7 +330,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Enums.Platform.html",
-          "hash": "tKjZ+uF/KxAQP94v+SGbhQ=="
+          "hash": "N8xVROBHzyucfydtRBLCuQ=="
         }
       },
       "is_incremental": false,
@@ -234,7 +342,19 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Enums.html",
-          "hash": "gq/IyO/PYr6E2MVvfUOnXQ=="
+          "hash": "flSg5E4lnzYqufDDaHPgYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Formats.CharacterSpacingTable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Formats.CharacterSpacingTable.html",
+          "hash": "ABRmfeSwTEO1z0Jwt8TwEQ=="
         }
       },
       "is_incremental": false,
@@ -246,7 +366,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Formats.ParFile.html",
-          "hash": "Rgb7dUTabel/ZWNw+u9Feg=="
+          "hash": "6LnNFcXimwlLpiwVvQlvJw=="
         }
       },
       "is_incremental": false,
@@ -258,7 +378,19 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Formats.html",
-          "hash": "n/ROnWf26EYorJgrUZgXjA=="
+          "hash": "ZVWuWaf2J/2Q2vNOlOsOTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Types.CharacterSpacing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Types.CharacterSpacing.html",
+          "hash": "XVjSb1i5LfChef2NuLixJw=="
         }
       },
       "is_incremental": false,
@@ -270,7 +402,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader.html",
-          "hash": "TkvTKdimOewDtDuP7FLN0w=="
+          "hash": "BP5D5XCCO9oqiEaHCHtw9Q=="
         }
       },
       "is_incremental": false,
@@ -282,7 +414,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Types.ParDirectoryInfo.html",
-          "hash": "KB+A/IEWJzsl5r6Q794GwA=="
+          "hash": "UVaQKXj0uUG5aOeHvjDzgg=="
         }
       },
       "is_incremental": false,
@@ -294,7 +426,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo.html",
-          "hash": "5qN8ZWCli9q6fx9dmyi7vQ=="
+          "hash": "b77tfHCXErcrL/+jfzI05w=="
         }
       },
       "is_incremental": false,
@@ -306,7 +438,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Types.ParIndex.html",
-          "hash": "mHSl20kaLkzcDCTgg/GA7A=="
+          "hash": "3yyegzQMZ+/ztQO6HLjSTA=="
         }
       },
       "is_incremental": false,
@@ -318,7 +450,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Types.SllzHeader.html",
-          "hash": "PxYIu20slYsEUp7b2LdsEQ=="
+          "hash": "IO3nFLalsv5AnvrsXUG22A=="
         }
       },
       "is_incremental": false,
@@ -330,7 +462,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Types.html",
-          "hash": "UGjWhlMgv/ClMFqKmEiFOg=="
+          "hash": "/YYYiUCOmjXr6izJN7mgFg=="
         }
       },
       "is_incremental": false,
@@ -342,7 +474,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ExtractStrings.html",
-          "hash": "bxLi3F2FLMqxqSpelVIpXQ=="
+          "hash": "IlfgRCKgsHqzNcSGaiZPVw=="
         }
       },
       "is_incremental": false,
@@ -354,7 +486,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.FromXlsx.html",
-          "hash": "Puwo7NMXLuKvCyU5lOAIBw=="
+          "hash": "/M9rJz+x9kNH5H9og72AbA=="
         }
       },
       "is_incremental": false,
@@ -366,7 +498,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Reader.html",
-          "hash": "KN8ex1wmcJ1g2zKDsLGp9Q=="
+          "hash": "3WL6bheMFo3rMsOSIGLvVw=="
         }
       },
       "is_incremental": false,
@@ -378,7 +510,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ToXlsx.html",
-          "hash": "L3JmiNE6szrPXIl4pID9HA=="
+          "hash": "HibG+MSWLzj+E5YVBPLhyA=="
         }
       },
       "is_incremental": false,
@@ -390,7 +522,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Translate.html",
-          "hash": "niP3aue3uqzJU/QEHmogfw=="
+          "hash": "3DDj1tNPyGykjP9qtQfRZA=="
         }
       },
       "is_incremental": false,
@@ -402,7 +534,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Writer.html",
-          "hash": "FkMaqOWOgt6132QXZSTVGQ=="
+          "hash": "iMH9J6ciLjq3OBr8bgQrdA=="
         }
       },
       "is_incremental": false,
@@ -414,7 +546,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.html",
-          "hash": "57rc/FPUwyEzxveERnTEYg=="
+          "hash": "9xnr2+y/9EDkIZokTbsOOg=="
         }
       },
       "is_incremental": false,
@@ -426,7 +558,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.BinaryPoSplitter.html",
-          "hash": "tGzAqQkiV6/sDDOBBSuZ4g=="
+          "hash": "hw6LPGbPBdbGrP2DiuQyug=="
         }
       },
       "is_incremental": false,
@@ -438,7 +570,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Merger.html",
-          "hash": "0ePueD23b8BDbvoZQUcjFA=="
+          "hash": "H4dna6M0U/EZxuykzUpPNw=="
         }
       },
       "is_incremental": false,
@@ -450,7 +582,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Splitter.html",
-          "hash": "tkUKhRAB5Q8rdZ5oCFGi2Q=="
+          "hash": "zwn8bVKkaVnhO6rfzLkVmQ=="
         }
       },
       "is_incremental": false,
@@ -462,7 +594,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.html",
-          "hash": "y0LA6mtQxYOutkgkXnl5RA=="
+          "hash": "As7+tjfA9scuKSK9b0ag1w=="
         }
       },
       "is_incremental": false,
@@ -474,7 +606,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Enums.Endianness.html",
-          "hash": "kxcjvreQP0l6JgHjm23e2g=="
+          "hash": "ZFcBK6U2DxfvusR/MrHD3Q=="
         }
       },
       "is_incremental": false,
@@ -486,7 +618,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Enums.FieldType.html",
-          "hash": "8zrx5l25NozmrYZoHc3zqw=="
+          "hash": "86txzIKUkNau2E3S8PpPHg=="
         }
       },
       "is_incremental": false,
@@ -498,7 +630,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Enums.html",
-          "hash": "zVh5f3h/J3TtsaYAt6R2Og=="
+          "hash": "MVz0SEyMDxdgx6GYGxRT9Q=="
         }
       },
       "is_incremental": false,
@@ -510,7 +642,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.html",
-          "hash": "I2vhfEpMZ1y7lIcA8Ik0gQ=="
+          "hash": "dJbVMrvmUmTblKsumiLAnQ=="
         }
       },
       "is_incremental": false,
@@ -522,7 +654,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Formats.html",
-          "hash": "G8HiO3jNL5GVQR1cLTUwEg=="
+          "hash": "+H3vJoL09wo9OgOEDohuYA=="
         }
       },
       "is_incremental": false,
@@ -534,7 +666,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.html",
-          "hash": "8jLrsWjfSXI9naGIbTarEQ=="
+          "hash": "GuRC77cMR0aK1IPV7ufdHg=="
         }
       },
       "is_incremental": false,
@@ -546,7 +678,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader.html",
-          "hash": "ac7TGgr7N0yZGoiTCaEwDA=="
+          "hash": "F8v/UC/FT0dBTQRSujJYZA=="
         }
       },
       "is_incremental": false,
@@ -558,7 +690,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Types.html",
-          "hash": "xOKTseveB4yYItew+KzioA=="
+          "hash": "oQks5tMnYfOf35yFA7CnSQ=="
         }
       },
       "is_incremental": false,
@@ -570,7 +702,7 @@
       "output": {
         ".html": {
           "relative_path": "dev/Changelog.html",
-          "hash": "YIiRMF3oB3rfUC0h40fGkg=="
+          "hash": "VRZ1g9NK+zpE0KbL075kkA=="
         }
       },
       "is_incremental": false,
@@ -582,7 +714,7 @@
       "output": {
         ".html": {
           "relative_path": "dev/toc.html",
-          "hash": "OJfron2S1spMis8g3M9mvQ=="
+          "hash": "e+Pa1eTOrk1Zbml3sQG8Eg=="
         }
       },
       "is_incremental": false,
@@ -702,7 +834,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 44,
+          "total_file_count": 55,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
