@@ -8,7 +8,6 @@ Task("Define-Project")
     info.AddLibraryProjects("TF3.YarhlPlugin.YakuzaKiwami2");
     info.AddTestProjects("TF3.Tests.Yakuza");
     info.AddTestProjects("TF3.Tests.YakuzaKiwami2");
-    info.AddApplicationProjects("src/Apps/FontSpacingEditor/FontSpacingEditor.csproj");
 
     info.CoverageTarget = 75;
     info.PreviewNuGetFeed = "https://nuget.pkg.github.com/Kaplas80/index.json";
