@@ -18,7 +18,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{C69F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{D126E90E-CCE1-483C-9CF0-C1AC7A9C48C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FontSpacingEditor", "Apps\FontSpacingEditor\FontSpacingEditor.csproj", "{05E711F1-FFA7-427B-9F59-4B2226FF013D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FontSpacingEditor", "Apps\FontSpacingEditor\FontSpacingEditor.csproj", "{05E711F1-FFA7-427B-9F59-4B2226FF013D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,13 +79,11 @@ Global
 		{1B27ECFA-677E-47EF-9806-C012C952341A}.Release|x86.ActiveCfg = Release|Any CPU
 		{1B27ECFA-677E-47EF-9806-C012C952341A}.Release|x86.Build.0 = Release|Any CPU
 		{05E711F1-FFA7-427B-9F59-4B2226FF013D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{05E711F1-FFA7-427B-9F59-4B2226FF013D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05E711F1-FFA7-427B-9F59-4B2226FF013D}.Debug|x64.ActiveCfg = Debug|Any CPU
 		{05E711F1-FFA7-427B-9F59-4B2226FF013D}.Debug|x64.Build.0 = Debug|Any CPU
 		{05E711F1-FFA7-427B-9F59-4B2226FF013D}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{05E711F1-FFA7-427B-9F59-4B2226FF013D}.Debug|x86.Build.0 = Debug|Any CPU
 		{05E711F1-FFA7-427B-9F59-4B2226FF013D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{05E711F1-FFA7-427B-9F59-4B2226FF013D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{05E711F1-FFA7-427B-9F59-4B2226FF013D}.Release|x64.ActiveCfg = Release|Any CPU
 		{05E711F1-FFA7-427B-9F59-4B2226FF013D}.Release|x64.Build.0 = Release|Any CPU
 		{05E711F1-FFA7-427B-9F59-4B2226FF013D}.Release|x86.ActiveCfg = Release|Any CPU
