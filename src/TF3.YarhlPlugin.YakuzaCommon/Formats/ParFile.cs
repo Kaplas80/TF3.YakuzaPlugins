@@ -37,13 +37,8 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Formats
         {
             FileInfo = new ParFileInfo
             {
-                Flags = 0x00000000,
                 OriginalSize = (uint)stream.Length,
                 CompressedSize = (uint)stream.Length,
-                DataOffset = 0,
-                RawAttributes = 0,
-                ExtendedOffset = 0,
-                Timestamp = 0,
             };
         }
 
@@ -62,5 +57,13 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Formats
         /// Gets or sets the file parameters.
         /// </summary>
         public ParFileInfo FileInfo { get; set; }
+
+        /// <inheritdoc />
+        public override object DeepClone()
+        {
+            DataStream newStream = DataStreamFactory.FromMemory();
+            Stream.WriteTo(newStream);
+            return new ParFile(new ParFileInfo(FileInfo), newStream);
+        }
     }
 }

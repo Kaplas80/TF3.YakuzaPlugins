@@ -28,6 +28,35 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Types
     public class ParFileInfo
     {
         /// <summary>
+        /// Initializes a new instance of the <see cref="ParFileInfo"/> class.
+        /// </summary>
+        public ParFileInfo()
+        {
+            Flags = 0;
+            OriginalSize = 0;
+            CompressedSize = 0;
+            DataOffset = 0;
+            RawAttributes = 0;
+            ExtendedOffset = 0;
+            Timestamp = 0;
+        }
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="ParFileInfo"/> class.
+        /// </summary>
+        /// <param name="info">Object to copy.</param>
+        public ParFileInfo(ParFileInfo info)
+        {
+            Flags = info.Flags;
+            OriginalSize = info.OriginalSize;
+            CompressedSize = info.CompressedSize;
+            DataOffset = info.DataOffset;
+            RawAttributes = info.RawAttributes;
+            ExtendedOffset = info.ExtendedOffset;
+            Timestamp = info.Timestamp;
+        }
+
+        /// <summary>
         /// Gets or sets the file flags.
         /// </summary>
         /// <remarks>For now, only 0x80000000 (IsCompressed).</remarks>
