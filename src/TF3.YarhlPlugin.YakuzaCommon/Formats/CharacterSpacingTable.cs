@@ -1,4 +1,4 @@
-// Copyright (c) 2021 Kaplas
+﻿// Copyright (c) 2021 Kaplas
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -21,49 +21,61 @@
 namespace TF3.YarhlPlugin.YakuzaCommon.Formats
 {
     using TF3.YarhlPlugin.YakuzaCommon.Types;
-    using Yarhl.IO;
+    using Yarhl.FileFormat;
 
     /// <summary>
-    /// File inside a PAR container.
+    /// Yakuza font character spacing table.
     /// </summary>
-    public class ParFile : BinaryFormat
+    public class CharacterSpacingTable : IFormat
     {
+        private readonly CharacterSpacing[] _table;
+
         /// <summary>
-        /// Initializes a new instance of the <see cref="ParFile"/> class.
+        /// Initializes a new instance of the <see cref="CharacterSpacingTable"/> class.
         /// </summary>
-        /// <param name="stream">Binary stream.</param>
-        public ParFile(System.IO.Stream stream)
-            : base(stream, 0, stream.Length)
+        public CharacterSpacingTable()
         {
-            FileInfo = new ParFileInfo
+            _table = new CharacterSpacing[256];
+            TableOffset = 0;
+        }
+
+        /// <summary>
+        /// Gets or sets the table offset inside the file.
+        /// </summary>
+        public long TableOffset { get; set; }
+
+        /// <summary>
+        /// Gets the <see cref="CharacterSpacing"/> of a char.
+        /// </summary>
+        /// <param name="character">The character.</param>
+        public CharacterSpacing this[char character]
+        {
+            get
             {
-                OriginalSize = (uint)stream.Length,
-                CompressedSize = (uint)stream.Length,
-            };
+                return _table[character];
+            }
+
+            set
+            {
+                _table[character] = value;
+            }
         }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="ParFile"/> class.
+        /// Gets the <see cref="CharacterSpacing"/> of a char.
         /// </summary>
-        /// <param name="fileInfo">File parameters.</param>
-        /// <param name="stream">Binary stream.</param>
-        public ParFile(ParFileInfo fileInfo, System.IO.Stream stream)
-            : base(stream, 0, stream.Length)
+        /// <param name="index">The character index (ASCII).</param>
+        public CharacterSpacing this[int index]
         {
-            FileInfo = fileInfo;
-        }
+            get
+            {
+                return _table[index];
+            }
 
-        /// <summary>
-        /// Gets or sets the file parameters.
-        /// </summary>
-        public ParFileInfo FileInfo { get; set; }
-
-        /// <inheritdoc />
-        public override object DeepClone()
-        {
-            DataStream newStream = DataStreamFactory.FromMemory();
-            Stream.WriteTo(newStream);
-            return new ParFile(new ParFileInfo(FileInfo), newStream);
+            set
+            {
+                _table[index] = value;
+            }
         }
     }
 }

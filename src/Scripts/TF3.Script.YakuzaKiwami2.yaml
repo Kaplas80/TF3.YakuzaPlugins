@@ -7,6 +7,9 @@ parameters:
     ProjectIdVersion: Traducción Yakuza Kiwami 2
     ReportMsgidBugsTo: your@email.com
     Language: es
+- id: charTableOffset
+  typeName: System.Int64
+  value: 38595888
 containers:
 - id: db.par
   name: db.par
@@ -5860,3 +5863,29 @@ assets:
   splitters:
   - typeName: TF3.Core.Converters.FormatToSingleNode
     parameterId: ''
+- id: regular_font
+  outputNames: [ "font/yakuza.dds", "font/yakuza_spacing.txt" ]
+  files:
+  - name: yakuza.dds
+    containerId: root
+    path: data/font/en/yakuza.dds
+    checksum: 0
+    readers: []
+    writers: []
+  - name: YakuzaKiwami2.exe
+    containerId: root
+    path: YakuzaKiwami2.exe
+    checksum: 0
+    readers:
+    - typeName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingReader
+      parameterId: charTableOffset
+    writers:
+    - typeName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingWriter
+      parameterId: ''
+  mergers: []
+  extractors:
+  - typeName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.FontExtractor
+    parameterId: ''
+  translationMergers: []
+  translator:
+  splitters: []
