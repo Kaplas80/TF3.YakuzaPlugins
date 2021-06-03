@@ -8,8 +8,9 @@ parameters:
     ReportMsgidBugsTo: your@email.com
     Language: es
 - id: charTableOffset
-  typeName: System.Int64
-  value: 38595888
+  typeName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReaderParameters, TF3.YarhlPlugin.YakuzaCommon, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  value:
+    Offset: 38595888
 containers:
 - id: db.par
   name: db.par
@@ -5876,16 +5877,24 @@ assets:
     containerId: root
     path: YakuzaKiwami2.exe
     checksum: 0
-    readers:
-    - typeName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingReader
-      parameterId: charTableOffset
-    writers:
-    - typeName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingWriter
-      parameterId: ''
+    readers: []
+    writers: []
   mergers: []
   extractors:
-  - typeName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.FontExtractor
+  - typeName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Extractor
+    parameterId: charTableOffset
+  translationMergers:
+  - typeName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReplacementMerger
     parameterId: ''
-  translationMergers: []
-  translator:
+  translator: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer
   splitters: []
+patches:
+- id: VWF Patch
+  file:
+    name: YakuzaKiwami2.exe
+    containerId: root
+    path: YakuzaKiwami2.exe
+    checksum: 0
+  virtualAddress: 4096
+  rawAddress: 1024
+  patch: TF3.Patch.YakuzaKiwami2VWF.1337
