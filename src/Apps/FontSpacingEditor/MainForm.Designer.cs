@@ -47,15 +47,15 @@ namespace FontSpacingEditor
             this.automaticValuesButton = new System.Windows.Forms.Button();
             this.marginNumericUpDown = new System.Windows.Forms.NumericUpDown();
             this.label3 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.fontPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.charPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.topLeftNumericUpDown)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.middleLeftNumericUpDown)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bottomLeftNumericUpDown)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.topRightNumericUpDown)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.middleRightNumericUpDown)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bottomRightNumericUpDown)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.marginNumericUpDown)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.fontPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.charPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.topLeftNumericUpDown)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.middleLeftNumericUpDown)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.bottomLeftNumericUpDown)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.topRightNumericUpDown)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.middleRightNumericUpDown)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.bottomRightNumericUpDown)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.marginNumericUpDown)).BeginInit();
             this.SuspendLayout();
             // 
             // loadFontButton
@@ -99,7 +99,7 @@ namespace FontSpacingEditor
             this.label1.Location = new System.Drawing.Point(10, 46);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(160, 15);
+            this.label1.Size = new System.Drawing.Size(146, 13);
             this.label1.TabIndex = 2;
             this.label1.Text = "3. Click on a character to edit";
             // 
@@ -130,25 +130,13 @@ namespace FontSpacingEditor
             // 
             this.topLeftNumericUpDown.DecimalPlaces = 3;
             this.topLeftNumericUpDown.Enabled = false;
-            this.topLeftNumericUpDown.Increment = new decimal(new int[] {
-            5,
-            0,
-            0,
-            131072});
+            this.topLeftNumericUpDown.Increment = new decimal(new int[] {5, 0, 0, 131072});
             this.topLeftNumericUpDown.Location = new System.Drawing.Point(540, 64);
             this.topLeftNumericUpDown.Margin = new System.Windows.Forms.Padding(2);
-            this.topLeftNumericUpDown.Maximum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.topLeftNumericUpDown.Minimum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            -2147483648});
+            this.topLeftNumericUpDown.Maximum = new decimal(new int[] {2, 0, 0, 0});
+            this.topLeftNumericUpDown.Minimum = new decimal(new int[] {2, 0, 0, -2147483648});
             this.topLeftNumericUpDown.Name = "topLeftNumericUpDown";
-            this.topLeftNumericUpDown.Size = new System.Drawing.Size(55, 23);
+            this.topLeftNumericUpDown.Size = new System.Drawing.Size(55, 20);
             this.topLeftNumericUpDown.TabIndex = 3;
             this.topLeftNumericUpDown.Tag = "TopLeft";
             this.topLeftNumericUpDown.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -158,25 +146,13 @@ namespace FontSpacingEditor
             // 
             this.middleLeftNumericUpDown.DecimalPlaces = 3;
             this.middleLeftNumericUpDown.Enabled = false;
-            this.middleLeftNumericUpDown.Increment = new decimal(new int[] {
-            1,
-            0,
-            0,
-            65536});
+            this.middleLeftNumericUpDown.Increment = new decimal(new int[] {5, 0, 0, 131072});
             this.middleLeftNumericUpDown.Location = new System.Drawing.Point(540, 258);
             this.middleLeftNumericUpDown.Margin = new System.Windows.Forms.Padding(2);
-            this.middleLeftNumericUpDown.Maximum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.middleLeftNumericUpDown.Minimum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            -2147483648});
+            this.middleLeftNumericUpDown.Maximum = new decimal(new int[] {2, 0, 0, 0});
+            this.middleLeftNumericUpDown.Minimum = new decimal(new int[] {2, 0, 0, -2147483648});
             this.middleLeftNumericUpDown.Name = "middleLeftNumericUpDown";
-            this.middleLeftNumericUpDown.Size = new System.Drawing.Size(55, 23);
+            this.middleLeftNumericUpDown.Size = new System.Drawing.Size(55, 20);
             this.middleLeftNumericUpDown.TabIndex = 5;
             this.middleLeftNumericUpDown.Tag = "MiddleLeft";
             this.middleLeftNumericUpDown.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -186,25 +162,13 @@ namespace FontSpacingEditor
             // 
             this.bottomLeftNumericUpDown.DecimalPlaces = 3;
             this.bottomLeftNumericUpDown.Enabled = false;
-            this.bottomLeftNumericUpDown.Increment = new decimal(new int[] {
-            1,
-            0,
-            0,
-            65536});
+            this.bottomLeftNumericUpDown.Increment = new decimal(new int[] {5, 0, 0, 131072});
             this.bottomLeftNumericUpDown.Location = new System.Drawing.Point(540, 452);
             this.bottomLeftNumericUpDown.Margin = new System.Windows.Forms.Padding(2);
-            this.bottomLeftNumericUpDown.Maximum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.bottomLeftNumericUpDown.Minimum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            -2147483648});
+            this.bottomLeftNumericUpDown.Maximum = new decimal(new int[] {2, 0, 0, 0});
+            this.bottomLeftNumericUpDown.Minimum = new decimal(new int[] {2, 0, 0, -2147483648});
             this.bottomLeftNumericUpDown.Name = "bottomLeftNumericUpDown";
-            this.bottomLeftNumericUpDown.Size = new System.Drawing.Size(55, 23);
+            this.bottomLeftNumericUpDown.Size = new System.Drawing.Size(55, 20);
             this.bottomLeftNumericUpDown.TabIndex = 7;
             this.bottomLeftNumericUpDown.Tag = "BottomLeft";
             this.bottomLeftNumericUpDown.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -214,25 +178,13 @@ namespace FontSpacingEditor
             // 
             this.topRightNumericUpDown.DecimalPlaces = 3;
             this.topRightNumericUpDown.Enabled = false;
-            this.topRightNumericUpDown.Increment = new decimal(new int[] {
-            1,
-            0,
-            0,
-            65536});
+            this.topRightNumericUpDown.Increment = new decimal(new int[] {5, 0, 0, 131072});
             this.topRightNumericUpDown.Location = new System.Drawing.Point(1118, 64);
             this.topRightNumericUpDown.Margin = new System.Windows.Forms.Padding(2);
-            this.topRightNumericUpDown.Maximum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.topRightNumericUpDown.Minimum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            -2147483648});
+            this.topRightNumericUpDown.Maximum = new decimal(new int[] {2, 0, 0, 0});
+            this.topRightNumericUpDown.Minimum = new decimal(new int[] {2, 0, 0, -2147483648});
             this.topRightNumericUpDown.Name = "topRightNumericUpDown";
-            this.topRightNumericUpDown.Size = new System.Drawing.Size(55, 23);
+            this.topRightNumericUpDown.Size = new System.Drawing.Size(55, 20);
             this.topRightNumericUpDown.TabIndex = 4;
             this.topRightNumericUpDown.Tag = "TopRight";
             this.topRightNumericUpDown.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -242,25 +194,13 @@ namespace FontSpacingEditor
             // 
             this.middleRightNumericUpDown.DecimalPlaces = 3;
             this.middleRightNumericUpDown.Enabled = false;
-            this.middleRightNumericUpDown.Increment = new decimal(new int[] {
-            1,
-            0,
-            0,
-            65536});
+            this.middleRightNumericUpDown.Increment = new decimal(new int[] {5, 0, 0, 131072});
             this.middleRightNumericUpDown.Location = new System.Drawing.Point(1118, 258);
             this.middleRightNumericUpDown.Margin = new System.Windows.Forms.Padding(2);
-            this.middleRightNumericUpDown.Maximum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.middleRightNumericUpDown.Minimum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            -2147483648});
+            this.middleRightNumericUpDown.Maximum = new decimal(new int[] {2, 0, 0, 0});
+            this.middleRightNumericUpDown.Minimum = new decimal(new int[] {2, 0, 0, -2147483648});
             this.middleRightNumericUpDown.Name = "middleRightNumericUpDown";
-            this.middleRightNumericUpDown.Size = new System.Drawing.Size(55, 23);
+            this.middleRightNumericUpDown.Size = new System.Drawing.Size(55, 20);
             this.middleRightNumericUpDown.TabIndex = 6;
             this.middleRightNumericUpDown.Tag = "MiddleRight";
             this.middleRightNumericUpDown.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -270,25 +210,13 @@ namespace FontSpacingEditor
             // 
             this.bottomRightNumericUpDown.DecimalPlaces = 3;
             this.bottomRightNumericUpDown.Enabled = false;
-            this.bottomRightNumericUpDown.Increment = new decimal(new int[] {
-            1,
-            0,
-            0,
-            65536});
+            this.bottomRightNumericUpDown.Increment = new decimal(new int[] {5, 0, 0, 131072});
             this.bottomRightNumericUpDown.Location = new System.Drawing.Point(1118, 452);
             this.bottomRightNumericUpDown.Margin = new System.Windows.Forms.Padding(2);
-            this.bottomRightNumericUpDown.Maximum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.bottomRightNumericUpDown.Minimum = new decimal(new int[] {
-            2,
-            0,
-            0,
-            -2147483648});
+            this.bottomRightNumericUpDown.Maximum = new decimal(new int[] {2, 0, 0, 0});
+            this.bottomRightNumericUpDown.Minimum = new decimal(new int[] {2, 0, 0, -2147483648});
             this.bottomRightNumericUpDown.Name = "bottomRightNumericUpDown";
-            this.bottomRightNumericUpDown.Size = new System.Drawing.Size(55, 23);
+            this.bottomRightNumericUpDown.Size = new System.Drawing.Size(55, 20);
             this.bottomRightNumericUpDown.TabIndex = 8;
             this.bottomRightNumericUpDown.Tag = "BottomRight";
             this.bottomRightNumericUpDown.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -300,7 +228,7 @@ namespace FontSpacingEditor
             this.label2.Location = new System.Drawing.Point(602, 45);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(137, 15);
+            this.label2.Size = new System.Drawing.Size(124, 13);
             this.label2.TabIndex = 15;
             this.label2.Text = "4. Edit character margins";
             // 
@@ -323,26 +251,14 @@ namespace FontSpacingEditor
             // 
             this.marginNumericUpDown.Location = new System.Drawing.Point(708, 581);
             this.marginNumericUpDown.Margin = new System.Windows.Forms.Padding(2);
-            this.marginNumericUpDown.Maximum = new decimal(new int[] {
-            10,
-            0,
-            0,
-            0});
-            this.marginNumericUpDown.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            -2147483648});
+            this.marginNumericUpDown.Maximum = new decimal(new int[] {10, 0, 0, 0});
+            this.marginNumericUpDown.Minimum = new decimal(new int[] {1, 0, 0, -2147483648});
             this.marginNumericUpDown.Name = "marginNumericUpDown";
-            this.marginNumericUpDown.Size = new System.Drawing.Size(36, 23);
+            this.marginNumericUpDown.Size = new System.Drawing.Size(36, 20);
             this.marginNumericUpDown.TabIndex = 16;
             this.marginNumericUpDown.Tag = "Margin";
             this.marginNumericUpDown.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.marginNumericUpDown.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
+            this.marginNumericUpDown.Value = new decimal(new int[] {1, 0, 0, 0});
             // 
             // label3
             // 
@@ -350,7 +266,7 @@ namespace FontSpacingEditor
             this.label3.Location = new System.Drawing.Point(602, 583);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(102, 15);
+            this.label3.Size = new System.Drawing.Size(88, 13);
             this.label3.TabIndex = 17;
             this.label3.Text = "Margin (in pixels):";
             // 
@@ -380,18 +296,17 @@ namespace FontSpacingEditor
             this.MinimumSize = new System.Drawing.Size(1200, 650);
             this.Name = "MainForm";
             this.Text = "Yakuza Font Spacing Editor";
-            ((System.ComponentModel.ISupportInitialize)(this.fontPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.charPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.topLeftNumericUpDown)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.middleLeftNumericUpDown)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bottomLeftNumericUpDown)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.topRightNumericUpDown)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.middleRightNumericUpDown)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bottomRightNumericUpDown)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.marginNumericUpDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.fontPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.charPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.topLeftNumericUpDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.middleLeftNumericUpDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.bottomLeftNumericUpDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.topRightNumericUpDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.middleRightNumericUpDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.bottomRightNumericUpDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.marginNumericUpDown)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
 
         private System.Windows.Forms.NumericUpDown marginNumericUpDown;
