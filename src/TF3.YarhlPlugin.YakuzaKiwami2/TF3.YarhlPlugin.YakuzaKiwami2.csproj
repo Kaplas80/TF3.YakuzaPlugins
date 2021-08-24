@@ -1,7 +1,7 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net5.0</TargetFrameworks>
+    <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,6 +12,19 @@
     <PackageReference Include="Yarhl" />
     <PackageReference Include="Yarhl.Media" />
     <PackageReference Include="EPPlus" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Patches\TF3.Patch.YakuzaKiwami2VWF.1337">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Script\TF3.Script.YakuzaKiwami2.yaml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Patches\" />
   </ItemGroup>
 
 </Project>

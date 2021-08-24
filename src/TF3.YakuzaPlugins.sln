@@ -11,11 +11,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TF3.Tests.Yakuza", "TF3.Tes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TF3.Tests.YakuzaKiwami2", "TF3.Tests.YakuzaKiwami2\TF3.Tests.YakuzaKiwami2.csproj", "{1B27ECFA-677E-47EF-9806-C012C952341A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{C69FAAFF-586B-4898-A1D6-E0BC6C4EFB03}"
-	ProjectSection(SolutionItems) = preProject
-		Scripts\TF3.Script.YakuzaKiwami2.yaml = Scripts\TF3.Script.YakuzaKiwami2.yaml
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{D126E90E-CCE1-483C-9CF0-C1AC7A9C48C7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FontSpacingEditor", "Apps\FontSpacingEditor\FontSpacingEditor.csproj", "{05E711F1-FFA7-427B-9F59-4B2226FF013D}"
