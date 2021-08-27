@@ -21,6 +21,7 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz
 {
     using System;
     using System.Text;
+    using System.Threading.Tasks;
     using TF3.YarhlPlugin.YakuzaCommon.Enums;
     using TF3.YarhlPlugin.YakuzaCommon.Formats;
     using TF3.YarhlPlugin.YakuzaCommon.Types;
@@ -221,24 +222,33 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz
 
         private static Match FindMatch(byte[] inputData, uint inputPosition, uint windowSize, uint maxOffsetLength)
         {
-            ReadOnlySpan<byte> bytes = inputData;
-            ReadOnlySpan<byte> data = bytes.Slice((int)(inputPosition - windowSize), (int)windowSize);
+            Match[] matches = new Match[maxOffsetLength + 1];
 
-            uint currentLength = maxOffsetLength;
-
-            while (currentLength >= 3)
+            Parallel.For(3, maxOffsetLength + 1, (i) =>
             {
-                ReadOnlySpan<byte> pattern = bytes.Slice((int)inputPosition, (int)currentLength);
-
-                int pos = data.LastIndexOf(pattern);
+                ReadOnlySpan<byte> pattern = inputData.AsSpan().Slice((int)inputPosition, (int)i);
+                int pos = inputData.AsSpan().Slice((int)(inputPosition - windowSize), (int)windowSize).LastIndexOf(pattern);
 
                 if (pos >= 0)
                 {
-                    return new Match
+                    matches[i] = new Match
                     {
-                        Length = currentLength,
+                        Length = (uint)i,
                         Offset = (uint)(windowSize - pos),
                     };
+                }
+                else
+                {
+                    matches[i] = null;
+                }
+            });
+
+            uint currentLength = maxOffsetLength;
+            while (currentLength >= 3)
+            {
+                if (matches[currentLength] != null)
+                {
+                    return matches[currentLength];
                 }
 
                 currentLength--;
