@@ -453,7 +453,7 @@ namespace TF3.Tests.Yakuza.Font
             source.Root.Add(new Node("image.dds"));
             source.Root.Add(exeNode);
 
-            var parameters = new ReaderParameters { Offset = "0", Endianness = Endianness.LittleEndian, };
+            var parameters = new ReaderParameters { Offset = 0, Endianness = Endianness.LittleEndian, };
 
             var converter = new Extractor();
             converter.Initialize(parameters);

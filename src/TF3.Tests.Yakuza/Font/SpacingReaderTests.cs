@@ -439,7 +439,7 @@ namespace TF3.Tests.Yakuza.Font
         {
             var ds = DataStreamFactory.FromArray(_data, 0, _data.Length);
             BinaryFormat source = new BinaryFormat(ds);
-            var parameters = new ReaderParameters { Offset = "6200", Endianness = Endianness.LittleEndian, };
+            var parameters = new ReaderParameters { Offset = 6200, Endianness = Endianness.LittleEndian, };
 
             var converter = new SpacingReader();
             converter.Initialize(parameters);
@@ -452,7 +452,7 @@ namespace TF3.Tests.Yakuza.Font
             var ds = DataStreamFactory.FromArray(_data, 0, _data.Length);
             BinaryFormat binary = new BinaryFormat(ds);
 
-            var parameters = new ReaderParameters { Offset = "0", Endianness = Endianness.LittleEndian, };
+            var parameters = new ReaderParameters { Offset = 0, Endianness = Endianness.LittleEndian, };
 
             var converter = new SpacingReader();
             converter.Initialize(parameters);

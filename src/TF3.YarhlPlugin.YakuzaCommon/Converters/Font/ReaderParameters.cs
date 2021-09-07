@@ -1,4 +1,4 @@
-﻿// Copyright (c) 2021 Kaplas
+// Copyright (c) 2021 Kaplas
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -33,7 +33,7 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Font
         public ReaderParameters()
         {
             Endianness = Endianness.LittleEndian;
-            Offset = "-1";
+            Offset = -1;
         }
 
         /// <summary>
@@ -44,7 +44,6 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Font
         /// <summary>
         /// Gets or sets the table offset.
         /// </summary>
-        /// <remarks>It's a string to make easier read from YAML.</remarks>
-        public string Offset { get; set; }
+        public long Offset { get; set; }
     }
 }

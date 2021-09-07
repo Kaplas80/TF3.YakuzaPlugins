@@ -1,4 +1,4 @@
-﻿// Copyright (c) 2021 Kaplas
+// Copyright (c) 2021 Kaplas
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -57,7 +57,7 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Font
                 throw new InvalidOperationException("Uninitialized");
             }
 
-            long offset = long.Parse(_parameters.Offset);
+            long offset = _parameters.Offset;
             if (offset < 0 || offset > source.Stream.Length)
             {
                 throw new InvalidOperationException("Table offset is outside the source.");
