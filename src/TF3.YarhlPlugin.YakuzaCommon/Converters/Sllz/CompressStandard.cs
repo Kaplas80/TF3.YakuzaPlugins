@@ -257,7 +257,7 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz
             return null;
         }
 
-        private class Match
+        private sealed class Match
         {
             public uint Length { get; set; }
 
