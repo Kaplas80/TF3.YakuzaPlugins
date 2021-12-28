@@ -281,8 +281,8 @@
   },
   "dev/Changelog.html": {
     "href": "dev/Changelog.html",
-    "title": "v1.0.0 (December 27, 2021) | TF3 Yakuza Plugins",
-    "keywords": "v1.0.0 (December 27, 2021) First release"
+    "title": "vNext (December 28, 2021) | TF3 Yakuza Plugins",
+    "keywords": "vNext (December 28, 2021) As part of this release we had 2 issues closed. bug #5 Add runtime identifiers to deploy the release enhancement #6 Change runtime identifier to \"any\" v1.0.0 (December 27, 2021) First release"
   },
   "guides/Contributing.html": {
     "href": "guides/Contributing.html",
