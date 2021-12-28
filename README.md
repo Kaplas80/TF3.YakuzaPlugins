@@ -38,5 +38,5 @@ See [README.md](https://github.com/Kaplas80/TF3.YakuzaPlugins/blob/8a6af2d550fcf
 
 - Thanks to Pleonex for [Yarhl](https://scenegate.github.io/Yarhl/) and [PleOps.Cake](https://www.pleonex.dev/PleOps.Cake/).
 - ARMP reader and writer is based on Capitan Retraso's [reARMP](https://github.com/CapitanRetraso/reARMP).
-- Other libraries used: [DotNetZip](https://github.com/haf/DotNetZip.Semverd), [EPPlus](https://epplussoftware.com/).
+- Other libraries used: [DotNetZip](https://github.com/haf/DotNetZip.Semverd), [EPPlus](https://epplussoftware.com/), [BCnEncoder.Net](https://github.com/nominom/bcnencoder.net), [ImageSharp](https://sixlabors.com/products/imagesharp/).
 - Icon by [Vecteezy](https://www.vecteezy.com/free-vector/emblem).
