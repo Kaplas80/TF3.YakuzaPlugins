@@ -20,13 +20,8 @@
     <None Update="Patches\TF3.Patch.YakuzaKiwami2VWF.1337">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Script\TF3.Script.YakuzaKiwami2.yaml">
+    <None Update="Script\TF3.Script.YakuzaKiwami2.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Patches\" />
-  </ItemGroup>
-
 </Project>
