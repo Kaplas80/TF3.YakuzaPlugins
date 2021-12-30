@@ -23,8 +23,8 @@
       {
          "Id": "db.par",
          "Name": "db.par",
-         "Path": "data/db.par",
-         "Checksum": 15875901786622737460,
+         "Paths": [ "data/db.par" ],
+         "Checksums": [ 15875901786622737460 ],
          "Readers": [
             {
                "TypeName": "TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Reader",
@@ -42,8 +42,8 @@
       {
          "Id": "ui.par",
          "Name": "ui.par",
-         "Path": "data/ui.par",
-         "Checksum": 6552109716056188515,
+         "Paths": [ "data/ui.par" ],
+         "Checksums": [ 6552109716056188515 ],
          "Readers": [
             {
                "TypeName": "TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Reader",
