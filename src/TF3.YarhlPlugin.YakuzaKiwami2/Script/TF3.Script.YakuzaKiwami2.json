@@ -6,9 +6,9 @@
          "Id": "poHeader",
          "TypeName": "Yarhl.Media.Text.PoHeader, Yarhl.Media, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null",
          "Value": {
-            "ProjectIdVersion": "Traducción Yakuza Kiwami 2",
+            "ProjectIdVersion": "Yakuza Kiwami 2",
             "ReportMsgidBugsTo": "your@email.com",
-            "Language": "es"
+            "Language": "und"
          }
       },
       {
