@@ -97,6 +97,6 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Types
         /// Check if file is compressed.
         /// </summary>
         /// <returns>True if the file is compressed.</returns>
-        public bool IsCompressed() => (Flags & 0x80000000) == 0x8000000;
+        public bool IsCompressed() => (Flags & 0x80000000) == 0x80000000;
     }
 }
