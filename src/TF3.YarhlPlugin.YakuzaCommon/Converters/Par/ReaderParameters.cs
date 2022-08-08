@@ -17,26 +17,27 @@
 // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
-namespace TF3.YarhlPlugin.YakuzaCommon.Enums
+namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Par
 {
+    using TF3.YarhlPlugin.YakuzaCommon.Enums;
+    using Yarhl.IO;
+
     /// <summary>
-    /// File compression types.
+    /// Parameters for PAR reader.
     /// </summary>
-    public enum CompressionType
+    public class ReaderParameters
     {
         /// <summary>
-        /// No compression.
+        /// Initializes a new instance of the <see cref="ReaderParameters"/> class.
         /// </summary>
-        None = 0x00,
+        public ReaderParameters()
+        {
+            DecompressFiles = false;
+        }
 
         /// <summary>
-        /// Standard compression (LZ variant)
+        /// Gets or sets a value indicating whether files will be automatically decompressed.
         /// </summary>
-        Standard = 0x01,
-
-        /// <summary>
-        /// Use zlib compression.
-        /// </summary>
-        Zlib = 0x02,
+        public bool DecompressFiles { get; set; }
     }
 }

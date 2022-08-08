@@ -17,7 +17,7 @@
 // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
-namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz
+namespace TF3.YarhlPlugin.YakuzaCommon.Converters.ParFile
 {
     using System;
     using TF3.YarhlPlugin.YakuzaCommon.Enums;
@@ -26,23 +26,15 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz
     using Yarhl.IO;
 
     /// <summary>
-    /// Creates SLLZ files.
+    /// Creates a ParFile from BinaryFormat.
     /// </summary>
-    public class Compress : IConverter<BinaryFormat, ParFile>, IInitializer<CompressorParameters>
+    public class FromBinaryFormat : IConverter<BinaryFormat, ParFile>
     {
-        private CompressorParameters _compressorParameters = new ();
-
         /// <summary>
-        /// Initializes the compressor parameters.
-        /// </summary>
-        /// <param name="parameters">Compressor configuration.</param>
-        public void Initialize(CompressorParameters parameters) => _compressorParameters = parameters;
-
-        /// <summary>
-        /// Create a SLLZ compressed BinaryFormat.
+        /// Create a ParFile from BinaryFormat.
         /// </summary>
         /// <param name="source">original format.</param>
-        /// <returns>The compressed binary.</returns>
+        /// <returns>The converted ParFile.</returns>
         public ParFile Convert(BinaryFormat source)
         {
             if (source == null)
@@ -50,13 +42,7 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz
                 throw new ArgumentNullException(nameof(source));
             }
 
-            return _compressorParameters.CompressionType switch
-            {
-                CompressionType.None => (ParFile)ConvertFormat.With<Converters.ParFile.FromBinaryFormat>(source),
-                CompressionType.Standard => (ParFile)ConvertFormat.With<CompressStandard, CompressorParameters>(_compressorParameters, source),
-                CompressionType.Zlib => (ParFile)ConvertFormat.With<CompressZlib, CompressorParameters>(_compressorParameters, source),
-                _ => throw new FormatException($"SLLZ: Bad Compression Type ({_compressorParameters.CompressionType})")
-            };
+            return new ParFile(source.Stream);
         }
     }
 }

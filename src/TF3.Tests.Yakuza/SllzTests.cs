@@ -192,6 +192,29 @@ namespace TF3.Tests.Yakuza
         }
 
         [Test]
+        public void CompressNone()
+        {
+            byte[] data = new byte[_plain.Length];
+
+            Array.Copy(_plain, data, _plain.Length);
+
+            using DataStream expected = DataStreamFactory.FromArray(data, 0, data.Length);
+            using DataStream ds = DataStreamFactory.FromArray(data, 0, data.Length);
+            BinaryFormat binary = new BinaryFormat(ds);
+
+            var converter = new Compress();
+            var parameters = new CompressorParameters
+            {
+                CompressionType = CompressionType.None,
+            };
+            converter.Initialize(parameters);
+
+            YarhlPlugin.YakuzaCommon.Formats.ParFile compressed = converter.Convert(binary);
+            Assert.AreEqual(data.Length, compressed.Stream.Length);
+            Assert.IsTrue(expected.Compare(compressed.Stream));
+        }
+
+        [Test]
         public void CompressStandard()
         {
             byte[] data = new byte[_plain.Length];

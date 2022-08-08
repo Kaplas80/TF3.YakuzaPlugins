@@ -31,8 +31,16 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Par
     /// <summary>
     /// Deserializes PAR archives.
     /// </summary>
-    public class Reader : IConverter<BinaryFormat, NodeContainerFormat>
+    public class Reader : IConverter<BinaryFormat, NodeContainerFormat>, IInitializer<ReaderParameters>
     {
+        private ReaderParameters _readerParameters = new ();
+
+        /// <summary>
+        /// Initializes the reader parameters.
+        /// </summary>
+        /// <param name="parameters">Reader configuration.</param>
+        public void Initialize(ReaderParameters parameters) => _readerParameters = parameters;
+
         /// <summary>
         /// Converts a BinaryFormat into a NodeContainerFormat.
         /// </summary>
@@ -138,6 +146,13 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Par
                 long offset = ((long)fileInfo.ExtendedOffset << 32) | fileInfo.DataOffset;
                 DataStream stream = DataStreamFactory.FromStream(reader.Stream, offset, fileInfo.CompressedSize);
                 var binaryFormat = new ParFile(fileInfo, stream);
+
+                if (_readerParameters.DecompressFiles && fileInfo.IsCompressed())
+                {
+                    var decompressor = new Sllz.Decompress();
+                    binaryFormat = decompressor.Convert(binaryFormat);
+                }
+
                 var file = new Node(fileName, binaryFormat)
                 {
                     Tags =
