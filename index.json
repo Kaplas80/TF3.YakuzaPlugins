@@ -281,8 +281,8 @@
   },
   "dev/Changelog.html": {
     "href": "dev/Changelog.html",
-    "title": "v1.0.2 (December 28, 2021) | TF3 Yakuza Plugins",
-    "keywords": "v1.0.2 (December 28, 2021) As part of this release we had 1 issue closed. bug #7 Add missing script v1.0.1 (December 28, 2021) enhancement #6 Change runtime identifier to \"any\" v1.0.0 (December 27, 2021) First release"
+    "title": "vNext (August 08, 2022) | TF3 Yakuza Plugins",
+    "keywords": "vNext (August 08, 2022) As part of this release we had 1 issue closed. bug #13 Fix CI v1.0.2 (December 28, 2021) As part of this release we had 1 issue closed. bug #7 Add missing script v1.0.1 (December 28, 2021) enhancement #6 Change runtime identifier to \"any\" v1.0.0 (December 27, 2021) First release"
   },
   "guides/Contributing.html": {
     "href": "guides/Contributing.html",
