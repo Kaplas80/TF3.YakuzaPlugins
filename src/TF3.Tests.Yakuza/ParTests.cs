@@ -616,6 +616,40 @@ namespace TF3.Tests.Yakuza
         }
 
         [Test]
+        public void ReadParWithDecompression()
+        {
+            byte[] data = new byte[_data.Length];
+
+            Array.Copy(_data, data, _data.Length);
+
+            using DataStream ds = DataStreamFactory.FromArray(data, 0, data.Length);
+            BinaryFormat binary = new BinaryFormat(ds);
+
+            var converter = new Reader();
+            var parameters = new ReaderParameters
+            {
+                DecompressFiles = true,
+            };
+
+            converter.Initialize(parameters);
+            NodeContainerFormat result = converter.Convert(binary);
+
+            Assert.IsNotNull(result);
+            Assert.AreEqual(".", result.Root.Name);
+            Assert.IsTrue(result.Root.IsContainer);
+            Assert.AreEqual(2, result.Root.Children.Count);
+            Assert.AreEqual("dir1", result.Root.Children[0].Name);
+            Assert.IsTrue(result.Root.Children[0].IsContainer);
+
+            Node n = Navigator.SearchNode(result.Root, "/./dir1/test1.txt");
+            ParFile file = n.GetFormatAs<ParFile>();
+
+            Assert.IsNotNull(file);
+            Assert.IsFalse(file.FileInfo.IsCompressed());
+            Assert.AreEqual(file.FileInfo.CompressedSize, file.FileInfo.OriginalSize);
+        }
+
+        [Test]
         public void ReadParLittleEndian()
         {
             byte[] data = new byte[_dataLittleEndian.Length];
