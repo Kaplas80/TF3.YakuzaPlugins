@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Extractor.html",
-          "hash": "YDDbYHAZTCHKauHo+KMQrNK7MdftFItVZCSGEg4H44Y="
+          "hash": "1xuaVUsY1v9r9zA36JsTGc0D4NopBRX2pCLBpaXskwo="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.FromText.html",
-          "hash": "Ft49u/GBgo5Ag5rFOkSylhV6TwhxirKenl7b2/lRJI0="
+          "hash": "8u9G5lddkDKUpL1RUYTFSZ1dDhTpCgQpCTjApZ5EyjY="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReaderParameters.html",
-          "hash": "czpZ1Bcvgm/Bluj1Z5tYsURz6r1CNQMU4pCKPF9dv24="
+          "hash": "AUtwevMeVeurAUqawCSixYOXiw4EiyoiBKaMtGaiVdU="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReplacementMerger.html",
-          "hash": "LIkzkTRB6sJ0v//1dJYMpUMZuhebgGu+MxcaMhGmUGM="
+          "hash": "cyTVmjHOBZef1ZsUWlFNW8EQGXXQG4TElIJ0+9kN57Y="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.html",
-          "hash": "IhPHJnNpHrV0KI82TcF6Qxrfx4lNS74M46rq47siMwE="
+          "hash": "QH5CXhkaw69/qtFUKYycY71peKVM+8qeYrx6njXyE3o="
         }
       },
       "is_incremental": false,
@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingReader.html",
-          "hash": "0Yghvgtar1UxGIZ6E3Ac6d3LoTeKyz3hMKHEHo2L2TU="
+          "hash": "rkfXu5/F0q1iARTs061Bx7uWaTGvdYmP37DbnfRVzJ4="
         }
       },
       "is_incremental": false,
@@ -114,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingWriter.html",
-          "hash": "tPmXJyqNT8mtgf2A/Y63GEal5jQvSi/1LusjyXVxVoY="
+          "hash": "abeZJlMRbSFmCvfjYZBp8D9qFyG+lPkZWUr5ts6ZltA="
         }
       },
       "is_incremental": false,
@@ -126,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ToText.html",
-          "hash": "Hc5ixaCygiat3yCwiQlGJCQBG5cdUKyNQTeoIIxbfnA="
+          "hash": "0IFamZ7Ik1/7qommAOzjIn6JLfswQLBMTS0dH60RO50="
         }
       },
       "is_incremental": false,
@@ -138,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.html",
-          "hash": "7ANGh/X9N9uIFE1RpN/k1mfvrTZOB1NdhhEgy7OvXCE="
+          "hash": "N79ASJjeN/m8KJ0B2qrA1Ug3wpUJYQFT43Khs0w5XcY="
         }
       },
       "is_incremental": false,
@@ -150,7 +150,19 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Reader.html",
-          "hash": "JWHj5BuXFqd8s1XaeiUK4TMiC2TIcL2FJV0IjLwj0B0="
+          "hash": "RSg8ElZPE9h6dvHfvokwojAd46tAtZ+uqBvJt43eCgI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.ReaderParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.ReaderParameters.html",
+          "hash": "CIbZIzOGtX3uwmRPZIetkia6td/paXp/vl5hYh3Svfo="
         }
       },
       "is_incremental": false,
@@ -162,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Writer.html",
-          "hash": "N/ZEasKclFm/J+Y/VI0n/u7MRMRe6iNoVGbjEbnDTpE="
+          "hash": "v7WWNxQcSk2Gw+c3KUEn5wdZ9ig0jQp35kXnnQ4yCmI="
         }
       },
       "is_incremental": false,
@@ -174,7 +186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.html",
-          "hash": "oyTslivKSxSNbIGhLMBpMmsfezpw1c5qoJ6xYhh7O6s="
+          "hash": "e4MAgGULoxf5lhUQXlZDG+XSDTbnNGYtfht7Aji+j5U="
         }
       },
       "is_incremental": false,
@@ -186,7 +198,31 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.html",
-          "hash": "CVawZeKbcmwZ78Z0pSOhfD1rcbHRZDN1XEXlFHGu5y0="
+          "hash": "nMbTj3aUGO5RdHhyPG+LHIK8UdSBCOJhVeKItRjN1a0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.ParFile.FromBinaryFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.ParFile.FromBinaryFormat.html",
+          "hash": "ESlYWi/vaZtYI1FEQxrBVw6feHvSd5MltCYy92tPvu8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.ParFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.ParFile.html",
+          "hash": "qVlLpCxwQe5FdZ3tp+bx24yqOFl1SIBfZuctsisB7+k="
         }
       },
       "is_incremental": false,
@@ -198,7 +234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress.html",
-          "hash": "DRI2jMsqKE80p7VLfVxswcZwMvRv10UvxkGIQERAh9g="
+          "hash": "7GGJDU/GHy+JcaO5obT0Pnig125ztvzyeay8tK9Ove8="
         }
       },
       "is_incremental": false,
@@ -210,7 +246,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressStandard.html",
-          "hash": "6IzdPa8j/2zkjdFf/XMpl5MSlaMJFw7N9/xtkle8YrI="
+          "hash": "2zPKfjLReVMk5S4ZtEu6sQfO1V6PCB7a5FQdEthXDcY="
         }
       },
       "is_incremental": false,
@@ -222,7 +258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressZlib.html",
-          "hash": "aPebyOQhD6v+HSmMwmcKBkSDzY3fGu4NRNBBYTXAz4U="
+          "hash": "krwCWvnhhjglnpnr6K2TzICF041zREsFoTHN6+6sA4c="
         }
       },
       "is_incremental": false,
@@ -234,7 +270,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressorParameters.html",
-          "hash": "YZEJyRDykEIVQwLfIKxQq+f1NzzN7cs6FvN9wTAqsac="
+          "hash": "38DvrmivgFi3pns1EK7xTYB35LhQuRR5Btfoz1yG1Zg="
         }
       },
       "is_incremental": false,
@@ -246,7 +282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Decompress.html",
-          "hash": "reymyas6CI5OvhShyLt2MARLp17SELYX8kZtYpr1Au4="
+          "hash": "gSW8xCkZCXz20cA3Myfv7egjsmryM7Vp/fqi/8r63Qc="
         }
       },
       "is_incremental": false,
@@ -258,7 +294,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.DecompressStandard.html",
-          "hash": "qZL81OfGlkmYBGK0SQwd1p8Kh2aH3FST+XdP3GjKHQI="
+          "hash": "rHezMOtpiLYoxKZA0QMZ9tndVQt2ytrVn4QKVL44ghs="
         }
       },
       "is_incremental": false,
@@ -270,7 +306,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.DecompressZlib.html",
-          "hash": "+M+ivLkf5bfvCJIaxPJEoOhEdDfNbnxX0/Yh6lTmifU="
+          "hash": "E9hC2ir+bEUNoR55uLXEF9Z2fQSHSLbqSh8Y7OmsKmo="
         }
       },
       "is_incremental": false,
@@ -282,7 +318,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.SllzException.html",
-          "hash": "8OMHZE5iGxn0OSWDjepX+Mu69ZSVd/WoB2cx8D3Mrks="
+          "hash": "2wNBEb1PkjcPtARu8GtxhRnmGfdYsYWy/TRy7JRrhVo="
         }
       },
       "is_incremental": false,
@@ -294,7 +330,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.html",
-          "hash": "Ps0lA1vmCWW/c7wxdGkjdAJ7exoayxJBVYuVuhKHb9k="
+          "hash": "DezI9EVFR6Ej/7OmwtqJeMqythIO65351FmapvRTG+o="
         }
       },
       "is_incremental": false,
@@ -306,7 +342,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Enums.CompressionType.html",
-          "hash": "G2F5VG4p23RpmXEbZkFc2kMvztvRUjnwbRx8bu9xF2o="
+          "hash": "BXVHEpneN0Yj7IfYkZh39C1gxxXr9srVi4ENTXeMiUQ="
         }
       },
       "is_incremental": false,
@@ -318,7 +354,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Enums.Endianness.html",
-          "hash": "HXWi9sQahfXJQ+BjFjIw6jPi/e9DhQNavJQnT3POUeQ="
+          "hash": "5z6Q299+NeANr1cxZ5N+x+IkdFusUW31fxusgT+NLx8="
         }
       },
       "is_incremental": false,
@@ -330,7 +366,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Enums.Platform.html",
-          "hash": "dcSztU4jbOP9jhugyP3FszKR9LwNZ/Jv1LtHL3I0h7k="
+          "hash": "FB0dt/zMCkJpijOowfdiFhF5B4EdXv6log6Ybfc3LWQ="
         }
       },
       "is_incremental": false,
@@ -342,7 +378,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Enums.html",
-          "hash": "rb4EuMcJ1QIOOBfqEYoZ+dLQQDfvf5x2Wy1kzwJdIe0="
+          "hash": "FYqo6V/0ciCSdRZ2WqDCXy2nx6h4+8Q0IhmwLhUxMzY="
         }
       },
       "is_incremental": false,
@@ -354,7 +390,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Formats.CharacterSpacingTable.html",
-          "hash": "S9apwA4LkKmgMIuOKMl+AEhSC9SxSyCVGk2GQTESerA="
+          "hash": "BQ97w26FnqxLiIhbJFsXq6n/0PehxCAr6/lQEH4papo="
         }
       },
       "is_incremental": false,
@@ -366,7 +402,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Formats.ParFile.html",
-          "hash": "LNtjpp2slHEuNpq133q7Xal1mbCv5LGPCo05GBrd44A="
+          "hash": "BonIdyAbmmxRXbW6WJ1Ehm/jkkbNAOqLiM6IDcm1DWk="
         }
       },
       "is_incremental": false,
@@ -378,7 +414,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Formats.html",
-          "hash": "UJy4T6RbQ0po7ZL9o+tTf/6X/GJRdnUFlk+qSO+zadY="
+          "hash": "a9yvtBFCsIvdyjRgk6uJ0MVC8HwvbMMVFDd6Uzbt2OA="
         }
       },
       "is_incremental": false,
@@ -390,7 +426,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Types.CharacterSpacing.html",
-          "hash": "RXAXL+Ekwt2GUFNpwtaShNqbot6TIWLzR8T1Bk33NLw="
+          "hash": "gQ8tg0vml8a9ogohLrmrIV7wFVU/lJFMTaQSGgC4RbQ="
         }
       },
       "is_incremental": false,
@@ -402,7 +438,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader.html",
-          "hash": "1JF7kvvHREGg3KvGkX+lp1iVTHg5nY3Go1WQoZrvoik="
+          "hash": "aNpuPiiI1i7wbPt8jTDd7azqVCcQe9aom+uEgTf7/TU="
         }
       },
       "is_incremental": false,
@@ -414,7 +450,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Types.ParDirectoryInfo.html",
-          "hash": "h/b7jPKyola8epLIPLLTygdUY0JCAHTFTVEFR/4z0uw="
+          "hash": "jrqEgYBJP+k9xeAk0Y6nC5TCYwGIVRRUHod3TeyxxuE="
         }
       },
       "is_incremental": false,
@@ -426,7 +462,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo.html",
-          "hash": "2remWja73afk4moKbEcZHZ8yYnVQYH7JWNKhbLWigg4="
+          "hash": "JaPH4oQofiON3j3aKUSkPOs1joDzXj8D3chGZ66U/8I="
         }
       },
       "is_incremental": false,
@@ -438,7 +474,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Types.ParIndex.html",
-          "hash": "fljQv7csc8VLCazsQKhs/L7XSds/MrYsv8CZi4WiQOM="
+          "hash": "kdfvooUZ8N3PLVHweTxVBxzRR5AVsq3ua5oOD9fllgw="
         }
       },
       "is_incremental": false,
@@ -450,7 +486,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Types.SllzHeader.html",
-          "hash": "hWa/rPczZT9hq5ns0ZIhbN32yWX2gk91PJSQheuTFMc="
+          "hash": "MAuli68rql2isFdtY4Z7EIg5Jsmd2fx3qBOWa+WEX64="
         }
       },
       "is_incremental": false,
@@ -462,7 +498,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaCommon.Types.html",
-          "hash": "QkPSUe6lFWVR/HaEjthIGQ/JuSS6vMV35Sqrz4HUdGg="
+          "hash": "/8wXJZ5QDWqClfYh3RoYvbgzhFvLdo7HKsviGKTbSKs="
         }
       },
       "is_incremental": false,
@@ -474,7 +510,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ExtractStrings.html",
-          "hash": "CxThWW5k4z0gsP+nsfxyM7mTB7obu2854N9FOcY6r6g="
+          "hash": "0MQPpv7zRnozYPPmyGJAE5MtH5QJpOohxRItwyYycA0="
         }
       },
       "is_incremental": false,
@@ -486,7 +522,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.FromXlsx.html",
-          "hash": "Drn0tkP3jYovVUZ7t74NIXpqm0LvtZ+H+2K09ILGT9s="
+          "hash": "QRDWT5KEjkOOiz2nouhM+vQMfdWyTwZLiy+BqfGZlJc="
         }
       },
       "is_incremental": false,
@@ -498,7 +534,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Reader.html",
-          "hash": "sYH4FgzYjmm1i5HvdS1Cp5P4b0ZwLl0VorptqUPsBoE="
+          "hash": "36uCUvYbLsVPUy3jJNcqih9Zz4QvMPklys+ow/FhoXc="
         }
       },
       "is_incremental": false,
@@ -510,7 +546,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ToXlsx.html",
-          "hash": "SOEIY9N+mw4U0IWJepISoPnatvSReaR8zLVkx5VZVZw="
+          "hash": "9Mf9hAc8+Oe1TEDg3xhiXzSsITUbUcIBg6hVwao2ggI="
         }
       },
       "is_incremental": false,
@@ -522,7 +558,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Translate.html",
-          "hash": "zgVC3UPv8mPDiRvSIBUka0SGpBEQKCyVGWYnOrGprB8="
+          "hash": "6vHHWTOr9i6aOS2fzZ7X2mCI/5ld5Q55zu3sr8iQbbA="
         }
       },
       "is_incremental": false,
@@ -534,7 +570,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Writer.html",
-          "hash": "ciEA7VgEcAnsbXMmYOVhhdEG0V+ng0BjmmCXlYzUIwE="
+          "hash": "sWGsByljG2WxcPcYoec549dWJZ2aA411QFxO6AA6tdo="
         }
       },
       "is_incremental": false,
@@ -546,7 +582,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.html",
-          "hash": "X0CFGqcLSsGBims1vbEfgMotWGWJhrON9QADhjtX/2s="
+          "hash": "iBf3EcqTFhun/dNb8FlazXFXWCiGjUJoQ6es1vdAuS8="
         }
       },
       "is_incremental": false,
@@ -558,7 +594,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.BinaryPoSplitter.html",
-          "hash": "cHzDe2Kqo69f0bxYBdjOy9tA89ab5OmxUM0KpX3EeU8="
+          "hash": "S0oslJqX6jyAw8AcmVumwhzOkP+jPMsJew0Zg2UXqUw="
         }
       },
       "is_incremental": false,
@@ -570,7 +606,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Merger.html",
-          "hash": "fuQCtL2E9GRGMW4LOtqVtSXxiQReN9YFf7j70WAShEM="
+          "hash": "u5KvTNc336col/Ph24bsUm0FxeFTxcligGAxP3mXVQU="
         }
       },
       "is_incremental": false,
@@ -582,7 +618,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Splitter.html",
-          "hash": "T7G3qyp+0aa3FAlo4fNL+cVkQb/SYsS95/rtqkZE9aw="
+          "hash": "pnlFVjkLIWcQGF2iBb4ISmT9twp9s0Mzsm2F9EYt0yQ="
         }
       },
       "is_incremental": false,
@@ -594,7 +630,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.html",
-          "hash": "UWB6HTE6HRoAzeh0DMqN8mXV+z9ztgaEyzxgirvPvFo="
+          "hash": "EOg/uXoyt8/YVgbMnPM8EuCVSip+DORjkTGCHEubh9E="
         }
       },
       "is_incremental": false,
@@ -606,7 +642,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Enums.Endianness.html",
-          "hash": "fhH9AOuIN/hwaBXt5tuIjHIrzao3/67ub4RmHmXFvJE="
+          "hash": "E1NyaZ8HW2D+Uis60CqQGuNlBB20KoArBPtMCimU9cE="
         }
       },
       "is_incremental": false,
@@ -618,7 +654,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Enums.FieldType.html",
-          "hash": "ESTNx9XbhGi+fNB1LHfVjvZRBfI8adBlj9qWR4ecAd8="
+          "hash": "TlAsB/hUJk8oderavReHAaeGEmUO9lLMkkrzo/eJA4w="
         }
       },
       "is_incremental": false,
@@ -630,7 +666,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Enums.html",
-          "hash": "iR6NiGHsBLAn8vL0myhB4uSuXODxbFdmR4HJR4u530w="
+          "hash": "Gq2/FzJJYeVMMX1WYvvzSXUhIMnvAc012kKrwmydqEs="
         }
       },
       "is_incremental": false,
@@ -642,7 +678,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.html",
-          "hash": "DmmraHnsbtBJEUzjzyCNhfKMim1ajP6zFNco/3ji63k="
+          "hash": "zD/Tg4sz/Dfx7CbCpO1NMblE5gm5e8kMkDeQSWBqYKs="
         }
       },
       "is_incremental": false,
@@ -654,7 +690,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Formats.html",
-          "hash": "Riiq9uFwJp3GYs5eOWFrmkMl6+aYhm+tbQrycNKfBHc="
+          "hash": "rgCIaRVpB81eIrTVvndfO+wGCZnVnhhgdIsbq9dNPhI="
         }
       },
       "is_incremental": false,
@@ -666,7 +702,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.html",
-          "hash": "vo1/qYCneK8vq/kiMiY53wHgBSnr71Jx8FP8gRkePgQ="
+          "hash": "C0rqsXBBiajKgI+oPQp34izDWktcARHIeDdw+5d+jb0="
         }
       },
       "is_incremental": false,
@@ -678,7 +714,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader.html",
-          "hash": "6q/Wsg2LEiIMLILArxfX1Z5pL6j5NDChy935qWk7h5A="
+          "hash": "UGS3ZM/YdYZSYJN7yO4EvHMonofjwFpmiRP0x8eH2aQ="
         }
       },
       "is_incremental": false,
@@ -690,7 +726,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TF3.YarhlPlugin.YakuzaKiwami2.Types.html",
-          "hash": "lzZ4Vdoi2wAXaHPNtDMCPiWpUgA8klbi8Tzk6QWfS+4="
+          "hash": "DvkRSmiGPktivCgLy7btr+o+HPVdPgWyg1uuPLkrTlQ="
         }
       },
       "is_incremental": false,
@@ -702,7 +738,7 @@
       "output": {
         ".html": {
           "relative_path": "dev/Changelog.html",
-          "hash": "IpvJFzsIKEc1FLLH9y3GmoeLhMQej+dlvk3pLCH8EJs="
+          "hash": "1NYEPefMK9rpdS6flPYOEm7k904Hp/+pAFliAaARjtY="
         }
       },
       "is_incremental": false,
@@ -714,7 +750,7 @@
       "output": {
         ".html": {
           "relative_path": "dev/toc.html",
-          "hash": "grLKu+sl5SS33xQczE6RZXk5oPAAAdfJFhHKfXyGIMU="
+          "hash": "BldltISvu1bCFL+kt8b5EeJlJEg4SPW4Ws0Q3Qbe7u0="
         }
       },
       "is_incremental": false,
@@ -834,7 +870,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 55,
+          "total_file_count": 58,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

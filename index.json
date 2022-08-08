@@ -47,12 +47,17 @@
   "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.html": {
     "href": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.html",
     "title": "Namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Par | TF3 Yakuza Plugins",
-    "keywords": "Namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Par Classes Reader Deserializes PAR archives. Writer Serializes PAR archives. WriterParameters Parameters for PAR writer."
+    "keywords": "Namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Par Classes Reader Deserializes PAR archives. ReaderParameters Parameters for PAR reader. Writer Serializes PAR archives. WriterParameters Parameters for PAR writer."
   },
   "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Reader.html": {
     "href": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Reader.html",
     "title": "Class Reader | TF3 Yakuza Plugins",
-    "keywords": "Class Reader Deserializes PAR archives. Inheritance Object Reader Namespace : TF3.YarhlPlugin.YakuzaCommon.Converters.Par Assembly : TF3.YarhlPlugin.YakuzaCommon.dll Syntax public class Reader : IConverter<BinaryFormat, NodeContainerFormat> Methods | Improve this Doc View Source Convert(BinaryFormat) Converts a BinaryFormat into a NodeContainerFormat. Declaration public virtual NodeContainerFormat Convert(BinaryFormat source) Parameters Type Name Description BinaryFormat source Input format. Returns Type Description NodeContainerFormat The node container format."
+    "keywords": "Class Reader Deserializes PAR archives. Inheritance Object Reader Implements IInitializer < ReaderParameters > Namespace : TF3.YarhlPlugin.YakuzaCommon.Converters.Par Assembly : TF3.YarhlPlugin.YakuzaCommon.dll Syntax public class Reader : IConverter<BinaryFormat, NodeContainerFormat>, IInitializer<ReaderParameters> Methods | Improve this Doc View Source Convert(BinaryFormat) Converts a BinaryFormat into a NodeContainerFormat. Declaration public virtual NodeContainerFormat Convert(BinaryFormat source) Parameters Type Name Description BinaryFormat source Input format. Returns Type Description NodeContainerFormat The node container format. | Improve this Doc View Source Initialize(ReaderParameters) Initializes the reader parameters. Declaration public void Initialize(ReaderParameters parameters) Parameters Type Name Description ReaderParameters parameters Reader configuration. Implements IInitializer<>"
+  },
+  "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.ReaderParameters.html": {
+    "href": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.ReaderParameters.html",
+    "title": "Class ReaderParameters | TF3 Yakuza Plugins",
+    "keywords": "Class ReaderParameters Parameters for PAR reader. Inheritance Object ReaderParameters Namespace : TF3.YarhlPlugin.YakuzaCommon.Converters.Par Assembly : TF3.YarhlPlugin.YakuzaCommon.dll Syntax public class ReaderParameters : object Constructors | Improve this Doc View Source ReaderParameters() Initializes a new instance of the ReaderParameters class. Declaration public ReaderParameters() Properties | Improve this Doc View Source DecompressFiles Gets or sets a value indicating whether files will be automatically decompressed. Declaration public bool DecompressFiles { get; set; } Property Value Type Description Boolean"
   },
   "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Writer.html": {
     "href": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Writer.html",
@@ -63,6 +68,16 @@
     "href": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.html",
     "title": "Class WriterParameters | TF3 Yakuza Plugins",
     "keywords": "Class WriterParameters Parameters for PAR writer. Inheritance Object WriterParameters Namespace : TF3.YarhlPlugin.YakuzaCommon.Converters.Par Assembly : TF3.YarhlPlugin.YakuzaCommon.dll Syntax public class WriterParameters : object Constructors | Improve this Doc View Source WriterParameters() Initializes a new instance of the WriterParameters class. Declaration public WriterParameters() Properties | Improve this Doc View Source DotRoot Gets or sets a value indicating whether the root name is a dot or a full name. Declaration public bool DotRoot { get; set; } Property Value Type Description Boolean | Improve this Doc View Source Endianness Gets or sets the compression algorithm endianness. Declaration public Endianness Endianness { get; set; } Property Value Type Description Endianness | Improve this Doc View Source OutputStream Gets or sets the DataStream to write the file. Declaration public DataStream OutputStream { get; set; } Property Value Type Description DataStream Remarks It can be null. In that case, it will be written in memory. | Improve this Doc View Source PlatformId Gets or sets the platform id. Declaration public Platform PlatformId { get; set; } Property Value Type Description Platform | Improve this Doc View Source Version Gets or sets the version (usually 0x00020001). Declaration public uint Version { get; set; } Property Value Type Description UInt32 | Improve this Doc View Source WriteDataSize Gets or sets a value indicating whether the data size is written in header (only in Kenzan). Declaration public bool WriteDataSize { get; set; } Property Value Type Description Boolean"
+  },
+  "api/TF3.YarhlPlugin.YakuzaCommon.Converters.ParFile.FromBinaryFormat.html": {
+    "href": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.ParFile.FromBinaryFormat.html",
+    "title": "Class FromBinaryFormat | TF3 Yakuza Plugins",
+    "keywords": "Class FromBinaryFormat Creates a ParFile from BinaryFormat. Inheritance Object FromBinaryFormat Namespace : TF3.YarhlPlugin.YakuzaCommon.Converters.ParFile Assembly : TF3.YarhlPlugin.YakuzaCommon.dll Syntax public class FromBinaryFormat : IConverter<BinaryFormat, ParFile> Methods | Improve this Doc View Source Convert(BinaryFormat) Create a ParFile from BinaryFormat. Declaration public ParFile Convert(BinaryFormat source) Parameters Type Name Description BinaryFormat source original format. Returns Type Description ParFile The converted ParFile."
+  },
+  "api/TF3.YarhlPlugin.YakuzaCommon.Converters.ParFile.html": {
+    "href": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.ParFile.html",
+    "title": "Namespace TF3.YarhlPlugin.YakuzaCommon.Converters.ParFile | TF3 Yakuza Plugins",
+    "keywords": "Namespace TF3.YarhlPlugin.YakuzaCommon.Converters.ParFile Classes FromBinaryFormat Creates a ParFile from BinaryFormat."
   },
   "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress.html": {
     "href": "api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress.html",
@@ -112,7 +127,7 @@
   "api/TF3.YarhlPlugin.YakuzaCommon.Enums.CompressionType.html": {
     "href": "api/TF3.YarhlPlugin.YakuzaCommon.Enums.CompressionType.html",
     "title": "Enum CompressionType | TF3 Yakuza Plugins",
-    "keywords": "Enum CompressionType File compression types. Namespace : TF3.YarhlPlugin.YakuzaCommon.Enums Assembly : TF3.YarhlPlugin.YakuzaCommon.dll Syntax public enum CompressionType : int Fields Name Description Standard Standard compression (LZ variant) Zlib Use zlib compression."
+    "keywords": "Enum CompressionType File compression types. Namespace : TF3.YarhlPlugin.YakuzaCommon.Enums Assembly : TF3.YarhlPlugin.YakuzaCommon.dll Syntax public enum CompressionType : int Fields Name Description None No compression. Standard Standard compression (LZ variant) Zlib Use zlib compression."
   },
   "api/TF3.YarhlPlugin.YakuzaCommon.Enums.Endianness.html": {
     "href": "api/TF3.YarhlPlugin.YakuzaCommon.Enums.Endianness.html",
@@ -282,7 +297,7 @@
   "dev/Changelog.html": {
     "href": "dev/Changelog.html",
     "title": "vNext (August 08, 2022) | TF3 Yakuza Plugins",
-    "keywords": "vNext (August 08, 2022) As part of this release we had 1 issue closed. bug #13 Fix CI v1.0.2 (December 28, 2021) As part of this release we had 1 issue closed. bug #7 Add missing script v1.0.1 (December 28, 2021) enhancement #6 Change runtime identifier to \"any\" v1.0.0 (December 27, 2021) First release"
+    "keywords": "vNext (August 08, 2022) As part of this release we had 2 issues closed. bug #13 Fix CI enhancement #12 Allow decompressing SLLZ while reading Par and converting to ParFile without compression v1.0.2 (December 28, 2021) As part of this release we had 1 issue closed. bug #7 Add missing script v1.0.1 (December 28, 2021) enhancement #6 Change runtime identifier to \"any\" v1.0.0 (December 27, 2021) First release"
   },
   "guides/Contributing.html": {
     "href": "guides/Contributing.html",
