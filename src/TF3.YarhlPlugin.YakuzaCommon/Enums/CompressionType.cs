@@ -25,6 +25,11 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Enums
     public enum CompressionType
     {
         /// <summary>
+        /// No compression.
+        /// </summary>
+        None = 0x00,
+
+        /// <summary>
         /// Standard compression (LZ variant)
         /// </summary>
         Standard = 0x01,
