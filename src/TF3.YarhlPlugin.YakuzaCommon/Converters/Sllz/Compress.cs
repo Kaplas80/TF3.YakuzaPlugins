@@ -52,6 +52,7 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz
 
             return _compressorParameters.CompressionType switch
             {
+                CompressionType.None => (ParFile)ConvertFormat.With<Converters.ParFile.FromBinaryFormat>(source),
                 CompressionType.Standard => (ParFile)ConvertFormat.With<CompressStandard, CompressorParameters>(_compressorParameters, source),
                 CompressionType.Zlib => (ParFile)ConvertFormat.With<CompressZlib, CompressorParameters>(_compressorParameters, source),
                 _ => throw new FormatException($"SLLZ: Bad Compression Type ({_compressorParameters.CompressionType})")
