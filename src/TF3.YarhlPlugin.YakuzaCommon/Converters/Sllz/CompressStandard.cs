@@ -78,6 +78,12 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz
                 return new ParFile(source.Stream);
             }
 
+            long compression = source.Stream.Length - compressedData.Length;
+            if (compression < 2048 && source.Stream.Length >= 2048)
+            {
+                return new ParFile(source.Stream);
+            }
+
             DataStream outputDataStream = compressorParameters.OutputStream ?? DataStreamFactory.FromMemory();
             outputDataStream.Position = 0;
 
