@@ -36,7 +36,7 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz
         private const uint MaxWindowSize = 4096;
         private const uint MaxEncodedLength = 18;
 
-        private CompressorParameters compressorParameters = new ()
+        private CompressorParameters _compressorParameters = new ()
         {
             CompressionType = CompressionType.Standard,
             Endianness = Endianness.LittleEndian,
@@ -47,7 +47,7 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz
         /// Initializes the compressor parameters.
         /// </summary>
         /// <param name="parameters">Compressor configuration.</param>
-        public void Initialize(CompressorParameters parameters) => compressorParameters = parameters;
+        public void Initialize(CompressorParameters parameters) => _compressorParameters = parameters;
 
         /// <summary>
         /// Creates a SLLZ standard compressed BinaryFormat.
@@ -84,13 +84,13 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz
                 return new ParFile(source.Stream);
             }
 
-            DataStream outputDataStream = compressorParameters.OutputStream ?? DataStreamFactory.FromMemory();
+            DataStream outputDataStream = _compressorParameters.OutputStream ?? DataStreamFactory.FromMemory();
             outputDataStream.Position = 0;
 
             var writer = new DataWriter(outputDataStream)
             {
                 DefaultEncoding = Encoding.ASCII,
-                Endianness = compressorParameters.Endianness == Endianness.LittleEndian
+                Endianness = _compressorParameters.Endianness == Endianness.LittleEndian
                     ? EndiannessMode.LittleEndian
                     : EndiannessMode.BigEndian,
             };
@@ -98,8 +98,8 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz
             var header = new SllzHeader
             {
                 Magic = "SLLZ",
-                Endianness = compressorParameters.Endianness,
-                CompressionType = compressorParameters.CompressionType,
+                Endianness = _compressorParameters.Endianness,
+                CompressionType = _compressorParameters.CompressionType,
                 HeaderSize = 0x10,
                 OriginalSize = (uint)source.Stream.Length,
                 CompressedSize = (uint)compressedData.Length + 0x10, // includes header length
