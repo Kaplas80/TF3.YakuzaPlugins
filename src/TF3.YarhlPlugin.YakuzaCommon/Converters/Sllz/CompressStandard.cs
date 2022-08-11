@@ -36,7 +36,7 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz
         private const uint MaxWindowSize = 4096;
         private const uint MaxEncodedLength = 18;
 
-        private CompressorParameters compressorParameters = new ()
+        private CompressorParameters _compressorParameters = new ()
         {
             CompressionType = CompressionType.Standard,
             Endianness = Endianness.LittleEndian,
@@ -47,7 +47,7 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz
         /// Initializes the compressor parameters.
         /// </summary>
         /// <param name="parameters">Compressor configuration.</param>
-        public void Initialize(CompressorParameters parameters) => compressorParameters = parameters;
+        public void Initialize(CompressorParameters parameters) => _compressorParameters = parameters;
 
         /// <summary>
         /// Creates a SLLZ standard compressed BinaryFormat.
@@ -78,13 +78,19 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz
                 return new ParFile(source.Stream);
             }
 
-            DataStream outputDataStream = compressorParameters.OutputStream ?? DataStreamFactory.FromMemory();
+            long compression = source.Stream.Length - compressedData.Length;
+            if (compression < 2048 && source.Stream.Length >= 2048)
+            {
+                return new ParFile(source.Stream);
+            }
+
+            DataStream outputDataStream = _compressorParameters.OutputStream ?? DataStreamFactory.FromMemory();
             outputDataStream.Position = 0;
 
             var writer = new DataWriter(outputDataStream)
             {
                 DefaultEncoding = Encoding.ASCII,
-                Endianness = compressorParameters.Endianness == Endianness.LittleEndian
+                Endianness = _compressorParameters.Endianness == Endianness.LittleEndian
                     ? EndiannessMode.LittleEndian
                     : EndiannessMode.BigEndian,
             };
@@ -92,8 +98,8 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz
             var header = new SllzHeader
             {
                 Magic = "SLLZ",
-                Endianness = compressorParameters.Endianness,
-                CompressionType = compressorParameters.CompressionType,
+                Endianness = _compressorParameters.Endianness,
+                CompressionType = _compressorParameters.CompressionType,
                 HeaderSize = 0x10,
                 OriginalSize = (uint)source.Stream.Length,
                 CompressedSize = (uint)compressedData.Length + 0x10, // includes header length
@@ -130,8 +136,16 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz
             int bitsRemaining = 8;
 
             uint inputPosition = 0;
-            uint outputPosition = 1; // First flag is always 0x00
-            uint flagPosition = 16;
+            uint outputPosition = 0;
+            uint flagPosition = 0;
+
+            outputData[flagPosition] = 0x00;
+            outputPosition++;
+
+            if (outputPosition >= outputSize)
+            {
+                throw new SllzException("Compressed size is bigger than original size.");
+            }
 
             while (inputPosition < inputData.Length)
             {
