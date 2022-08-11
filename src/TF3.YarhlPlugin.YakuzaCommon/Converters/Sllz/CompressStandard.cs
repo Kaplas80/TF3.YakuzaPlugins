@@ -130,8 +130,16 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz
             int bitsRemaining = 8;
 
             uint inputPosition = 0;
-            uint outputPosition = 1; // First flag is always 0x00
-            uint flagPosition = 16;
+            uint outputPosition = 0;
+            uint flagPosition = 0;
+
+            outputData[flagPosition] = 0x00;
+            outputPosition++;
+
+            if (outputPosition >= outputSize)
+            {
+                throw new SllzException("Compressed size is bigger than original size.");
+            }
 
             while (inputPosition < inputData.Length)
             {
