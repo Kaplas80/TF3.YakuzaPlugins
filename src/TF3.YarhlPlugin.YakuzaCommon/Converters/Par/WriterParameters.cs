@@ -37,6 +37,7 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Par
             Version = 0x00020001;
             WriteDataSize = false;
             DotRoot = true;
+            SortWithUpperInvariant = false;
             OutputStream = null;
         }
 
@@ -64,6 +65,12 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Par
         /// Gets or sets a value indicating whether the root name is a dot or a full name.
         /// </summary>
         public bool DotRoot { get; set; }
+
+        /// <summary>
+        /// Gets or sets a value indicating whether to use ToUpperInvariant or ToLowerInvariant (default) when sorting node names.
+        /// </summary>
+        /// <remarks>Kenzan relies on the file order and some files will not be loaded without this option enabled.</remarks>
+        public bool SortWithUpperInvariant { get; set; }
 
         /// <summary>
         /// Gets or sets the DataStream to write the file.
