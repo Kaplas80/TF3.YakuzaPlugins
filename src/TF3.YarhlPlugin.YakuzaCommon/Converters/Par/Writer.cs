@@ -60,7 +60,7 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Par
 
             // Reorder nodes
             source.Root.SortChildren((x, y) =>
-                string.CompareOrdinal(x.Name.ToLowerInvariant(), y.Name.ToLowerInvariant()));
+                string.CompareOrdinal(x.Name.ToUpperInvariant(), y.Name.ToUpperInvariant()));
 
             // Fill node indexes
             FillNodeIndexes(source.Root);
