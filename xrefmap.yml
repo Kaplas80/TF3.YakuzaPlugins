@@ -416,6 +416,19 @@ references:
   isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.PlatformId
   nameWithType: WriterParameters.PlatformId
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.SortWithUpperInvariant
+  name: SortWithUpperInvariant
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Par_WriterParameters_SortWithUpperInvariant
+  commentId: P:TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.SortWithUpperInvariant
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.SortWithUpperInvariant
+  nameWithType: WriterParameters.SortWithUpperInvariant
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.SortWithUpperInvariant*
+  name: SortWithUpperInvariant
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Par_WriterParameters_SortWithUpperInvariant_
+  commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.SortWithUpperInvariant
+  isSpec: "True"
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.SortWithUpperInvariant
+  nameWithType: WriterParameters.SortWithUpperInvariant
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.Version
   name: Version
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Par_WriterParameters_Version
