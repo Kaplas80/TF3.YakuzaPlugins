@@ -6,9 +6,9 @@
          "Id": "poHeader",
          "TypeName": "Yarhl.Media.Text.PoHeader, Yarhl.Media, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null",
          "Value": {
-            "ProjectIdVersion": "Traducción Yakuza Kiwami 2",
+            "ProjectIdVersion": "Yakuza Kiwami 2",
             "ReportMsgidBugsTo": "your@email.com",
-            "Language": "es"
+            "Language": "und"
          }
       },
       {
@@ -23,8 +23,8 @@
       {
          "Id": "db.par",
          "Name": "db.par",
-         "Path": "data/db.par",
-         "Checksum": 15875901786622737460,
+         "Paths": [ "data/db.par" ],
+         "Checksums": [ 15875901786622737460 ],
          "Readers": [
             {
                "TypeName": "TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Reader",
@@ -42,8 +42,8 @@
       {
          "Id": "ui.par",
          "Name": "ui.par",
-         "Path": "data/ui.par",
-         "Checksum": 6552109716056188515,
+         "Paths": [ "data/ui.par" ],
+         "Checksums": [ 6552109716056188515 ],
          "Readers": [
             {
                "TypeName": "TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Reader",

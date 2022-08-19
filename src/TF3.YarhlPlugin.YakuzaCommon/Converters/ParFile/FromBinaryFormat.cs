@@ -20,7 +20,6 @@
 namespace TF3.YarhlPlugin.YakuzaCommon.Converters.ParFile
 {
     using System;
-    using TF3.YarhlPlugin.YakuzaCommon.Enums;
     using TF3.YarhlPlugin.YakuzaCommon.Formats;
     using Yarhl.FileFormat;
     using Yarhl.IO;
