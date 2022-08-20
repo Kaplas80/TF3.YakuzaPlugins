@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class Replacer
    | TF3 Yakuza Plugins ">
-    <meta name="generator" content="docfx 2.58.9.0">
+    <meta name="generator" content="docfx 2.59.0.0">
     
     <link rel="shortcut icon" href="../images/favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -338,25 +338,34 @@
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><span class="xref">IInitializer</span>&lt;<span class="xref">NodeContainerFormat</span>&gt;</div>
+    <div><span class="xref">Yarhl.FileFormat.IConverter</span>&lt;<span class="xref">Yarhl.FileSystem.NodeContainerFormat</span>, <span class="xref">Yarhl.FileSystem.NodeContainerFormat</span>&gt;</div>
+    <div><span class="xref">Yarhl.FileFormat.IConverter</span></div>
+    <div><span class="xref">Yarhl.FileFormat.IInitializer</span>&lt;<span class="xref">Yarhl.FileSystem.NodeContainerFormat</span>&gt;</div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="TF3.YarhlPlugin.YakuzaCommon.Converters.Font.html">TF3.YarhlPlugin.YakuzaCommon.Converters.Font</a></h6>
   <h6><strong>Assembly</strong>: TF3.YarhlPlugin.YakuzaCommon.dll</h6>
   <h5 id="TF3_YarhlPlugin_YakuzaCommon_Converters_Font_Replacer_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Replacer : IConverter&lt;NodeContainerFormat, NodeContainerFormat&gt;, IInitializer&lt;NodeContainerFormat&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class Replacer : Object</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="TF3_YarhlPlugin_YakuzaCommon_Converters_Font_Replacer__ctor_" data-uid="TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.#ctor*"></a>
+  <h4 id="TF3_YarhlPlugin_YakuzaCommon_Converters_Font_Replacer__ctor" data-uid="TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.#ctor">Replacer()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Replacer()</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/kaplas80/TF3.YakuzaPlugins/new/main/docs/apidoc/new?filename=TF3_YarhlPlugin_YakuzaCommon_Converters_Font_Replacer_Convert_NodeContainerFormat_.md&amp;value=---%0Auid%3A%20TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.Convert(NodeContainerFormat)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Kaplas80/TF3.YakuzaPlugins/blob/main/src/TF3.YarhlPlugin.YakuzaCommon/Converters/Font/Replacer.cs/#L49">View Source</a>
-  </span>
+  
+  
   <a id="TF3_YarhlPlugin_YakuzaCommon_Converters_Font_Replacer_Convert_" data-uid="TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.Convert*"></a>
-  <h4 id="TF3_YarhlPlugin_YakuzaCommon_Converters_Font_Replacer_Convert_NodeContainerFormat_" data-uid="TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.Convert(NodeContainerFormat)">Convert(NodeContainerFormat)</h4>
+  <h4 id="TF3_YarhlPlugin_YakuzaCommon_Converters_Font_Replacer_Convert_Yarhl_FileSystem_NodeContainerFormat_" data-uid="TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.Convert(Yarhl.FileSystem.NodeContainerFormat)">Convert(NodeContainerFormat)</h4>
   <div class="markdown level1 summary"><p>Replace font files.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -375,7 +384,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">NodeContainerFormat</span></td>
+        <td><span class="xref">Yarhl.FileSystem.NodeContainerFormat</span></td>
         <td><span class="parametername">source</span></td>
         <td><p>The original font asset.</p>
 </td>
@@ -392,21 +401,16 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">NodeContainerFormat</span></td>
+        <td><span class="xref">Yarhl.FileSystem.NodeContainerFormat</span></td>
         <td><p>The replaced font.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/kaplas80/TF3.YakuzaPlugins/new/main/docs/apidoc/new?filename=TF3_YarhlPlugin_YakuzaCommon_Converters_Font_Replacer_Initialize_NodeContainerFormat_.md&amp;value=---%0Auid%3A%20TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.Initialize(NodeContainerFormat)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Kaplas80/TF3.YakuzaPlugins/blob/main/src/TF3.YarhlPlugin.YakuzaCommon/Converters/Font/Replacer.cs/#L42">View Source</a>
-  </span>
+  
+  
   <a id="TF3_YarhlPlugin_YakuzaCommon_Converters_Font_Replacer_Initialize_" data-uid="TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.Initialize*"></a>
-  <h4 id="TF3_YarhlPlugin_YakuzaCommon_Converters_Font_Replacer_Initialize_NodeContainerFormat_" data-uid="TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.Initialize(NodeContainerFormat)">Initialize(NodeContainerFormat)</h4>
+  <h4 id="TF3_YarhlPlugin_YakuzaCommon_Converters_Font_Replacer_Initialize_Yarhl_FileSystem_NodeContainerFormat_" data-uid="TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.Initialize(Yarhl.FileSystem.NodeContainerFormat)">Initialize(NodeContainerFormat)</h4>
   <div class="markdown level1 summary"><p>Converter initializer.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -425,19 +429,25 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">NodeContainerFormat</span></td>
+        <td><span class="xref">Yarhl.FileSystem.NodeContainerFormat</span></td>
         <td><span class="parametername">parameters</span></td>
         <td><p>Font replacement.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 id="TF3_YarhlPlugin_YakuzaCommon_Converters_Font_Replacer_Initialize_NodeContainerFormat__remarks">Remarks</h5>
+  <h5 id="TF3_YarhlPlugin_YakuzaCommon_Converters_Font_Replacer_Initialize_Yarhl_FileSystem_NodeContainerFormat__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Initialization is mandatory.</p>
 </div>
   <h3 id="implements">Implements</h3>
   <div>
-      <span class="xref">IInitializer&lt;&gt;</span>
+      <span class="xref">Yarhl.FileFormat.IConverter&lt;, &gt;</span>
+  </div>
+  <div>
+      <span class="xref">Yarhl.FileFormat.IConverter</span>
+  </div>
+  <div>
+      <span class="xref">Yarhl.FileFormat.IInitializer&lt;&gt;</span>
   </div>
 </article>
           </div>
@@ -446,12 +456,6 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
-                  <li>
-                    <a href="https://github.com/kaplas80/TF3.YakuzaPlugins/new/main/docs/apidoc/new?filename=TF3_YarhlPlugin_YakuzaCommon_Converters_Font_Replacer.md&amp;value=---%0Auid%3A%20TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/Kaplas80/TF3.YakuzaPlugins/blob/main/src/TF3.YarhlPlugin.YakuzaCommon/Converters/Font/Replacer.cs/#L31" class="contribution-link">View Source</a>
-                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

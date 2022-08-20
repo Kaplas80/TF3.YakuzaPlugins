@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class Compress
    | TF3 Yakuza Plugins ">
-    <meta name="generator" content="docfx 2.58.9.0">
+    <meta name="generator" content="docfx 2.59.0.0">
     
     <link rel="shortcut icon" href="../images/favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -338,25 +338,34 @@
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><span class="xref">IInitializer</span>&lt;<a class="xref" href="TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressorParameters.html">CompressorParameters</a>&gt;</div>
+    <div><span class="xref">Yarhl.FileFormat.IConverter</span>&lt;<span class="xref">Yarhl.IO.BinaryFormat</span>, <a class="xref" href="TF3.YarhlPlugin.YakuzaCommon.Formats.ParFile.html">ParFile</a>&gt;</div>
+    <div><span class="xref">Yarhl.FileFormat.IConverter</span></div>
+    <div><span class="xref">Yarhl.FileFormat.IInitializer</span>&lt;<a class="xref" href="TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressorParameters.html">CompressorParameters</a>&gt;</div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.html">TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz</a></h6>
   <h6><strong>Assembly</strong>: TF3.YarhlPlugin.YakuzaCommon.dll</h6>
   <h5 id="TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_Compress_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Compress : IConverter&lt;BinaryFormat, ParFile&gt;, IInitializer&lt;CompressorParameters&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class Compress : Object</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_Compress__ctor_" data-uid="TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress.#ctor*"></a>
+  <h4 id="TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_Compress__ctor" data-uid="TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress.#ctor">Compress()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Compress()</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/kaplas80/TF3.YakuzaPlugins/new/main/docs/apidoc/new?filename=TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_Compress_Convert_BinaryFormat_.md&amp;value=---%0Auid%3A%20TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress.Convert(BinaryFormat)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Kaplas80/TF3.YakuzaPlugins/blob/main/src/TF3.YarhlPlugin.YakuzaCommon/Converters/Sllz/Compress.cs/#L46">View Source</a>
-  </span>
+  
+  
   <a id="TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_Compress_Convert_" data-uid="TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress.Convert*"></a>
-  <h4 id="TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_Compress_Convert_BinaryFormat_" data-uid="TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress.Convert(BinaryFormat)">Convert(BinaryFormat)</h4>
+  <h4 id="TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_Compress_Convert_Yarhl_IO_BinaryFormat_" data-uid="TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress.Convert(Yarhl.IO.BinaryFormat)">Convert(BinaryFormat)</h4>
   <div class="markdown level1 summary"><p>Create a SLLZ compressed BinaryFormat.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -375,7 +384,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">BinaryFormat</span></td>
+        <td><span class="xref">Yarhl.IO.BinaryFormat</span></td>
         <td><span class="parametername">source</span></td>
         <td><p>original format.</p>
 </td>
@@ -398,13 +407,8 @@
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/kaplas80/TF3.YakuzaPlugins/new/main/docs/apidoc/new?filename=TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_Compress_Initialize_TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_CompressorParameters_.md&amp;value=---%0Auid%3A%20TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress.Initialize(TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressorParameters)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Kaplas80/TF3.YakuzaPlugins/blob/main/src/TF3.YarhlPlugin.YakuzaCommon/Converters/Sllz/Compress.cs/#L39">View Source</a>
-  </span>
+  
+  
   <a id="TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_Compress_Initialize_" data-uid="TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress.Initialize*"></a>
   <h4 id="TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_Compress_Initialize_TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_CompressorParameters_" data-uid="TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress.Initialize(TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressorParameters)">Initialize(CompressorParameters)</h4>
   <div class="markdown level1 summary"><p>Initializes the compressor parameters.</p>
@@ -434,7 +438,13 @@
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <span class="xref">IInitializer&lt;&gt;</span>
+      <span class="xref">Yarhl.FileFormat.IConverter&lt;, &gt;</span>
+  </div>
+  <div>
+      <span class="xref">Yarhl.FileFormat.IConverter</span>
+  </div>
+  <div>
+      <span class="xref">Yarhl.FileFormat.IInitializer&lt;&gt;</span>
   </div>
 </article>
           </div>
@@ -443,12 +453,6 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
-                  <li>
-                    <a href="https://github.com/kaplas80/TF3.YakuzaPlugins/new/main/docs/apidoc/new?filename=TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_Compress.md&amp;value=---%0Auid%3A%20TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/Kaplas80/TF3.YakuzaPlugins/blob/main/src/TF3.YarhlPlugin.YakuzaCommon/Converters/Sllz/Compress.cs/#L31" class="contribution-link">View Source</a>
-                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

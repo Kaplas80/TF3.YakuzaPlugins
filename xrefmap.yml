@@ -19,17 +19,28 @@ references:
   commentId: T:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Extractor
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Extractor
   nameWithType: Extractor
-- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Extractor.Convert(NodeContainerFormat)
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Extractor.#ctor
+  name: Extractor()
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Extractor.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_Extractor__ctor
+  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Extractor.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Extractor.Extractor()
+  nameWithType: Extractor.Extractor()
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Extractor.#ctor*
+  name: Extractor
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Extractor.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_Extractor__ctor_
+  commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Extractor.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Extractor.Extractor
+  nameWithType: Extractor.Extractor
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Extractor.Convert(Yarhl.FileSystem.NodeContainerFormat)
   name: Convert(NodeContainerFormat)
-  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Extractor.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_Extractor_Convert_NodeContainerFormat_
-  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Extractor.Convert(NodeContainerFormat)
-  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Extractor.Convert(NodeContainerFormat)
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Extractor.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_Extractor_Convert_Yarhl_FileSystem_NodeContainerFormat_
+  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Extractor.Convert(Yarhl.FileSystem.NodeContainerFormat)
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Extractor.Convert(Yarhl.FileSystem.NodeContainerFormat)
   nameWithType: Extractor.Convert(NodeContainerFormat)
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Extractor.Convert*
   name: Convert
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Extractor.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_Extractor_Convert_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Extractor.Convert
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Extractor.Convert
   nameWithType: Extractor.Convert
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Extractor.Initialize(TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReaderParameters)
@@ -42,7 +53,6 @@ references:
   name: Initialize
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Extractor.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_Extractor_Initialize_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Extractor.Initialize
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Extractor.Initialize
   nameWithType: Extractor.Initialize
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.FromText
@@ -51,17 +61,28 @@ references:
   commentId: T:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.FromText
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.FromText
   nameWithType: FromText
-- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.FromText.Convert(BinaryFormat)
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.FromText.#ctor
+  name: FromText()
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.FromText.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_FromText__ctor
+  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.FromText.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.FromText.FromText()
+  nameWithType: FromText.FromText()
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.FromText.#ctor*
+  name: FromText
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.FromText.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_FromText__ctor_
+  commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.FromText.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.FromText.FromText
+  nameWithType: FromText.FromText
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.FromText.Convert(Yarhl.IO.BinaryFormat)
   name: Convert(BinaryFormat)
-  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.FromText.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_FromText_Convert_BinaryFormat_
-  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.FromText.Convert(BinaryFormat)
-  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.FromText.Convert(BinaryFormat)
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.FromText.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_FromText_Convert_Yarhl_IO_BinaryFormat_
+  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.FromText.Convert(Yarhl.IO.BinaryFormat)
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.FromText.Convert(Yarhl.IO.BinaryFormat)
   nameWithType: FromText.Convert(BinaryFormat)
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.FromText.Convert*
   name: Convert
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.FromText.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_FromText_Convert_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.FromText.Convert
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.FromText.Convert
   nameWithType: FromText.Convert
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReaderParameters
@@ -80,7 +101,6 @@ references:
   name: ReaderParameters
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReaderParameters.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_ReaderParameters__ctor_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReaderParameters.#ctor
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReaderParameters.ReaderParameters
   nameWithType: ReaderParameters.ReaderParameters
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReaderParameters.Endianness
@@ -93,7 +113,6 @@ references:
   name: Endianness
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReaderParameters.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_ReaderParameters_Endianness_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReaderParameters.Endianness
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReaderParameters.Endianness
   nameWithType: ReaderParameters.Endianness
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReaderParameters.Offset
@@ -106,7 +125,6 @@ references:
   name: Offset
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReaderParameters.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_ReaderParameters_Offset_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReaderParameters.Offset
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReaderParameters.Offset
   nameWithType: ReaderParameters.Offset
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReplacementMerger
@@ -115,17 +133,28 @@ references:
   commentId: T:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReplacementMerger
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReplacementMerger
   nameWithType: ReplacementMerger
-- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReplacementMerger.Convert(NodeContainerFormat)
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReplacementMerger.#ctor
+  name: ReplacementMerger()
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReplacementMerger.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_ReplacementMerger__ctor
+  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReplacementMerger.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReplacementMerger.ReplacementMerger()
+  nameWithType: ReplacementMerger.ReplacementMerger()
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReplacementMerger.#ctor*
+  name: ReplacementMerger
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReplacementMerger.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_ReplacementMerger__ctor_
+  commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReplacementMerger.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReplacementMerger.ReplacementMerger
+  nameWithType: ReplacementMerger.ReplacementMerger
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReplacementMerger.Convert(Yarhl.FileSystem.NodeContainerFormat)
   name: Convert(NodeContainerFormat)
-  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReplacementMerger.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_ReplacementMerger_Convert_NodeContainerFormat_
-  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReplacementMerger.Convert(NodeContainerFormat)
-  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReplacementMerger.Convert(NodeContainerFormat)
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReplacementMerger.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_ReplacementMerger_Convert_Yarhl_FileSystem_NodeContainerFormat_
+  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReplacementMerger.Convert(Yarhl.FileSystem.NodeContainerFormat)
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReplacementMerger.Convert(Yarhl.FileSystem.NodeContainerFormat)
   nameWithType: ReplacementMerger.Convert(NodeContainerFormat)
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReplacementMerger.Convert*
   name: Convert
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReplacementMerger.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_ReplacementMerger_Convert_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReplacementMerger.Convert
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReplacementMerger.Convert
   nameWithType: ReplacementMerger.Convert
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer
@@ -134,30 +163,40 @@ references:
   commentId: T:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer
   nameWithType: Replacer
-- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.Convert(NodeContainerFormat)
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.#ctor
+  name: Replacer()
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_Replacer__ctor
+  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.Replacer()
+  nameWithType: Replacer.Replacer()
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.#ctor*
+  name: Replacer
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_Replacer__ctor_
+  commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.Replacer
+  nameWithType: Replacer.Replacer
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.Convert(Yarhl.FileSystem.NodeContainerFormat)
   name: Convert(NodeContainerFormat)
-  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_Replacer_Convert_NodeContainerFormat_
-  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.Convert(NodeContainerFormat)
-  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.Convert(NodeContainerFormat)
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_Replacer_Convert_Yarhl_FileSystem_NodeContainerFormat_
+  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.Convert(Yarhl.FileSystem.NodeContainerFormat)
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.Convert(Yarhl.FileSystem.NodeContainerFormat)
   nameWithType: Replacer.Convert(NodeContainerFormat)
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.Convert*
   name: Convert
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_Replacer_Convert_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.Convert
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.Convert
   nameWithType: Replacer.Convert
-- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.Initialize(NodeContainerFormat)
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.Initialize(Yarhl.FileSystem.NodeContainerFormat)
   name: Initialize(NodeContainerFormat)
-  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_Replacer_Initialize_NodeContainerFormat_
-  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.Initialize(NodeContainerFormat)
-  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.Initialize(NodeContainerFormat)
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_Replacer_Initialize_Yarhl_FileSystem_NodeContainerFormat_
+  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.Initialize(Yarhl.FileSystem.NodeContainerFormat)
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.Initialize(Yarhl.FileSystem.NodeContainerFormat)
   nameWithType: Replacer.Initialize(NodeContainerFormat)
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.Initialize*
   name: Initialize
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_Replacer_Initialize_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.Initialize
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.Replacer.Initialize
   nameWithType: Replacer.Initialize
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingReader
@@ -166,17 +205,28 @@ references:
   commentId: T:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingReader
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingReader
   nameWithType: SpacingReader
-- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingReader.Convert(BinaryFormat)
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingReader.#ctor
+  name: SpacingReader()
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingReader.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_SpacingReader__ctor
+  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingReader.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingReader.SpacingReader()
+  nameWithType: SpacingReader.SpacingReader()
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingReader.#ctor*
+  name: SpacingReader
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingReader.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_SpacingReader__ctor_
+  commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingReader.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingReader.SpacingReader
+  nameWithType: SpacingReader.SpacingReader
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingReader.Convert(Yarhl.IO.BinaryFormat)
   name: Convert(BinaryFormat)
-  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingReader.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_SpacingReader_Convert_BinaryFormat_
-  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingReader.Convert(BinaryFormat)
-  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingReader.Convert(BinaryFormat)
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingReader.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_SpacingReader_Convert_Yarhl_IO_BinaryFormat_
+  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingReader.Convert(Yarhl.IO.BinaryFormat)
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingReader.Convert(Yarhl.IO.BinaryFormat)
   nameWithType: SpacingReader.Convert(BinaryFormat)
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingReader.Convert*
   name: Convert
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingReader.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_SpacingReader_Convert_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingReader.Convert
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingReader.Convert
   nameWithType: SpacingReader.Convert
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingReader.Initialize(TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReaderParameters)
@@ -189,7 +239,6 @@ references:
   name: Initialize
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingReader.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_SpacingReader_Initialize_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingReader.Initialize
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingReader.Initialize
   nameWithType: SpacingReader.Initialize
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingWriter
@@ -198,17 +247,28 @@ references:
   commentId: T:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingWriter
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingWriter
   nameWithType: SpacingWriter
-- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingWriter.Convert(BinaryFormat)
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingWriter.#ctor
+  name: SpacingWriter()
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingWriter.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_SpacingWriter__ctor
+  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingWriter.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingWriter.SpacingWriter()
+  nameWithType: SpacingWriter.SpacingWriter()
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingWriter.#ctor*
+  name: SpacingWriter
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingWriter.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_SpacingWriter__ctor_
+  commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingWriter.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingWriter.SpacingWriter
+  nameWithType: SpacingWriter.SpacingWriter
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingWriter.Convert(Yarhl.IO.BinaryFormat)
   name: Convert(BinaryFormat)
-  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingWriter.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_SpacingWriter_Convert_BinaryFormat_
-  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingWriter.Convert(BinaryFormat)
-  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingWriter.Convert(BinaryFormat)
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingWriter.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_SpacingWriter_Convert_Yarhl_IO_BinaryFormat_
+  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingWriter.Convert(Yarhl.IO.BinaryFormat)
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingWriter.Convert(Yarhl.IO.BinaryFormat)
   nameWithType: SpacingWriter.Convert(BinaryFormat)
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingWriter.Convert*
   name: Convert
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingWriter.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_SpacingWriter_Convert_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingWriter.Convert
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingWriter.Convert
   nameWithType: SpacingWriter.Convert
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingWriter.Initialize(TF3.YarhlPlugin.YakuzaCommon.Formats.CharacterSpacingTable)
@@ -221,7 +281,6 @@ references:
   name: Initialize
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingWriter.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_SpacingWriter_Initialize_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingWriter.Initialize
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.SpacingWriter.Initialize
   nameWithType: SpacingWriter.Initialize
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ToText
@@ -230,6 +289,18 @@ references:
   commentId: T:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ToText
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ToText
   nameWithType: ToText
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ToText.#ctor
+  name: ToText()
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ToText.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_ToText__ctor
+  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ToText.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ToText.ToText()
+  nameWithType: ToText.ToText()
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ToText.#ctor*
+  name: ToText
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ToText.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_ToText__ctor_
+  commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ToText.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ToText.ToText
+  nameWithType: ToText.ToText
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ToText.Convert(TF3.YarhlPlugin.YakuzaCommon.Formats.CharacterSpacingTable)
   name: Convert(CharacterSpacingTable)
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ToText.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_ToText_Convert_TF3_YarhlPlugin_YakuzaCommon_Formats_CharacterSpacingTable_
@@ -240,7 +311,6 @@ references:
   name: Convert
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ToText.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Font_ToText_Convert_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ToText.Convert
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ToText.Convert
   nameWithType: ToText.Convert
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Par
@@ -255,17 +325,28 @@ references:
   commentId: T:TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Reader
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Reader
   nameWithType: Reader
-- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Reader.Convert(BinaryFormat)
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Reader.#ctor
+  name: Reader()
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Reader.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Par_Reader__ctor
+  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Reader.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Reader.Reader()
+  nameWithType: Reader.Reader()
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Reader.#ctor*
+  name: Reader
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Reader.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Par_Reader__ctor_
+  commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Reader.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Reader.Reader
+  nameWithType: Reader.Reader
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Reader.Convert(Yarhl.IO.BinaryFormat)
   name: Convert(BinaryFormat)
-  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Reader.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Par_Reader_Convert_BinaryFormat_
-  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Reader.Convert(BinaryFormat)
-  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Reader.Convert(BinaryFormat)
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Reader.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Par_Reader_Convert_Yarhl_IO_BinaryFormat_
+  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Reader.Convert(Yarhl.IO.BinaryFormat)
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Reader.Convert(Yarhl.IO.BinaryFormat)
   nameWithType: Reader.Convert(BinaryFormat)
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Reader.Convert*
   name: Convert
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Reader.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Par_Reader_Convert_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Reader.Convert
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Reader.Convert
   nameWithType: Reader.Convert
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Reader.Initialize(TF3.YarhlPlugin.YakuzaCommon.Converters.Par.ReaderParameters)
@@ -278,7 +359,6 @@ references:
   name: Initialize
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Reader.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Par_Reader_Initialize_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Reader.Initialize
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Reader.Initialize
   nameWithType: Reader.Initialize
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.ReaderParameters
@@ -297,7 +377,6 @@ references:
   name: ReaderParameters
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.ReaderParameters.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Par_ReaderParameters__ctor_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Par.ReaderParameters.#ctor
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.ReaderParameters.ReaderParameters
   nameWithType: ReaderParameters.ReaderParameters
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.ReaderParameters.DecompressFiles
@@ -310,7 +389,6 @@ references:
   name: DecompressFiles
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.ReaderParameters.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Par_ReaderParameters_DecompressFiles_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Par.ReaderParameters.DecompressFiles
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.ReaderParameters.DecompressFiles
   nameWithType: ReaderParameters.DecompressFiles
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Writer
@@ -319,17 +397,28 @@ references:
   commentId: T:TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Writer
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Writer
   nameWithType: Writer
-- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Writer.Convert(NodeContainerFormat)
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Writer.#ctor
+  name: Writer()
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Writer.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Par_Writer__ctor
+  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Writer.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Writer.Writer()
+  nameWithType: Writer.Writer()
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Writer.#ctor*
+  name: Writer
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Writer.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Par_Writer__ctor_
+  commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Writer.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Writer.Writer
+  nameWithType: Writer.Writer
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Writer.Convert(Yarhl.FileSystem.NodeContainerFormat)
   name: Convert(NodeContainerFormat)
-  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Writer.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Par_Writer_Convert_NodeContainerFormat_
-  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Writer.Convert(NodeContainerFormat)
-  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Writer.Convert(NodeContainerFormat)
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Writer.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Par_Writer_Convert_Yarhl_FileSystem_NodeContainerFormat_
+  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Writer.Convert(Yarhl.FileSystem.NodeContainerFormat)
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Writer.Convert(Yarhl.FileSystem.NodeContainerFormat)
   nameWithType: Writer.Convert(NodeContainerFormat)
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Writer.Convert*
   name: Convert
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Writer.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Par_Writer_Convert_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Writer.Convert
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Writer.Convert
   nameWithType: Writer.Convert
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Writer.Initialize(TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters)
@@ -342,7 +431,6 @@ references:
   name: Initialize
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Writer.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Par_Writer_Initialize_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Writer.Initialize
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.Writer.Initialize
   nameWithType: Writer.Initialize
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters
@@ -361,7 +449,6 @@ references:
   name: WriterParameters
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Par_WriterParameters__ctor_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.#ctor
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.WriterParameters
   nameWithType: WriterParameters.WriterParameters
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.DotRoot
@@ -374,7 +461,6 @@ references:
   name: DotRoot
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Par_WriterParameters_DotRoot_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.DotRoot
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.DotRoot
   nameWithType: WriterParameters.DotRoot
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.Endianness
@@ -387,7 +473,6 @@ references:
   name: Endianness
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Par_WriterParameters_Endianness_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.Endianness
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.Endianness
   nameWithType: WriterParameters.Endianness
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.OutputStream
@@ -400,7 +485,6 @@ references:
   name: OutputStream
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Par_WriterParameters_OutputStream_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.OutputStream
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.OutputStream
   nameWithType: WriterParameters.OutputStream
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.PlatformId
@@ -413,7 +497,6 @@ references:
   name: PlatformId
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Par_WriterParameters_PlatformId_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.PlatformId
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.PlatformId
   nameWithType: WriterParameters.PlatformId
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.SortWithUpperInvariant
@@ -426,7 +509,6 @@ references:
   name: SortWithUpperInvariant
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Par_WriterParameters_SortWithUpperInvariant_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.SortWithUpperInvariant
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.SortWithUpperInvariant
   nameWithType: WriterParameters.SortWithUpperInvariant
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.Version
@@ -439,7 +521,6 @@ references:
   name: Version
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Par_WriterParameters_Version_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.Version
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.Version
   nameWithType: WriterParameters.Version
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.WriteDataSize
@@ -452,7 +533,6 @@ references:
   name: WriteDataSize
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Par_WriterParameters_WriteDataSize_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.WriteDataSize
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Par.WriterParameters.WriteDataSize
   nameWithType: WriterParameters.WriteDataSize
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.ParFile
@@ -467,17 +547,28 @@ references:
   commentId: T:TF3.YarhlPlugin.YakuzaCommon.Converters.ParFile.FromBinaryFormat
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.ParFile.FromBinaryFormat
   nameWithType: FromBinaryFormat
-- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.ParFile.FromBinaryFormat.Convert(BinaryFormat)
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.ParFile.FromBinaryFormat.#ctor
+  name: FromBinaryFormat()
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.ParFile.FromBinaryFormat.html#TF3_YarhlPlugin_YakuzaCommon_Converters_ParFile_FromBinaryFormat__ctor
+  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.ParFile.FromBinaryFormat.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.ParFile.FromBinaryFormat.FromBinaryFormat()
+  nameWithType: FromBinaryFormat.FromBinaryFormat()
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.ParFile.FromBinaryFormat.#ctor*
+  name: FromBinaryFormat
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.ParFile.FromBinaryFormat.html#TF3_YarhlPlugin_YakuzaCommon_Converters_ParFile_FromBinaryFormat__ctor_
+  commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.ParFile.FromBinaryFormat.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.ParFile.FromBinaryFormat.FromBinaryFormat
+  nameWithType: FromBinaryFormat.FromBinaryFormat
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.ParFile.FromBinaryFormat.Convert(Yarhl.IO.BinaryFormat)
   name: Convert(BinaryFormat)
-  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.ParFile.FromBinaryFormat.html#TF3_YarhlPlugin_YakuzaCommon_Converters_ParFile_FromBinaryFormat_Convert_BinaryFormat_
-  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.ParFile.FromBinaryFormat.Convert(BinaryFormat)
-  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.ParFile.FromBinaryFormat.Convert(BinaryFormat)
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.ParFile.FromBinaryFormat.html#TF3_YarhlPlugin_YakuzaCommon_Converters_ParFile_FromBinaryFormat_Convert_Yarhl_IO_BinaryFormat_
+  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.ParFile.FromBinaryFormat.Convert(Yarhl.IO.BinaryFormat)
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.ParFile.FromBinaryFormat.Convert(Yarhl.IO.BinaryFormat)
   nameWithType: FromBinaryFormat.Convert(BinaryFormat)
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.ParFile.FromBinaryFormat.Convert*
   name: Convert
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.ParFile.FromBinaryFormat.html#TF3_YarhlPlugin_YakuzaCommon_Converters_ParFile_FromBinaryFormat_Convert_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.ParFile.FromBinaryFormat.Convert
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.ParFile.FromBinaryFormat.Convert
   nameWithType: FromBinaryFormat.Convert
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz
@@ -492,17 +583,28 @@ references:
   commentId: T:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress
   nameWithType: Compress
-- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress.Convert(BinaryFormat)
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress.#ctor
+  name: Compress()
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_Compress__ctor
+  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress.Compress()
+  nameWithType: Compress.Compress()
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress.#ctor*
+  name: Compress
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_Compress__ctor_
+  commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress.Compress
+  nameWithType: Compress.Compress
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress.Convert(Yarhl.IO.BinaryFormat)
   name: Convert(BinaryFormat)
-  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_Compress_Convert_BinaryFormat_
-  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress.Convert(BinaryFormat)
-  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress.Convert(BinaryFormat)
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_Compress_Convert_Yarhl_IO_BinaryFormat_
+  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress.Convert(Yarhl.IO.BinaryFormat)
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress.Convert(Yarhl.IO.BinaryFormat)
   nameWithType: Compress.Convert(BinaryFormat)
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress.Convert*
   name: Convert
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_Compress_Convert_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress.Convert
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress.Convert
   nameWithType: Compress.Convert
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress.Initialize(TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressorParameters)
@@ -515,7 +617,6 @@ references:
   name: Initialize
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_Compress_Initialize_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress.Initialize
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Compress.Initialize
   nameWithType: Compress.Initialize
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressorParameters
@@ -534,7 +635,6 @@ references:
   name: CompressorParameters
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressorParameters.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_CompressorParameters__ctor_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressorParameters.#ctor
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressorParameters.CompressorParameters
   nameWithType: CompressorParameters.CompressorParameters
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressorParameters.CompressionType
@@ -547,7 +647,6 @@ references:
   name: CompressionType
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressorParameters.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_CompressorParameters_CompressionType_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressorParameters.CompressionType
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressorParameters.CompressionType
   nameWithType: CompressorParameters.CompressionType
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressorParameters.Endianness
@@ -560,7 +659,6 @@ references:
   name: Endianness
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressorParameters.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_CompressorParameters_Endianness_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressorParameters.Endianness
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressorParameters.Endianness
   nameWithType: CompressorParameters.Endianness
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressorParameters.OutputStream
@@ -573,7 +671,6 @@ references:
   name: OutputStream
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressorParameters.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_CompressorParameters_OutputStream_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressorParameters.OutputStream
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressorParameters.OutputStream
   nameWithType: CompressorParameters.OutputStream
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressStandard
@@ -582,17 +679,28 @@ references:
   commentId: T:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressStandard
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressStandard
   nameWithType: CompressStandard
-- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressStandard.Convert(BinaryFormat)
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressStandard.#ctor
+  name: CompressStandard()
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressStandard.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_CompressStandard__ctor
+  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressStandard.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressStandard.CompressStandard()
+  nameWithType: CompressStandard.CompressStandard()
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressStandard.#ctor*
+  name: CompressStandard
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressStandard.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_CompressStandard__ctor_
+  commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressStandard.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressStandard.CompressStandard
+  nameWithType: CompressStandard.CompressStandard
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressStandard.Convert(Yarhl.IO.BinaryFormat)
   name: Convert(BinaryFormat)
-  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressStandard.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_CompressStandard_Convert_BinaryFormat_
-  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressStandard.Convert(BinaryFormat)
-  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressStandard.Convert(BinaryFormat)
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressStandard.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_CompressStandard_Convert_Yarhl_IO_BinaryFormat_
+  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressStandard.Convert(Yarhl.IO.BinaryFormat)
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressStandard.Convert(Yarhl.IO.BinaryFormat)
   nameWithType: CompressStandard.Convert(BinaryFormat)
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressStandard.Convert*
   name: Convert
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressStandard.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_CompressStandard_Convert_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressStandard.Convert
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressStandard.Convert
   nameWithType: CompressStandard.Convert
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressStandard.Initialize(TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressorParameters)
@@ -605,7 +713,6 @@ references:
   name: Initialize
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressStandard.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_CompressStandard_Initialize_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressStandard.Initialize
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressStandard.Initialize
   nameWithType: CompressStandard.Initialize
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressZlib
@@ -614,17 +721,28 @@ references:
   commentId: T:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressZlib
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressZlib
   nameWithType: CompressZlib
-- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressZlib.Convert(BinaryFormat)
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressZlib.#ctor
+  name: CompressZlib()
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressZlib.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_CompressZlib__ctor
+  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressZlib.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressZlib.CompressZlib()
+  nameWithType: CompressZlib.CompressZlib()
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressZlib.#ctor*
+  name: CompressZlib
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressZlib.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_CompressZlib__ctor_
+  commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressZlib.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressZlib.CompressZlib
+  nameWithType: CompressZlib.CompressZlib
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressZlib.Convert(Yarhl.IO.BinaryFormat)
   name: Convert(BinaryFormat)
-  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressZlib.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_CompressZlib_Convert_BinaryFormat_
-  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressZlib.Convert(BinaryFormat)
-  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressZlib.Convert(BinaryFormat)
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressZlib.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_CompressZlib_Convert_Yarhl_IO_BinaryFormat_
+  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressZlib.Convert(Yarhl.IO.BinaryFormat)
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressZlib.Convert(Yarhl.IO.BinaryFormat)
   nameWithType: CompressZlib.Convert(BinaryFormat)
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressZlib.Convert*
   name: Convert
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressZlib.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_CompressZlib_Convert_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressZlib.Convert
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressZlib.Convert
   nameWithType: CompressZlib.Convert
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressZlib.Initialize(TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressorParameters)
@@ -637,7 +755,6 @@ references:
   name: Initialize
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressZlib.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_CompressZlib_Initialize_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressZlib.Initialize
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.CompressZlib.Initialize
   nameWithType: CompressZlib.Initialize
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Decompress
@@ -646,6 +763,18 @@ references:
   commentId: T:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Decompress
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Decompress
   nameWithType: Decompress
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Decompress.#ctor
+  name: Decompress()
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Decompress.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_Decompress__ctor
+  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Decompress.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Decompress.Decompress()
+  nameWithType: Decompress.Decompress()
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Decompress.#ctor*
+  name: Decompress
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Decompress.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_Decompress__ctor_
+  commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Decompress.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Decompress.Decompress
+  nameWithType: Decompress.Decompress
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Decompress.Convert(TF3.YarhlPlugin.YakuzaCommon.Formats.ParFile)
   name: Convert(ParFile)
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Decompress.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_Decompress_Convert_TF3_YarhlPlugin_YakuzaCommon_Formats_ParFile_
@@ -656,7 +785,6 @@ references:
   name: Convert
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Decompress.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_Decompress_Convert_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Decompress.Convert
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.Decompress.Convert
   nameWithType: Decompress.Convert
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.DecompressStandard
@@ -665,6 +793,18 @@ references:
   commentId: T:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.DecompressStandard
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.DecompressStandard
   nameWithType: DecompressStandard
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.DecompressStandard.#ctor
+  name: DecompressStandard()
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.DecompressStandard.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_DecompressStandard__ctor
+  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.DecompressStandard.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.DecompressStandard.DecompressStandard()
+  nameWithType: DecompressStandard.DecompressStandard()
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.DecompressStandard.#ctor*
+  name: DecompressStandard
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.DecompressStandard.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_DecompressStandard__ctor_
+  commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.DecompressStandard.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.DecompressStandard.DecompressStandard
+  nameWithType: DecompressStandard.DecompressStandard
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.DecompressStandard.Convert(TF3.YarhlPlugin.YakuzaCommon.Formats.ParFile)
   name: Convert(ParFile)
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.DecompressStandard.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_DecompressStandard_Convert_TF3_YarhlPlugin_YakuzaCommon_Formats_ParFile_
@@ -675,7 +815,6 @@ references:
   name: Convert
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.DecompressStandard.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_DecompressStandard_Convert_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.DecompressStandard.Convert
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.DecompressStandard.Convert
   nameWithType: DecompressStandard.Convert
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.DecompressZlib
@@ -684,6 +823,18 @@ references:
   commentId: T:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.DecompressZlib
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.DecompressZlib
   nameWithType: DecompressZlib
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.DecompressZlib.#ctor
+  name: DecompressZlib()
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.DecompressZlib.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_DecompressZlib__ctor
+  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.DecompressZlib.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.DecompressZlib.DecompressZlib()
+  nameWithType: DecompressZlib.DecompressZlib()
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.DecompressZlib.#ctor*
+  name: DecompressZlib
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.DecompressZlib.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_DecompressZlib__ctor_
+  commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.DecompressZlib.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.DecompressZlib.DecompressZlib
+  nameWithType: DecompressZlib.DecompressZlib
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.DecompressZlib.Convert(TF3.YarhlPlugin.YakuzaCommon.Formats.ParFile)
   name: Convert(ParFile)
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.DecompressZlib.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_DecompressZlib_Convert_TF3_YarhlPlugin_YakuzaCommon_Formats_ParFile_
@@ -694,7 +845,6 @@ references:
   name: Convert
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.DecompressZlib.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_DecompressZlib_Convert_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.DecompressZlib.Convert
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.DecompressZlib.Convert
   nameWithType: DecompressZlib.Convert
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.SllzException
@@ -709,11 +859,11 @@ references:
   commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.SllzException.#ctor
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.SllzException.SllzException()
   nameWithType: SllzException.SllzException()
-- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.SllzException.#ctor(SerializationInfo,StreamingContext)
+- uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.SllzException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   name: SllzException(SerializationInfo, StreamingContext)
-  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.SllzException.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_SllzException__ctor_SerializationInfo_StreamingContext_
-  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.SllzException.#ctor(SerializationInfo,StreamingContext)
-  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.SllzException.SllzException(SerializationInfo, StreamingContext)
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.SllzException.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_SllzException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.SllzException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.SllzException.SllzException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
   nameWithType: SllzException.SllzException(SerializationInfo, StreamingContext)
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.SllzException.#ctor(System.String)
   name: SllzException(String)
@@ -722,16 +872,15 @@ references:
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.SllzException.SllzException(System.String)
   nameWithType: SllzException.SllzException(String)
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.SllzException.#ctor(System.String,System.Exception)
-  name: SllzException(String, System.Exception)
+  name: SllzException(String, Exception)
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.SllzException.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_SllzException__ctor_System_String_System_Exception_
   commentId: M:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.SllzException.#ctor(System.String,System.Exception)
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.SllzException.SllzException(System.String, System.Exception)
-  nameWithType: SllzException.SllzException(String, System.Exception)
+  nameWithType: SllzException.SllzException(String, Exception)
 - uid: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.SllzException.#ctor*
   name: SllzException
   href: api/TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.SllzException.html#TF3_YarhlPlugin_YakuzaCommon_Converters_Sllz_SllzException__ctor_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.SllzException.#ctor
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz.SllzException.SllzException
   nameWithType: SllzException.SllzException
 - uid: TF3.YarhlPlugin.YakuzaCommon.Enums
@@ -758,6 +907,12 @@ references:
   commentId: F:TF3.YarhlPlugin.YakuzaCommon.Enums.CompressionType.Standard
   fullName: TF3.YarhlPlugin.YakuzaCommon.Enums.CompressionType.Standard
   nameWithType: CompressionType.Standard
+- uid: TF3.YarhlPlugin.YakuzaCommon.Enums.CompressionType.value__
+  name: value__
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Enums.CompressionType.html#TF3_YarhlPlugin_YakuzaCommon_Enums_CompressionType_value__
+  commentId: F:TF3.YarhlPlugin.YakuzaCommon.Enums.CompressionType.value__
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Enums.CompressionType.value__
+  nameWithType: CompressionType.value__
 - uid: TF3.YarhlPlugin.YakuzaCommon.Enums.CompressionType.Zlib
   name: Zlib
   href: api/TF3.YarhlPlugin.YakuzaCommon.Enums.CompressionType.html#TF3_YarhlPlugin_YakuzaCommon_Enums_CompressionType_Zlib
@@ -782,6 +937,12 @@ references:
   commentId: F:TF3.YarhlPlugin.YakuzaCommon.Enums.Endianness.LittleEndian
   fullName: TF3.YarhlPlugin.YakuzaCommon.Enums.Endianness.LittleEndian
   nameWithType: Endianness.LittleEndian
+- uid: TF3.YarhlPlugin.YakuzaCommon.Enums.Endianness.value__
+  name: value__
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Enums.Endianness.html#TF3_YarhlPlugin_YakuzaCommon_Enums_Endianness_value__
+  commentId: F:TF3.YarhlPlugin.YakuzaCommon.Enums.Endianness.value__
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Enums.Endianness.value__
+  nameWithType: Endianness.value__
 - uid: TF3.YarhlPlugin.YakuzaCommon.Enums.Platform
   name: Platform
   href: api/TF3.YarhlPlugin.YakuzaCommon.Enums.Platform.html
@@ -818,6 +979,12 @@ references:
   commentId: F:TF3.YarhlPlugin.YakuzaCommon.Enums.Platform.PlayStation4
   fullName: TF3.YarhlPlugin.YakuzaCommon.Enums.Platform.PlayStation4
   nameWithType: Platform.PlayStation4
+- uid: TF3.YarhlPlugin.YakuzaCommon.Enums.Platform.value__
+  name: value__
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Enums.Platform.html#TF3_YarhlPlugin_YakuzaCommon_Enums_Platform_value__
+  commentId: F:TF3.YarhlPlugin.YakuzaCommon.Enums.Platform.value__
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Enums.Platform.value__
+  nameWithType: Platform.value__
 - uid: TF3.YarhlPlugin.YakuzaCommon.Enums.Platform.Vita
   name: Vita
   href: api/TF3.YarhlPlugin.YakuzaCommon.Enums.Platform.html#TF3_YarhlPlugin_YakuzaCommon_Enums_Platform_Vita
@@ -876,7 +1043,6 @@ references:
   name: CharacterSpacingTable
   href: api/TF3.YarhlPlugin.YakuzaCommon.Formats.CharacterSpacingTable.html#TF3_YarhlPlugin_YakuzaCommon_Formats_CharacterSpacingTable__ctor_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Formats.CharacterSpacingTable.#ctor
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Formats.CharacterSpacingTable.CharacterSpacingTable
   nameWithType: CharacterSpacingTable.CharacterSpacingTable
 - uid: TF3.YarhlPlugin.YakuzaCommon.Formats.CharacterSpacingTable.Item(System.Char)
@@ -901,7 +1067,6 @@ references:
   name: Item
   href: api/TF3.YarhlPlugin.YakuzaCommon.Formats.CharacterSpacingTable.html#TF3_YarhlPlugin_YakuzaCommon_Formats_CharacterSpacingTable_Item_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Formats.CharacterSpacingTable.Item
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Formats.CharacterSpacingTable.Item
   nameWithType: CharacterSpacingTable.Item
 - uid: TF3.YarhlPlugin.YakuzaCommon.Formats.CharacterSpacingTable.TableOffset
@@ -914,7 +1079,6 @@ references:
   name: TableOffset
   href: api/TF3.YarhlPlugin.YakuzaCommon.Formats.CharacterSpacingTable.html#TF3_YarhlPlugin_YakuzaCommon_Formats_CharacterSpacingTable_TableOffset_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Formats.CharacterSpacingTable.TableOffset
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Formats.CharacterSpacingTable.TableOffset
   nameWithType: CharacterSpacingTable.TableOffset
 - uid: TF3.YarhlPlugin.YakuzaCommon.Formats.ParFile
@@ -924,22 +1088,21 @@ references:
   fullName: TF3.YarhlPlugin.YakuzaCommon.Formats.ParFile
   nameWithType: ParFile
 - uid: TF3.YarhlPlugin.YakuzaCommon.Formats.ParFile.#ctor(System.IO.Stream)
-  name: ParFile(System.IO.Stream)
+  name: ParFile(Stream)
   href: api/TF3.YarhlPlugin.YakuzaCommon.Formats.ParFile.html#TF3_YarhlPlugin_YakuzaCommon_Formats_ParFile__ctor_System_IO_Stream_
   commentId: M:TF3.YarhlPlugin.YakuzaCommon.Formats.ParFile.#ctor(System.IO.Stream)
   fullName: TF3.YarhlPlugin.YakuzaCommon.Formats.ParFile.ParFile(System.IO.Stream)
-  nameWithType: ParFile.ParFile(System.IO.Stream)
+  nameWithType: ParFile.ParFile(Stream)
 - uid: TF3.YarhlPlugin.YakuzaCommon.Formats.ParFile.#ctor(TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo,System.IO.Stream)
-  name: ParFile(ParFileInfo, System.IO.Stream)
+  name: ParFile(ParFileInfo, Stream)
   href: api/TF3.YarhlPlugin.YakuzaCommon.Formats.ParFile.html#TF3_YarhlPlugin_YakuzaCommon_Formats_ParFile__ctor_TF3_YarhlPlugin_YakuzaCommon_Types_ParFileInfo_System_IO_Stream_
   commentId: M:TF3.YarhlPlugin.YakuzaCommon.Formats.ParFile.#ctor(TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo,System.IO.Stream)
   fullName: TF3.YarhlPlugin.YakuzaCommon.Formats.ParFile.ParFile(TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo, System.IO.Stream)
-  nameWithType: ParFile.ParFile(ParFileInfo, System.IO.Stream)
+  nameWithType: ParFile.ParFile(ParFileInfo, Stream)
 - uid: TF3.YarhlPlugin.YakuzaCommon.Formats.ParFile.#ctor*
   name: ParFile
   href: api/TF3.YarhlPlugin.YakuzaCommon.Formats.ParFile.html#TF3_YarhlPlugin_YakuzaCommon_Formats_ParFile__ctor_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Formats.ParFile.#ctor
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Formats.ParFile.ParFile
   nameWithType: ParFile.ParFile
 - uid: TF3.YarhlPlugin.YakuzaCommon.Formats.ParFile.DeepClone
@@ -952,7 +1115,6 @@ references:
   name: DeepClone
   href: api/TF3.YarhlPlugin.YakuzaCommon.Formats.ParFile.html#TF3_YarhlPlugin_YakuzaCommon_Formats_ParFile_DeepClone_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Formats.ParFile.DeepClone
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Formats.ParFile.DeepClone
   nameWithType: ParFile.DeepClone
 - uid: TF3.YarhlPlugin.YakuzaCommon.Formats.ParFile.FileInfo
@@ -965,7 +1127,6 @@ references:
   name: FileInfo
   href: api/TF3.YarhlPlugin.YakuzaCommon.Formats.ParFile.html#TF3_YarhlPlugin_YakuzaCommon_Formats_ParFile_FileInfo_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Formats.ParFile.FileInfo
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Formats.ParFile.FileInfo
   nameWithType: ParFile.FileInfo
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types
@@ -996,7 +1157,6 @@ references:
   name: CharacterSpacing
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.CharacterSpacing.html#TF3_YarhlPlugin_YakuzaCommon_Types_CharacterSpacing__ctor_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.CharacterSpacing.#ctor
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.CharacterSpacing.CharacterSpacing
   nameWithType: CharacterSpacing.CharacterSpacing
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.CharacterSpacing.BottomLeft
@@ -1009,7 +1169,6 @@ references:
   name: BottomLeft
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.CharacterSpacing.html#TF3_YarhlPlugin_YakuzaCommon_Types_CharacterSpacing_BottomLeft_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.CharacterSpacing.BottomLeft
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.CharacterSpacing.BottomLeft
   nameWithType: CharacterSpacing.BottomLeft
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.CharacterSpacing.BottomRight
@@ -1022,7 +1181,6 @@ references:
   name: BottomRight
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.CharacterSpacing.html#TF3_YarhlPlugin_YakuzaCommon_Types_CharacterSpacing_BottomRight_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.CharacterSpacing.BottomRight
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.CharacterSpacing.BottomRight
   nameWithType: CharacterSpacing.BottomRight
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.CharacterSpacing.MiddleLeft
@@ -1035,7 +1193,6 @@ references:
   name: MiddleLeft
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.CharacterSpacing.html#TF3_YarhlPlugin_YakuzaCommon_Types_CharacterSpacing_MiddleLeft_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.CharacterSpacing.MiddleLeft
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.CharacterSpacing.MiddleLeft
   nameWithType: CharacterSpacing.MiddleLeft
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.CharacterSpacing.MiddleRight
@@ -1048,7 +1205,6 @@ references:
   name: MiddleRight
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.CharacterSpacing.html#TF3_YarhlPlugin_YakuzaCommon_Types_CharacterSpacing_MiddleRight_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.CharacterSpacing.MiddleRight
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.CharacterSpacing.MiddleRight
   nameWithType: CharacterSpacing.MiddleRight
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.CharacterSpacing.TopLeft
@@ -1061,7 +1217,6 @@ references:
   name: TopLeft
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.CharacterSpacing.html#TF3_YarhlPlugin_YakuzaCommon_Types_CharacterSpacing_TopLeft_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.CharacterSpacing.TopLeft
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.CharacterSpacing.TopLeft
   nameWithType: CharacterSpacing.TopLeft
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.CharacterSpacing.TopRight
@@ -1074,7 +1229,6 @@ references:
   name: TopRight
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.CharacterSpacing.html#TF3_YarhlPlugin_YakuzaCommon_Types_CharacterSpacing_TopRight_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.CharacterSpacing.TopRight
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.CharacterSpacing.TopRight
   nameWithType: CharacterSpacing.TopRight
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.CharacterSpacing.ToString
@@ -1087,7 +1241,6 @@ references:
   name: ToString
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.CharacterSpacing.html#TF3_YarhlPlugin_YakuzaCommon_Types_CharacterSpacing_ToString_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.CharacterSpacing.ToString
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.CharacterSpacing.ToString
   nameWithType: CharacterSpacing.ToString
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader
@@ -1096,6 +1249,18 @@ references:
   commentId: T:TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader
   nameWithType: FileHeader
+- uid: TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader.#ctor
+  name: FileHeader()
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader.html#TF3_YarhlPlugin_YakuzaCommon_Types_FileHeader__ctor
+  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader.FileHeader()
+  nameWithType: FileHeader.FileHeader()
+- uid: TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader.#ctor*
+  name: FileHeader
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader.html#TF3_YarhlPlugin_YakuzaCommon_Types_FileHeader__ctor_
+  commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader.FileHeader
+  nameWithType: FileHeader.FileHeader
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader.Endianness
   name: Endianness
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader.html#TF3_YarhlPlugin_YakuzaCommon_Types_FileHeader_Endianness
@@ -1106,7 +1271,6 @@ references:
   name: Endianness
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader.html#TF3_YarhlPlugin_YakuzaCommon_Types_FileHeader_Endianness_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader.Endianness
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader.Endianness
   nameWithType: FileHeader.Endianness
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader.Magic
@@ -1119,7 +1283,6 @@ references:
   name: Magic
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader.html#TF3_YarhlPlugin_YakuzaCommon_Types_FileHeader_Magic_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader.Magic
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader.Magic
   nameWithType: FileHeader.Magic
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader.PlatformId
@@ -1132,7 +1295,6 @@ references:
   name: PlatformId
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader.html#TF3_YarhlPlugin_YakuzaCommon_Types_FileHeader_PlatformId_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader.PlatformId
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader.PlatformId
   nameWithType: FileHeader.PlatformId
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader.Relocated
@@ -1145,7 +1307,6 @@ references:
   name: Relocated
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader.html#TF3_YarhlPlugin_YakuzaCommon_Types_FileHeader_Relocated_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader.Relocated
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader.Relocated
   nameWithType: FileHeader.Relocated
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader.Size
@@ -1158,7 +1319,6 @@ references:
   name: Size
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader.html#TF3_YarhlPlugin_YakuzaCommon_Types_FileHeader_Size_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader.Size
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader.Size
   nameWithType: FileHeader.Size
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader.SizeExtended
@@ -1171,7 +1331,6 @@ references:
   name: SizeExtended
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader.html#TF3_YarhlPlugin_YakuzaCommon_Types_FileHeader_SizeExtended_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader.SizeExtended
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader.SizeExtended
   nameWithType: FileHeader.SizeExtended
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader.Version
@@ -1184,7 +1343,6 @@ references:
   name: Version
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader.html#TF3_YarhlPlugin_YakuzaCommon_Types_FileHeader_Version_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader.Version
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.FileHeader.Version
   nameWithType: FileHeader.Version
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.ParDirectoryInfo
@@ -1193,6 +1351,18 @@ references:
   commentId: T:TF3.YarhlPlugin.YakuzaCommon.Types.ParDirectoryInfo
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.ParDirectoryInfo
   nameWithType: ParDirectoryInfo
+- uid: TF3.YarhlPlugin.YakuzaCommon.Types.ParDirectoryInfo.#ctor
+  name: ParDirectoryInfo()
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Types.ParDirectoryInfo.html#TF3_YarhlPlugin_YakuzaCommon_Types_ParDirectoryInfo__ctor
+  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Types.ParDirectoryInfo.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Types.ParDirectoryInfo.ParDirectoryInfo()
+  nameWithType: ParDirectoryInfo.ParDirectoryInfo()
+- uid: TF3.YarhlPlugin.YakuzaCommon.Types.ParDirectoryInfo.#ctor*
+  name: ParDirectoryInfo
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Types.ParDirectoryInfo.html#TF3_YarhlPlugin_YakuzaCommon_Types_ParDirectoryInfo__ctor_
+  commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.ParDirectoryInfo.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Types.ParDirectoryInfo.ParDirectoryInfo
+  nameWithType: ParDirectoryInfo.ParDirectoryInfo
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.ParDirectoryInfo.FileCount
   name: FileCount
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.ParDirectoryInfo.html#TF3_YarhlPlugin_YakuzaCommon_Types_ParDirectoryInfo_FileCount
@@ -1203,7 +1373,6 @@ references:
   name: FileCount
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.ParDirectoryInfo.html#TF3_YarhlPlugin_YakuzaCommon_Types_ParDirectoryInfo_FileCount_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.ParDirectoryInfo.FileCount
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.ParDirectoryInfo.FileCount
   nameWithType: ParDirectoryInfo.FileCount
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.ParDirectoryInfo.FileStartIndex
@@ -1216,7 +1385,6 @@ references:
   name: FileStartIndex
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.ParDirectoryInfo.html#TF3_YarhlPlugin_YakuzaCommon_Types_ParDirectoryInfo_FileStartIndex_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.ParDirectoryInfo.FileStartIndex
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.ParDirectoryInfo.FileStartIndex
   nameWithType: ParDirectoryInfo.FileStartIndex
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.ParDirectoryInfo.RawAttributes
@@ -1229,7 +1397,6 @@ references:
   name: RawAttributes
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.ParDirectoryInfo.html#TF3_YarhlPlugin_YakuzaCommon_Types_ParDirectoryInfo_RawAttributes_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.ParDirectoryInfo.RawAttributes
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.ParDirectoryInfo.RawAttributes
   nameWithType: ParDirectoryInfo.RawAttributes
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.ParDirectoryInfo.SubdirectoryCount
@@ -1242,7 +1409,6 @@ references:
   name: SubdirectoryCount
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.ParDirectoryInfo.html#TF3_YarhlPlugin_YakuzaCommon_Types_ParDirectoryInfo_SubdirectoryCount_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.ParDirectoryInfo.SubdirectoryCount
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.ParDirectoryInfo.SubdirectoryCount
   nameWithType: ParDirectoryInfo.SubdirectoryCount
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.ParDirectoryInfo.SubdirectoryStartIndex
@@ -1255,7 +1421,6 @@ references:
   name: SubdirectoryStartIndex
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.ParDirectoryInfo.html#TF3_YarhlPlugin_YakuzaCommon_Types_ParDirectoryInfo_SubdirectoryStartIndex_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.ParDirectoryInfo.SubdirectoryStartIndex
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.ParDirectoryInfo.SubdirectoryStartIndex
   nameWithType: ParDirectoryInfo.SubdirectoryStartIndex
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo
@@ -1280,7 +1445,6 @@ references:
   name: ParFileInfo
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo.html#TF3_YarhlPlugin_YakuzaCommon_Types_ParFileInfo__ctor_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo.#ctor
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo.ParFileInfo
   nameWithType: ParFileInfo.ParFileInfo
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo.CompressedSize
@@ -1293,7 +1457,6 @@ references:
   name: CompressedSize
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo.html#TF3_YarhlPlugin_YakuzaCommon_Types_ParFileInfo_CompressedSize_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo.CompressedSize
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo.CompressedSize
   nameWithType: ParFileInfo.CompressedSize
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo.DataOffset
@@ -1306,7 +1469,6 @@ references:
   name: DataOffset
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo.html#TF3_YarhlPlugin_YakuzaCommon_Types_ParFileInfo_DataOffset_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo.DataOffset
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo.DataOffset
   nameWithType: ParFileInfo.DataOffset
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo.ExtendedOffset
@@ -1319,7 +1481,6 @@ references:
   name: ExtendedOffset
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo.html#TF3_YarhlPlugin_YakuzaCommon_Types_ParFileInfo_ExtendedOffset_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo.ExtendedOffset
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo.ExtendedOffset
   nameWithType: ParFileInfo.ExtendedOffset
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo.Flags
@@ -1332,7 +1493,6 @@ references:
   name: Flags
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo.html#TF3_YarhlPlugin_YakuzaCommon_Types_ParFileInfo_Flags_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo.Flags
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo.Flags
   nameWithType: ParFileInfo.Flags
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo.IsCompressed
@@ -1345,7 +1505,6 @@ references:
   name: IsCompressed
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo.html#TF3_YarhlPlugin_YakuzaCommon_Types_ParFileInfo_IsCompressed_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo.IsCompressed
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo.IsCompressed
   nameWithType: ParFileInfo.IsCompressed
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo.OriginalSize
@@ -1358,7 +1517,6 @@ references:
   name: OriginalSize
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo.html#TF3_YarhlPlugin_YakuzaCommon_Types_ParFileInfo_OriginalSize_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo.OriginalSize
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo.OriginalSize
   nameWithType: ParFileInfo.OriginalSize
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo.RawAttributes
@@ -1371,7 +1529,6 @@ references:
   name: RawAttributes
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo.html#TF3_YarhlPlugin_YakuzaCommon_Types_ParFileInfo_RawAttributes_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo.RawAttributes
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo.RawAttributes
   nameWithType: ParFileInfo.RawAttributes
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo.Timestamp
@@ -1384,7 +1541,6 @@ references:
   name: Timestamp
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo.html#TF3_YarhlPlugin_YakuzaCommon_Types_ParFileInfo_Timestamp_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo.Timestamp
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.ParFileInfo.Timestamp
   nameWithType: ParFileInfo.Timestamp
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.ParIndex
@@ -1393,6 +1549,18 @@ references:
   commentId: T:TF3.YarhlPlugin.YakuzaCommon.Types.ParIndex
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.ParIndex
   nameWithType: ParIndex
+- uid: TF3.YarhlPlugin.YakuzaCommon.Types.ParIndex.#ctor
+  name: ParIndex()
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Types.ParIndex.html#TF3_YarhlPlugin_YakuzaCommon_Types_ParIndex__ctor
+  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Types.ParIndex.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Types.ParIndex.ParIndex()
+  nameWithType: ParIndex.ParIndex()
+- uid: TF3.YarhlPlugin.YakuzaCommon.Types.ParIndex.#ctor*
+  name: ParIndex
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Types.ParIndex.html#TF3_YarhlPlugin_YakuzaCommon_Types_ParIndex__ctor_
+  commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.ParIndex.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Types.ParIndex.ParIndex
+  nameWithType: ParIndex.ParIndex
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.ParIndex.DirectoryCount
   name: DirectoryCount
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.ParIndex.html#TF3_YarhlPlugin_YakuzaCommon_Types_ParIndex_DirectoryCount
@@ -1403,7 +1571,6 @@ references:
   name: DirectoryCount
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.ParIndex.html#TF3_YarhlPlugin_YakuzaCommon_Types_ParIndex_DirectoryCount_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.ParIndex.DirectoryCount
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.ParIndex.DirectoryCount
   nameWithType: ParIndex.DirectoryCount
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.ParIndex.DirectoryStartOffset
@@ -1416,7 +1583,6 @@ references:
   name: DirectoryStartOffset
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.ParIndex.html#TF3_YarhlPlugin_YakuzaCommon_Types_ParIndex_DirectoryStartOffset_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.ParIndex.DirectoryStartOffset
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.ParIndex.DirectoryStartOffset
   nameWithType: ParIndex.DirectoryStartOffset
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.ParIndex.FileCount
@@ -1429,7 +1595,6 @@ references:
   name: FileCount
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.ParIndex.html#TF3_YarhlPlugin_YakuzaCommon_Types_ParIndex_FileCount_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.ParIndex.FileCount
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.ParIndex.FileCount
   nameWithType: ParIndex.FileCount
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.ParIndex.FileStartOffset
@@ -1442,7 +1607,6 @@ references:
   name: FileStartOffset
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.ParIndex.html#TF3_YarhlPlugin_YakuzaCommon_Types_ParIndex_FileStartOffset_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.ParIndex.FileStartOffset
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.ParIndex.FileStartOffset
   nameWithType: ParIndex.FileStartOffset
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.SllzHeader
@@ -1451,6 +1615,18 @@ references:
   commentId: T:TF3.YarhlPlugin.YakuzaCommon.Types.SllzHeader
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.SllzHeader
   nameWithType: SllzHeader
+- uid: TF3.YarhlPlugin.YakuzaCommon.Types.SllzHeader.#ctor
+  name: SllzHeader()
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Types.SllzHeader.html#TF3_YarhlPlugin_YakuzaCommon_Types_SllzHeader__ctor
+  commentId: M:TF3.YarhlPlugin.YakuzaCommon.Types.SllzHeader.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Types.SllzHeader.SllzHeader()
+  nameWithType: SllzHeader.SllzHeader()
+- uid: TF3.YarhlPlugin.YakuzaCommon.Types.SllzHeader.#ctor*
+  name: SllzHeader
+  href: api/TF3.YarhlPlugin.YakuzaCommon.Types.SllzHeader.html#TF3_YarhlPlugin_YakuzaCommon_Types_SllzHeader__ctor_
+  commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.SllzHeader.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaCommon.Types.SllzHeader.SllzHeader
+  nameWithType: SllzHeader.SllzHeader
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.SllzHeader.CompressedSize
   name: CompressedSize
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.SllzHeader.html#TF3_YarhlPlugin_YakuzaCommon_Types_SllzHeader_CompressedSize
@@ -1461,7 +1637,6 @@ references:
   name: CompressedSize
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.SllzHeader.html#TF3_YarhlPlugin_YakuzaCommon_Types_SllzHeader_CompressedSize_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.SllzHeader.CompressedSize
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.SllzHeader.CompressedSize
   nameWithType: SllzHeader.CompressedSize
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.SllzHeader.CompressionType
@@ -1474,7 +1649,6 @@ references:
   name: CompressionType
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.SllzHeader.html#TF3_YarhlPlugin_YakuzaCommon_Types_SllzHeader_CompressionType_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.SllzHeader.CompressionType
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.SllzHeader.CompressionType
   nameWithType: SllzHeader.CompressionType
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.SllzHeader.Endianness
@@ -1487,7 +1661,6 @@ references:
   name: Endianness
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.SllzHeader.html#TF3_YarhlPlugin_YakuzaCommon_Types_SllzHeader_Endianness_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.SllzHeader.Endianness
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.SllzHeader.Endianness
   nameWithType: SllzHeader.Endianness
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.SllzHeader.HeaderSize
@@ -1500,7 +1673,6 @@ references:
   name: HeaderSize
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.SllzHeader.html#TF3_YarhlPlugin_YakuzaCommon_Types_SllzHeader_HeaderSize_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.SllzHeader.HeaderSize
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.SllzHeader.HeaderSize
   nameWithType: SllzHeader.HeaderSize
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.SllzHeader.Magic
@@ -1513,7 +1685,6 @@ references:
   name: Magic
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.SllzHeader.html#TF3_YarhlPlugin_YakuzaCommon_Types_SllzHeader_Magic_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.SllzHeader.Magic
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.SllzHeader.Magic
   nameWithType: SllzHeader.Magic
 - uid: TF3.YarhlPlugin.YakuzaCommon.Types.SllzHeader.OriginalSize
@@ -1526,7 +1697,6 @@ references:
   name: OriginalSize
   href: api/TF3.YarhlPlugin.YakuzaCommon.Types.SllzHeader.html#TF3_YarhlPlugin_YakuzaCommon_Types_SllzHeader_OriginalSize_
   commentId: Overload:TF3.YarhlPlugin.YakuzaCommon.Types.SllzHeader.OriginalSize
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaCommon.Types.SllzHeader.OriginalSize
   nameWithType: SllzHeader.OriginalSize
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp
@@ -1541,6 +1711,18 @@ references:
   commentId: T:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ExtractStrings
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ExtractStrings
   nameWithType: ExtractStrings
+- uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ExtractStrings.#ctor
+  name: ExtractStrings()
+  href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ExtractStrings.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Armp_ExtractStrings__ctor
+  commentId: M:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ExtractStrings.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ExtractStrings.ExtractStrings()
+  nameWithType: ExtractStrings.ExtractStrings()
+- uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ExtractStrings.#ctor*
+  name: ExtractStrings
+  href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ExtractStrings.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Armp_ExtractStrings__ctor_
+  commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ExtractStrings.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ExtractStrings.ExtractStrings
+  nameWithType: ExtractStrings.ExtractStrings
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ExtractStrings.Convert(TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable)
   name: Convert(ArmpTable)
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ExtractStrings.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Armp_ExtractStrings_Convert_TF3_YarhlPlugin_YakuzaKiwami2_Formats_ArmpTable_
@@ -1551,20 +1733,18 @@ references:
   name: Convert
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ExtractStrings.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Armp_ExtractStrings_Convert_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ExtractStrings.Convert
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ExtractStrings.Convert
   nameWithType: ExtractStrings.Convert
-- uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ExtractStrings.Initialize(PoHeader)
+- uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ExtractStrings.Initialize(Yarhl.Media.Text.PoHeader)
   name: Initialize(PoHeader)
-  href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ExtractStrings.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Armp_ExtractStrings_Initialize_PoHeader_
-  commentId: M:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ExtractStrings.Initialize(PoHeader)
-  fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ExtractStrings.Initialize(PoHeader)
+  href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ExtractStrings.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Armp_ExtractStrings_Initialize_Yarhl_Media_Text_PoHeader_
+  commentId: M:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ExtractStrings.Initialize(Yarhl.Media.Text.PoHeader)
+  fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ExtractStrings.Initialize(Yarhl.Media.Text.PoHeader)
   nameWithType: ExtractStrings.Initialize(PoHeader)
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ExtractStrings.Initialize*
   name: Initialize
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ExtractStrings.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Armp_ExtractStrings_Initialize_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ExtractStrings.Initialize
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ExtractStrings.Initialize
   nameWithType: ExtractStrings.Initialize
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.FromXlsx
@@ -1573,17 +1753,28 @@ references:
   commentId: T:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.FromXlsx
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.FromXlsx
   nameWithType: FromXlsx
-- uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.FromXlsx.Convert(BinaryFormat)
+- uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.FromXlsx.#ctor
+  name: FromXlsx()
+  href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.FromXlsx.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Armp_FromXlsx__ctor
+  commentId: M:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.FromXlsx.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.FromXlsx.FromXlsx()
+  nameWithType: FromXlsx.FromXlsx()
+- uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.FromXlsx.#ctor*
+  name: FromXlsx
+  href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.FromXlsx.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Armp_FromXlsx__ctor_
+  commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.FromXlsx.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.FromXlsx.FromXlsx
+  nameWithType: FromXlsx.FromXlsx
+- uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.FromXlsx.Convert(Yarhl.IO.BinaryFormat)
   name: Convert(BinaryFormat)
-  href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.FromXlsx.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Armp_FromXlsx_Convert_BinaryFormat_
-  commentId: M:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.FromXlsx.Convert(BinaryFormat)
-  fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.FromXlsx.Convert(BinaryFormat)
+  href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.FromXlsx.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Armp_FromXlsx_Convert_Yarhl_IO_BinaryFormat_
+  commentId: M:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.FromXlsx.Convert(Yarhl.IO.BinaryFormat)
+  fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.FromXlsx.Convert(Yarhl.IO.BinaryFormat)
   nameWithType: FromXlsx.Convert(BinaryFormat)
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.FromXlsx.Convert*
   name: Convert
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.FromXlsx.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Armp_FromXlsx_Convert_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.FromXlsx.Convert
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.FromXlsx.Convert
   nameWithType: FromXlsx.Convert
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Reader
@@ -1592,17 +1783,28 @@ references:
   commentId: T:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Reader
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Reader
   nameWithType: Reader
-- uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Reader.Convert(BinaryFormat)
+- uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Reader.#ctor
+  name: Reader()
+  href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Reader.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Armp_Reader__ctor
+  commentId: M:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Reader.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Reader.Reader()
+  nameWithType: Reader.Reader()
+- uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Reader.#ctor*
+  name: Reader
+  href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Reader.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Armp_Reader__ctor_
+  commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Reader.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Reader.Reader
+  nameWithType: Reader.Reader
+- uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Reader.Convert(Yarhl.IO.BinaryFormat)
   name: Convert(BinaryFormat)
-  href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Reader.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Armp_Reader_Convert_BinaryFormat_
-  commentId: M:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Reader.Convert(BinaryFormat)
-  fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Reader.Convert(BinaryFormat)
+  href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Reader.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Armp_Reader_Convert_Yarhl_IO_BinaryFormat_
+  commentId: M:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Reader.Convert(Yarhl.IO.BinaryFormat)
+  fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Reader.Convert(Yarhl.IO.BinaryFormat)
   nameWithType: Reader.Convert(BinaryFormat)
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Reader.Convert*
   name: Convert
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Reader.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Armp_Reader_Convert_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Reader.Convert
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Reader.Convert
   nameWithType: Reader.Convert
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ToXlsx
@@ -1611,6 +1813,18 @@ references:
   commentId: T:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ToXlsx
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ToXlsx
   nameWithType: ToXlsx
+- uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ToXlsx.#ctor
+  name: ToXlsx()
+  href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ToXlsx.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Armp_ToXlsx__ctor
+  commentId: M:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ToXlsx.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ToXlsx.ToXlsx()
+  nameWithType: ToXlsx.ToXlsx()
+- uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ToXlsx.#ctor*
+  name: ToXlsx
+  href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ToXlsx.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Armp_ToXlsx__ctor_
+  commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ToXlsx.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ToXlsx.ToXlsx
+  nameWithType: ToXlsx.ToXlsx
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ToXlsx.Convert(TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable)
   name: Convert(ArmpTable)
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ToXlsx.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Armp_ToXlsx_Convert_TF3_YarhlPlugin_YakuzaKiwami2_Formats_ArmpTable_
@@ -1621,7 +1835,6 @@ references:
   name: Convert
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ToXlsx.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Armp_ToXlsx_Convert_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ToXlsx.Convert
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.ToXlsx.Convert
   nameWithType: ToXlsx.Convert
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Translate
@@ -1630,6 +1843,18 @@ references:
   commentId: T:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Translate
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Translate
   nameWithType: Translate
+- uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Translate.#ctor
+  name: Translate()
+  href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Translate.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Armp_Translate__ctor
+  commentId: M:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Translate.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Translate.Translate()
+  nameWithType: Translate.Translate()
+- uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Translate.#ctor*
+  name: Translate
+  href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Translate.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Armp_Translate__ctor_
+  commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Translate.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Translate.Translate
+  nameWithType: Translate.Translate
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Translate.Convert(TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable)
   name: Convert(ArmpTable)
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Translate.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Armp_Translate_Convert_TF3_YarhlPlugin_YakuzaKiwami2_Formats_ArmpTable_
@@ -1640,20 +1865,18 @@ references:
   name: Convert
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Translate.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Armp_Translate_Convert_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Translate.Convert
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Translate.Convert
   nameWithType: Translate.Convert
-- uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Translate.Initialize(TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po)
+- uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Translate.Initialize(Yarhl.Media.Text.Po)
   name: Initialize(Po)
-  href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Translate.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Armp_Translate_Initialize_TF3_YarhlPlugin_YakuzaKiwami2_Converters_Po_
-  commentId: M:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Translate.Initialize(TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po)
-  fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Translate.Initialize(TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po)
+  href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Translate.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Armp_Translate_Initialize_Yarhl_Media_Text_Po_
+  commentId: M:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Translate.Initialize(Yarhl.Media.Text.Po)
+  fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Translate.Initialize(Yarhl.Media.Text.Po)
   nameWithType: Translate.Initialize(Po)
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Translate.Initialize*
   name: Initialize
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Translate.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Armp_Translate_Initialize_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Translate.Initialize
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Translate.Initialize
   nameWithType: Translate.Initialize
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Writer
@@ -1662,6 +1885,18 @@ references:
   commentId: T:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Writer
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Writer
   nameWithType: Writer
+- uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Writer.#ctor
+  name: Writer()
+  href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Writer.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Armp_Writer__ctor
+  commentId: M:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Writer.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Writer.Writer()
+  nameWithType: Writer.Writer()
+- uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Writer.#ctor*
+  name: Writer
+  href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Writer.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Armp_Writer__ctor_
+  commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Writer.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Writer.Writer
+  nameWithType: Writer.Writer
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Writer.Convert(TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable)
   name: Convert(ArmpTable)
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Writer.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Armp_Writer_Convert_TF3_YarhlPlugin_YakuzaKiwami2_Formats_ArmpTable_
@@ -1672,7 +1907,6 @@ references:
   name: Convert
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Writer.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Armp_Writer_Convert_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Writer.Convert
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp.Writer.Convert
   nameWithType: Writer.Convert
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po
@@ -1687,17 +1921,28 @@ references:
   commentId: T:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.BinaryPoSplitter
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.BinaryPoSplitter
   nameWithType: BinaryPoSplitter
-- uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.BinaryPoSplitter.Convert(BinaryFormat)
+- uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.BinaryPoSplitter.#ctor
+  name: BinaryPoSplitter()
+  href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.BinaryPoSplitter.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Po_BinaryPoSplitter__ctor
+  commentId: M:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.BinaryPoSplitter.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.BinaryPoSplitter.BinaryPoSplitter()
+  nameWithType: BinaryPoSplitter.BinaryPoSplitter()
+- uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.BinaryPoSplitter.#ctor*
+  name: BinaryPoSplitter
+  href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.BinaryPoSplitter.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Po_BinaryPoSplitter__ctor_
+  commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.BinaryPoSplitter.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.BinaryPoSplitter.BinaryPoSplitter
+  nameWithType: BinaryPoSplitter.BinaryPoSplitter
+- uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.BinaryPoSplitter.Convert(Yarhl.IO.BinaryFormat)
   name: Convert(BinaryFormat)
-  href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.BinaryPoSplitter.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Po_BinaryPoSplitter_Convert_BinaryFormat_
-  commentId: M:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.BinaryPoSplitter.Convert(BinaryFormat)
-  fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.BinaryPoSplitter.Convert(BinaryFormat)
+  href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.BinaryPoSplitter.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Po_BinaryPoSplitter_Convert_Yarhl_IO_BinaryFormat_
+  commentId: M:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.BinaryPoSplitter.Convert(Yarhl.IO.BinaryFormat)
+  fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.BinaryPoSplitter.Convert(Yarhl.IO.BinaryFormat)
   nameWithType: BinaryPoSplitter.Convert(BinaryFormat)
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.BinaryPoSplitter.Convert*
   name: Convert
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.BinaryPoSplitter.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Po_BinaryPoSplitter_Convert_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.BinaryPoSplitter.Convert
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.BinaryPoSplitter.Convert
   nameWithType: BinaryPoSplitter.Convert
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Merger
@@ -1706,17 +1951,28 @@ references:
   commentId: T:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Merger
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Merger
   nameWithType: Merger
-- uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Merger.Convert(NodeContainerFormat)
+- uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Merger.#ctor
+  name: Merger()
+  href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Merger.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Po_Merger__ctor
+  commentId: M:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Merger.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Merger.Merger()
+  nameWithType: Merger.Merger()
+- uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Merger.#ctor*
+  name: Merger
+  href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Merger.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Po_Merger__ctor_
+  commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Merger.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Merger.Merger
+  nameWithType: Merger.Merger
+- uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Merger.Convert(Yarhl.FileSystem.NodeContainerFormat)
   name: Convert(NodeContainerFormat)
-  href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Merger.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Po_Merger_Convert_NodeContainerFormat_
-  commentId: M:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Merger.Convert(NodeContainerFormat)
-  fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Merger.Convert(NodeContainerFormat)
+  href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Merger.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Po_Merger_Convert_Yarhl_FileSystem_NodeContainerFormat_
+  commentId: M:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Merger.Convert(Yarhl.FileSystem.NodeContainerFormat)
+  fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Merger.Convert(Yarhl.FileSystem.NodeContainerFormat)
   nameWithType: Merger.Convert(NodeContainerFormat)
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Merger.Convert*
   name: Convert
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Merger.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Po_Merger_Convert_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Merger.Convert
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Merger.Convert
   nameWithType: Merger.Convert
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Splitter
@@ -1725,17 +1981,28 @@ references:
   commentId: T:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Splitter
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Splitter
   nameWithType: Splitter
+- uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Splitter.#ctor
+  name: Splitter()
+  href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Splitter.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Po_Splitter__ctor
+  commentId: M:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Splitter.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Splitter.Splitter()
+  nameWithType: Splitter.Splitter()
+- uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Splitter.#ctor*
+  name: Splitter
+  href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Splitter.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Po_Splitter__ctor_
+  commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Splitter.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Splitter.Splitter
+  nameWithType: Splitter.Splitter
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Splitter.Convert(Yarhl.Media.Text.Po)
-  name: Convert(Yarhl.Media.Text.Po)
+  name: Convert(Po)
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Splitter.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Po_Splitter_Convert_Yarhl_Media_Text_Po_
   commentId: M:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Splitter.Convert(Yarhl.Media.Text.Po)
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Splitter.Convert(Yarhl.Media.Text.Po)
-  nameWithType: Splitter.Convert(Yarhl.Media.Text.Po)
+  nameWithType: Splitter.Convert(Po)
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Splitter.Convert*
   name: Convert
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Splitter.html#TF3_YarhlPlugin_YakuzaKiwami2_Converters_Po_Splitter_Convert_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Splitter.Convert
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po.Splitter.Convert
   nameWithType: Splitter.Convert
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Enums
@@ -1762,6 +2029,12 @@ references:
   commentId: F:TF3.YarhlPlugin.YakuzaKiwami2.Enums.Endianness.LittleEndian
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Enums.Endianness.LittleEndian
   nameWithType: Endianness.LittleEndian
+- uid: TF3.YarhlPlugin.YakuzaKiwami2.Enums.Endianness.value__
+  name: value__
+  href: api/TF3.YarhlPlugin.YakuzaKiwami2.Enums.Endianness.html#TF3_YarhlPlugin_YakuzaKiwami2_Enums_Endianness_value__
+  commentId: F:TF3.YarhlPlugin.YakuzaKiwami2.Enums.Endianness.value__
+  fullName: TF3.YarhlPlugin.YakuzaKiwami2.Enums.Endianness.value__
+  nameWithType: Endianness.value__
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Enums.FieldType
   name: FieldType
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Enums.FieldType.html
@@ -1858,6 +2131,12 @@ references:
   commentId: F:TF3.YarhlPlugin.YakuzaKiwami2.Enums.FieldType.Unused
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Enums.FieldType.Unused
   nameWithType: FieldType.Unused
+- uid: TF3.YarhlPlugin.YakuzaKiwami2.Enums.FieldType.value__
+  name: value__
+  href: api/TF3.YarhlPlugin.YakuzaKiwami2.Enums.FieldType.html#TF3_YarhlPlugin_YakuzaKiwami2_Enums_FieldType_value__
+  commentId: F:TF3.YarhlPlugin.YakuzaKiwami2.Enums.FieldType.value__
+  fullName: TF3.YarhlPlugin.YakuzaKiwami2.Enums.FieldType.value__
+  nameWithType: FieldType.value__
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Formats
   name: TF3.YarhlPlugin.YakuzaKiwami2.Formats
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Formats.html
@@ -1886,7 +2165,6 @@ references:
   name: ArmpTable
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.html#TF3_YarhlPlugin_YakuzaKiwami2_Formats_ArmpTable__ctor_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.#ctor
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.ArmpTable
   nameWithType: ArmpTable.ArmpTable
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.EmptyValues
@@ -1899,7 +2177,6 @@ references:
   name: EmptyValues
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.html#TF3_YarhlPlugin_YakuzaKiwami2_Formats_ArmpTable_EmptyValues_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.EmptyValues
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.EmptyValues
   nameWithType: ArmpTable.EmptyValues
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.Equals(System.Object)
@@ -1918,7 +2195,6 @@ references:
   name: Equals
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.html#TF3_YarhlPlugin_YakuzaKiwami2_Formats_ArmpTable_Equals_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.Equals
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.Equals
   nameWithType: ArmpTable.Equals
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.FieldCount
@@ -1931,7 +2207,6 @@ references:
   name: FieldCount
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.html#TF3_YarhlPlugin_YakuzaKiwami2_Formats_ArmpTable_FieldCount_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.FieldCount
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.FieldCount
   nameWithType: ArmpTable.FieldCount
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.FieldExistence
@@ -1944,7 +2219,6 @@ references:
   name: FieldExistence
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.html#TF3_YarhlPlugin_YakuzaKiwami2_Formats_ArmpTable_FieldExistence_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.FieldExistence
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.FieldExistence
   nameWithType: ArmpTable.FieldExistence
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.FieldIds
@@ -1957,7 +2231,6 @@ references:
   name: FieldIds
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.html#TF3_YarhlPlugin_YakuzaKiwami2_Formats_ArmpTable_FieldIds_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.FieldIds
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.FieldIds
   nameWithType: ArmpTable.FieldIds
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.FieldInfo
@@ -1970,7 +2243,6 @@ references:
   name: FieldInfo
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.html#TF3_YarhlPlugin_YakuzaKiwami2_Formats_ArmpTable_FieldInfo_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.FieldInfo
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.FieldInfo
   nameWithType: ArmpTable.FieldInfo
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.FieldInvalid
@@ -1983,7 +2255,6 @@ references:
   name: FieldInvalid
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.html#TF3_YarhlPlugin_YakuzaKiwami2_Formats_ArmpTable_FieldInvalid_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.FieldInvalid
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.FieldInvalid
   nameWithType: ArmpTable.FieldInvalid
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.FieldOrder
@@ -1996,7 +2267,6 @@ references:
   name: FieldOrder
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.html#TF3_YarhlPlugin_YakuzaKiwami2_Formats_ArmpTable_FieldOrder_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.FieldOrder
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.FieldOrder
   nameWithType: ArmpTable.FieldOrder
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.FieldTypes
@@ -2009,7 +2279,6 @@ references:
   name: FieldTypes
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.html#TF3_YarhlPlugin_YakuzaKiwami2_Formats_ArmpTable_FieldTypes_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.FieldTypes
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.FieldTypes
   nameWithType: ArmpTable.FieldTypes
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.Flags
@@ -2022,7 +2291,6 @@ references:
   name: Flags
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.html#TF3_YarhlPlugin_YakuzaKiwami2_Formats_ArmpTable_Flags_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.Flags
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.Flags
   nameWithType: ArmpTable.Flags
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.GameVarFieldType
@@ -2035,7 +2303,6 @@ references:
   name: GameVarFieldType
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.html#TF3_YarhlPlugin_YakuzaKiwami2_Formats_ArmpTable_GameVarFieldType_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.GameVarFieldType
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.GameVarFieldType
   nameWithType: ArmpTable.GameVarFieldType
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.GetHashCode
@@ -2048,7 +2315,6 @@ references:
   name: GetHashCode
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.html#TF3_YarhlPlugin_YakuzaKiwami2_Formats_ArmpTable_GetHashCode_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.GetHashCode
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.GetHashCode
   nameWithType: ArmpTable.GetHashCode
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.Id
@@ -2061,7 +2327,6 @@ references:
   name: Id
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.html#TF3_YarhlPlugin_YakuzaKiwami2_Formats_ArmpTable_Id_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.Id
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.Id
   nameWithType: ArmpTable.Id
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.Indexer
@@ -2074,7 +2339,6 @@ references:
   name: Indexer
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.html#TF3_YarhlPlugin_YakuzaKiwami2_Formats_ArmpTable_Indexer_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.Indexer
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.Indexer
   nameWithType: ArmpTable.Indexer
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.RawRecordMemberInfo
@@ -2087,7 +2351,6 @@ references:
   name: RawRecordMemberInfo
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.html#TF3_YarhlPlugin_YakuzaKiwami2_Formats_ArmpTable_RawRecordMemberInfo_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.RawRecordMemberInfo
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.RawRecordMemberInfo
   nameWithType: ArmpTable.RawRecordMemberInfo
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.RecordCount
@@ -2100,7 +2363,6 @@ references:
   name: RecordCount
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.html#TF3_YarhlPlugin_YakuzaKiwami2_Formats_ArmpTable_RecordCount_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.RecordCount
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.RecordCount
   nameWithType: ArmpTable.RecordCount
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.RecordExistence
@@ -2113,7 +2375,6 @@ references:
   name: RecordExistence
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.html#TF3_YarhlPlugin_YakuzaKiwami2_Formats_ArmpTable_RecordExistence_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.RecordExistence
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.RecordExistence
   nameWithType: ArmpTable.RecordExistence
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.RecordIds
@@ -2126,7 +2387,6 @@ references:
   name: RecordIds
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.html#TF3_YarhlPlugin_YakuzaKiwami2_Formats_ArmpTable_RecordIds_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.RecordIds
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.RecordIds
   nameWithType: ArmpTable.RecordIds
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.RecordInvalid
@@ -2139,7 +2399,6 @@ references:
   name: RecordInvalid
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.html#TF3_YarhlPlugin_YakuzaKiwami2_Formats_ArmpTable_RecordInvalid_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.RecordInvalid
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.RecordInvalid
   nameWithType: ArmpTable.RecordInvalid
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.RecordOrder
@@ -2152,7 +2411,6 @@ references:
   name: RecordOrder
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.html#TF3_YarhlPlugin_YakuzaKiwami2_Formats_ArmpTable_RecordOrder_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.RecordOrder
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.RecordOrder
   nameWithType: ArmpTable.RecordOrder
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.Values
@@ -2165,7 +2423,6 @@ references:
   name: Values
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.html#TF3_YarhlPlugin_YakuzaKiwami2_Formats_ArmpTable_Values_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.Values
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.Values
   nameWithType: ArmpTable.Values
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.ValueStringCount
@@ -2178,7 +2435,6 @@ references:
   name: ValueStringCount
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.html#TF3_YarhlPlugin_YakuzaKiwami2_Formats_ArmpTable_ValueStringCount_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.ValueStringCount
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.ValueStringCount
   nameWithType: ArmpTable.ValueStringCount
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.ValueStrings
@@ -2191,7 +2447,6 @@ references:
   name: ValueStrings
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.html#TF3_YarhlPlugin_YakuzaKiwami2_Formats_ArmpTable_ValueStrings_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.ValueStrings
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Formats.ArmpTable.ValueStrings
   nameWithType: ArmpTable.ValueStrings
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Types
@@ -2206,6 +2461,18 @@ references:
   commentId: T:TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader
   nameWithType: ArmpTableHeader
+- uid: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.#ctor
+  name: ArmpTableHeader()
+  href: api/TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.html#TF3_YarhlPlugin_YakuzaKiwami2_Types_ArmpTableHeader__ctor
+  commentId: M:TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.ArmpTableHeader()
+  nameWithType: ArmpTableHeader.ArmpTableHeader()
+- uid: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.#ctor*
+  name: ArmpTableHeader
+  href: api/TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.html#TF3_YarhlPlugin_YakuzaKiwami2_Types_ArmpTableHeader__ctor_
+  commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.ArmpTableHeader
+  nameWithType: ArmpTableHeader.ArmpTableHeader
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.EmptyValuesPointer
   name: EmptyValuesPointer
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.html#TF3_YarhlPlugin_YakuzaKiwami2_Types_ArmpTableHeader_EmptyValuesPointer
@@ -2216,7 +2483,6 @@ references:
   name: EmptyValuesPointer
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.html#TF3_YarhlPlugin_YakuzaKiwami2_Types_ArmpTableHeader_EmptyValuesPointer_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.EmptyValuesPointer
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.EmptyValuesPointer
   nameWithType: ArmpTableHeader.EmptyValuesPointer
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.FieldCount
@@ -2229,7 +2495,6 @@ references:
   name: FieldCount
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.html#TF3_YarhlPlugin_YakuzaKiwami2_Types_ArmpTableHeader_FieldCount_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.FieldCount
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.FieldCount
   nameWithType: ArmpTableHeader.FieldCount
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.FieldExistencePointer
@@ -2242,7 +2507,6 @@ references:
   name: FieldExistencePointer
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.html#TF3_YarhlPlugin_YakuzaKiwami2_Types_ArmpTableHeader_FieldExistencePointer_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.FieldExistencePointer
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.FieldExistencePointer
   nameWithType: ArmpTableHeader.FieldExistencePointer
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.FieldIdPointer
@@ -2255,7 +2519,6 @@ references:
   name: FieldIdPointer
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.html#TF3_YarhlPlugin_YakuzaKiwami2_Types_ArmpTableHeader_FieldIdPointer_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.FieldIdPointer
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.FieldIdPointer
   nameWithType: ArmpTableHeader.FieldIdPointer
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.FieldInfoPointer
@@ -2268,7 +2531,6 @@ references:
   name: FieldInfoPointer
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.html#TF3_YarhlPlugin_YakuzaKiwami2_Types_ArmpTableHeader_FieldInfoPointer_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.FieldInfoPointer
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.FieldInfoPointer
   nameWithType: ArmpTableHeader.FieldInfoPointer
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.FieldInvalid
@@ -2281,7 +2543,6 @@ references:
   name: FieldInvalid
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.html#TF3_YarhlPlugin_YakuzaKiwami2_Types_ArmpTableHeader_FieldInvalid_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.FieldInvalid
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.FieldInvalid
   nameWithType: ArmpTableHeader.FieldInvalid
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.FieldOrderPointer
@@ -2294,7 +2555,6 @@ references:
   name: FieldOrderPointer
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.html#TF3_YarhlPlugin_YakuzaKiwami2_Types_ArmpTableHeader_FieldOrderPointer_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.FieldOrderPointer
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.FieldOrderPointer
   nameWithType: ArmpTableHeader.FieldOrderPointer
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.FieldTypePointer
@@ -2307,7 +2567,6 @@ references:
   name: FieldTypePointer
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.html#TF3_YarhlPlugin_YakuzaKiwami2_Types_ArmpTableHeader_FieldTypePointer_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.FieldTypePointer
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.FieldTypePointer
   nameWithType: ArmpTableHeader.FieldTypePointer
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.Flags
@@ -2320,7 +2579,6 @@ references:
   name: Flags
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.html#TF3_YarhlPlugin_YakuzaKiwami2_Types_ArmpTableHeader_Flags_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.Flags
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.Flags
   nameWithType: ArmpTableHeader.Flags
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.GameVarFieldTypePointer
@@ -2333,7 +2591,6 @@ references:
   name: GameVarFieldTypePointer
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.html#TF3_YarhlPlugin_YakuzaKiwami2_Types_ArmpTableHeader_GameVarFieldTypePointer_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.GameVarFieldTypePointer
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.GameVarFieldTypePointer
   nameWithType: ArmpTableHeader.GameVarFieldTypePointer
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.Id
@@ -2346,7 +2603,6 @@ references:
   name: Id
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.html#TF3_YarhlPlugin_YakuzaKiwami2_Types_ArmpTableHeader_Id_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.Id
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.Id
   nameWithType: ArmpTableHeader.Id
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.IndexerPointer
@@ -2359,7 +2615,6 @@ references:
   name: IndexerPointer
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.html#TF3_YarhlPlugin_YakuzaKiwami2_Types_ArmpTableHeader_IndexerPointer_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.IndexerPointer
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.IndexerPointer
   nameWithType: ArmpTableHeader.IndexerPointer
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.RawRecordMemberInfoPointer
@@ -2372,7 +2627,6 @@ references:
   name: RawRecordMemberInfoPointer
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.html#TF3_YarhlPlugin_YakuzaKiwami2_Types_ArmpTableHeader_RawRecordMemberInfoPointer_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.RawRecordMemberInfoPointer
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.RawRecordMemberInfoPointer
   nameWithType: ArmpTableHeader.RawRecordMemberInfoPointer
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.RecordCount
@@ -2385,7 +2639,6 @@ references:
   name: RecordCount
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.html#TF3_YarhlPlugin_YakuzaKiwami2_Types_ArmpTableHeader_RecordCount_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.RecordCount
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.RecordCount
   nameWithType: ArmpTableHeader.RecordCount
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.RecordExistencePointer
@@ -2398,7 +2651,6 @@ references:
   name: RecordExistencePointer
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.html#TF3_YarhlPlugin_YakuzaKiwami2_Types_ArmpTableHeader_RecordExistencePointer_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.RecordExistencePointer
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.RecordExistencePointer
   nameWithType: ArmpTableHeader.RecordExistencePointer
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.RecordIdPointer
@@ -2411,7 +2663,6 @@ references:
   name: RecordIdPointer
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.html#TF3_YarhlPlugin_YakuzaKiwami2_Types_ArmpTableHeader_RecordIdPointer_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.RecordIdPointer
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.RecordIdPointer
   nameWithType: ArmpTableHeader.RecordIdPointer
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.RecordInvalid
@@ -2424,7 +2675,6 @@ references:
   name: RecordInvalid
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.html#TF3_YarhlPlugin_YakuzaKiwami2_Types_ArmpTableHeader_RecordInvalid_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.RecordInvalid
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.RecordInvalid
   nameWithType: ArmpTableHeader.RecordInvalid
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.RecordOrderPointer
@@ -2437,7 +2687,6 @@ references:
   name: RecordOrderPointer
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.html#TF3_YarhlPlugin_YakuzaKiwami2_Types_ArmpTableHeader_RecordOrderPointer_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.RecordOrderPointer
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.RecordOrderPointer
   nameWithType: ArmpTableHeader.RecordOrderPointer
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.ValuesPointer
@@ -2450,7 +2699,6 @@ references:
   name: ValuesPointer
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.html#TF3_YarhlPlugin_YakuzaKiwami2_Types_ArmpTableHeader_ValuesPointer_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.ValuesPointer
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.ValuesPointer
   nameWithType: ArmpTableHeader.ValuesPointer
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.ValueStringCount
@@ -2463,7 +2711,6 @@ references:
   name: ValueStringCount
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.html#TF3_YarhlPlugin_YakuzaKiwami2_Types_ArmpTableHeader_ValueStringCount_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.ValueStringCount
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.ValueStringCount
   nameWithType: ArmpTableHeader.ValueStringCount
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.ValueStringPointer
@@ -2476,7 +2723,6 @@ references:
   name: ValueStringPointer
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.html#TF3_YarhlPlugin_YakuzaKiwami2_Types_ArmpTableHeader_ValueStringPointer_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.ValueStringPointer
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Types.ArmpTableHeader.ValueStringPointer
   nameWithType: ArmpTableHeader.ValueStringPointer
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader
@@ -2485,6 +2731,18 @@ references:
   commentId: T:TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader
   nameWithType: FileHeader
+- uid: TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader.#ctor
+  name: FileHeader()
+  href: api/TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader.html#TF3_YarhlPlugin_YakuzaKiwami2_Types_FileHeader__ctor
+  commentId: M:TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader.FileHeader()
+  nameWithType: FileHeader.FileHeader()
+- uid: TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader.#ctor*
+  name: FileHeader
+  href: api/TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader.html#TF3_YarhlPlugin_YakuzaKiwami2_Types_FileHeader__ctor_
+  commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader.#ctor
+  fullName: TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader.FileHeader
+  nameWithType: FileHeader.FileHeader
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader.Endianness
   name: Endianness
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader.html#TF3_YarhlPlugin_YakuzaKiwami2_Types_FileHeader_Endianness
@@ -2495,7 +2753,6 @@ references:
   name: Endianness
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader.html#TF3_YarhlPlugin_YakuzaKiwami2_Types_FileHeader_Endianness_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader.Endianness
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader.Endianness
   nameWithType: FileHeader.Endianness
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader.Magic
@@ -2508,7 +2765,6 @@ references:
   name: Magic
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader.html#TF3_YarhlPlugin_YakuzaKiwami2_Types_FileHeader_Magic_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader.Magic
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader.Magic
   nameWithType: FileHeader.Magic
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader.PlatformId
@@ -2521,7 +2777,6 @@ references:
   name: PlatformId
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader.html#TF3_YarhlPlugin_YakuzaKiwami2_Types_FileHeader_PlatformId_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader.PlatformId
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader.PlatformId
   nameWithType: FileHeader.PlatformId
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader.Relocated
@@ -2534,7 +2789,6 @@ references:
   name: Relocated
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader.html#TF3_YarhlPlugin_YakuzaKiwami2_Types_FileHeader_Relocated_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader.Relocated
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader.Relocated
   nameWithType: FileHeader.Relocated
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader.Size
@@ -2547,7 +2801,6 @@ references:
   name: Size
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader.html#TF3_YarhlPlugin_YakuzaKiwami2_Types_FileHeader_Size_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader.Size
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader.Size
   nameWithType: FileHeader.Size
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader.SizeExtended
@@ -2560,7 +2813,6 @@ references:
   name: SizeExtended
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader.html#TF3_YarhlPlugin_YakuzaKiwami2_Types_FileHeader_SizeExtended_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader.SizeExtended
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader.SizeExtended
   nameWithType: FileHeader.SizeExtended
 - uid: TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader.Version
@@ -2573,6 +2825,5 @@ references:
   name: Version
   href: api/TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader.html#TF3_YarhlPlugin_YakuzaKiwami2_Types_FileHeader_Version_
   commentId: Overload:TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader.Version
-  isSpec: "True"
   fullName: TF3.YarhlPlugin.YakuzaKiwami2.Types.FileHeader.Version
   nameWithType: FileHeader.Version

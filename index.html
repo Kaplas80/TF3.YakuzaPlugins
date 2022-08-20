@@ -8,7 +8,7 @@
     <title>TF3 Yakuza Plugins   | TF3 Yakuza Plugins </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="TF3 Yakuza Plugins   | TF3 Yakuza Plugins ">
-    <meta name="generator" content="docfx 2.58.9.0">
+    <meta name="generator" content="docfx 2.59.0.0">
     
     <link rel="shortcut icon" href="images/favicon.png">
     <link rel="stylesheet" href="styles/docfx.vendor.css">
@@ -86,24 +86,35 @@
             <article class="content wrap" id="_content" data-uid="README">
 <h1 id="tf3-yakuza-plugins-mit-license-build-and-release">TF3 Yakuza Plugins <a href="https://choosealicense.com/licenses/mit/"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat" alt="MIT License"></a> <img src="https://github.com/kaplas80/TF3.YakuzaPlugins/workflows/Build%20and%20release/badge.svg" alt="Build and release"></h1>
 
-<p>This repository contains plugins and scripts compatible with <a href="https://github.com/kaplas80/TF3">TF3</a>.</p>
+<p>This repository contains plugins and scripts compatible with
+<a href="https://github.com/kaplas80/TF3">TF3</a>.</p>
 <h2 id="contents">Contents</h2>
 <h3 id="common">Common</h3>
 <ul>
-<li><strong>TF3.YarhlPlugins.YakuzaCommon.dll</strong>: Plugin for reading and writing common formats in Yakuza games.</li>
+<li><strong>TF3.YarhlPlugins.YakuzaCommon.dll</strong>: Plugin for reading and writing common
+formats in Yakuza games.</li>
 </ul>
 <h3 id="yakuza-kiwami-2-pc">Yakuza Kiwami 2 PC</h3>
 <ul>
-<li><strong>TF3.YarhlPlugins.YakuzaKiwami2.dll</strong>: Plugin for reading and writing Yakuza Kiwami 2 ARMP archives.</li>
-<li><strong>TF3.Script.YakuzaKiwami2.json</strong>: Script for extracting and repacking all the needed assets in <code>Yakuza Kiwami 2 (Steam version)</code> for translation.</li>
-<li><strong>TF3.Patch.YakuzaKiwami2VWF.1337</strong>: Patch for the <code>Yakuza Kiwami 2 (Steam version)</code> executable to allow the use of a variable width font for extended latin characters.</li>
-<li><strong>FontSpacingEditor.exe</strong>: App to edit the character spacing table in Yakuza Kiwami 2.</li>
+<li><strong>TF3.YarhlPlugins.YakuzaKiwami2.dll</strong>: Plugin for reading and writing Yakuza
+Kiwami 2 ARMP archives.</li>
+<li><strong>TF3.Script.YakuzaKiwami2.json</strong>: Script for extracting and repacking all the
+needed assets in <code>Yakuza Kiwami 2 (Steam version)</code> for translation.</li>
+<li><strong>TF3.Patch.YakuzaKiwami2VWF.1337</strong>: Patch for the
+<code>Yakuza Kiwami 2 (Steam version)</code> executable to allow the use of a variable
+width font for extended latin characters.</li>
+<li><strong>FontSpacingEditor.exe</strong>: App to edit the character spacing table in Yakuza
+Kiwami 2.</li>
 </ul>
 <h2 id="usage">Usage</h2>
 <h3 id="plugins-and-script">Plugins and script</h3>
 <ol>
-<li>Copy <code>TF3.YarhlPlugin.YakuzaCommon.dll</code>, <code>TF3.YarhlPlugin.YakuzaCommon.deps.json</code>, <code>TF3.YarhlPlugin.YakuzaKiwami2.dll</code> and <code>TF3.YarhlPlugin.YakuzaKiwami2.deps.json</code> to the <code>plugins</code> directory of TF3.</li>
-<li>Copy <code>EPPlus.dll</code> and <code>DotNetZip.dll</code> to the root directory of TF3.</li>
+<li>Copy <code>TF3.YarhlPlugin.YakuzaCommon.dll</code>,
+<code>TF3.YarhlPlugin.YakuzaCommon.deps.json</code>, <code>TF3.YarhlPlugin.YakuzaKiwami2.dll</code>
+and <code>TF3.YarhlPlugin.YakuzaKiwami2.deps.json</code> to the <code>plugins</code> directory of
+TF3.</li>
+<li>Copy <code>EPPlus.dll</code>, <code>EPPlus.Interfaces.dll</code> and <code>DotNetZip.dll</code> to the root
+directory of TF3.</li>
 <li>Copy the <code>TF3.Script.YakuzaKiwami2.json</code> to the <code>scripts</code> directory of TF3.</li>
 </ol>
 <h3 id="vwf-patch">VWF Patch</h3>
@@ -113,12 +124,18 @@
 </ol>
 <p>For more information about patches, see TF3 documentation.</p>
 <h3 id="fontspacingeditor">FontSpacingEditor</h3>
-<p>See <a href="https://github.com/Kaplas80/TF3.YakuzaPlugins/blob/8a6af2d550fcf19ae5e0c1b3091c03aca1f7f3f2/src/Apps/FontSpacingEditor/README.md">README.md</a></p>
+<p>See
+<a href="https://github.com/Kaplas80/TF3.YakuzaPlugins/blob/8a6af2d550fcf19ae5e0c1b3091c03aca1f7f3f2/src/Apps/FontSpacingEditor/README.md">README.md</a></p>
 <h2 id="credits">Credits</h2>
 <ul>
-<li>Thanks to Pleonex for <a href="https://scenegate.github.io/Yarhl/">Yarhl</a> and <a href="https://www.pleonex.dev/PleOps.Cake/">PleOps.Cake</a>.</li>
-<li>ARMP reader and writer is based on Capitan Retraso's <a href="https://github.com/CapitanRetraso/reARMP">reARMP</a>.</li>
-<li>Other libraries used: <a href="https://github.com/haf/DotNetZip.Semverd">DotNetZip</a>, <a href="https://epplussoftware.com/">EPPlus</a>, <a href="https://github.com/nominom/bcnencoder.net">BCnEncoder.Net</a>, <a href="https://sixlabors.com/products/imagesharp/">ImageSharp</a>.</li>
+<li>Thanks to Pleonex for <a href="https://scenegate.github.io/Yarhl/">Yarhl</a> and
+<a href="https://www.pleonex.dev/PleOps.Cake/">PleOps.Cake</a>.</li>
+<li>ARMP reader and writer is based on Capitan Retraso's
+<a href="https://github.com/CapitanRetraso/reARMP">reARMP</a>.</li>
+<li>Other libraries used: <a href="https://github.com/haf/DotNetZip.Semverd">DotNetZip</a>,
+<a href="https://epplussoftware.com/">EPPlus</a>,
+<a href="https://github.com/nominom/bcnencoder.net">BCnEncoder.Net</a>,
+<a href="https://sixlabors.com/products/imagesharp/">ImageSharp</a>.</li>
 <li>Icon by <a href="https://www.vecteezy.com/free-vector/emblem">Vecteezy</a>.</li>
 </ul>
 </article>
