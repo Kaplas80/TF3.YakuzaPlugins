@@ -4,8 +4,8 @@
         "src": [
           {
             "files": [
-              "TF3.YarhlPlugin.YakuzaCommon/TF3.YarhlPlugin.YakuzaCommon.csproj",
-              "TF3.YarhlPlugin.YakuzaKiwami2/TF3.YarhlPlugin.YakuzaKiwami2.csproj"
+              "TF3.YarhlPlugin.YakuzaCommon/bin/**/TF3.YarhlPlugin.YakuzaCommon.dll",
+              "TF3.YarhlPlugin.YakuzaKiwami2/bin/**/TF3.YarhlPlugin.YakuzaKiwami2.dll"
             ],
             "src": "../src"
           }

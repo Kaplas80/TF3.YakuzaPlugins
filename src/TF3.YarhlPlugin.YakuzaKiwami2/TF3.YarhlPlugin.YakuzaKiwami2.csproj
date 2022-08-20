@@ -12,7 +12,7 @@
 
   <ItemGroup>
     <PackageReference Include="Yarhl" />
-    <PackageReference Include="Yarhl.Media" />
+    <PackageReference Include="Yarhl.Media.Text" />
     <PackageReference Include="EPPlus" />
   </ItemGroup>
 
