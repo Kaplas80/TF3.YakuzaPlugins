@@ -1,4 +1,4 @@
-// Copyright (c) 2021 Kaplas
+// Copyright (c) 2022 Kaplas
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -17,13 +17,13 @@
 // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
-namespace TF3.YarhlPlugin.YakuzaKiwami2.Formats
+namespace TF3.YarhlPlugin.YakuzaCommon.Formats
 {
     using System;
     using System.Collections;
     using System.Diagnostics.CodeAnalysis;
-    using TF3.YarhlPlugin.YakuzaKiwami2.Enums;
-    using TF3.YarhlPlugin.YakuzaKiwami2.Types;
+    using TF3.YarhlPlugin.YakuzaCommon.Enums;
+    using TF3.YarhlPlugin.YakuzaCommon.Types;
     using Yarhl.FileFormat;
 
     /// <summary>

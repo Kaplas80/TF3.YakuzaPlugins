@@ -1,4 +1,4 @@
-// Copyright (c) 2021 Kaplas
+// Copyright (c) 2022 Kaplas
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -18,40 +18,43 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-namespace TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po
+namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Po
 {
     using System;
     using Yarhl.FileFormat;
     using Yarhl.FileSystem;
+    using Yarhl.IO;
 
     /// <summary>
-    /// Po files merger.
+    /// Po files splitter.
     /// </summary>
-    public class Merger : IConverter<NodeContainerFormat, Yarhl.Media.Text.Po>
+    public class BinaryPoSplitter : IConverter<BinaryFormat, NodeContainerFormat>
     {
         /// <summary>
-        /// Merges all parts (BinaryFormat) in a Po file.
+        /// Splits a Po file (BinaryFormat) in smaller parts.
         /// </summary>
-        /// <param name="source">Po parts.</param>
-        /// <returns>The merged Po.</returns>
-        public Yarhl.Media.Text.Po Convert(NodeContainerFormat source)
+        /// <param name="source">Original Po file.</param>
+        /// <returns>A container with the smaller parts.</returns>
+        /// <exception cref="ArgumentNullException"><paramref name="source"/> is <c>null</c>.</exception>
+        public NodeContainerFormat Convert(BinaryFormat source)
         {
             if (source == null)
             {
                 throw new ArgumentNullException(nameof(source));
             }
 
-            Yarhl.Media.Text.Po po = new ();
+            _ = _ = source.Stream.Seek(0);
 
-            foreach (Node part in source.Root.Children)
+            Yarhl.Media.Text.Po po = (Yarhl.Media.Text.Po)ConvertFormat.With<Yarhl.Media.Text.Binary2Po>(source);
+
+            var result = (NodeContainerFormat)ConvertFormat.With<Splitter>(po);
+
+            foreach (Node n in result.Root.Children)
             {
-                part.TransformWith<Yarhl.Media.Text.Binary2Po>();
-                Yarhl.Media.Text.Po poPart = part.GetFormatAs<Yarhl.Media.Text.Po>();
-                po.Header = poPart.Header;
-                po.Add(poPart.Entries);
+                _ = _ = n.TransformWith<Yarhl.Media.Text.Po2Binary>();
             }
 
-            return po;
+            return result;
         }
     }
 }

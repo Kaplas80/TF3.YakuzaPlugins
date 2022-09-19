@@ -1,13 +1,13 @@
 {
-    "_appTitle": "TF3 Yakuza Plugins",
-    "_appFooter": "Copyright (c) 2021 Kaplas",
-    "_appLogoPath": "images/logo_48.png",
-    "_appFaviconPath": "images/favicon.png",
-    "_enableSearch": true,
-    "_enableNewTab": true,
-    "_gitContribute": {
-        "apiSpecFolder": "docs/apidoc",
-        "repo": "https://github.com/kaplas80/TF3.YakuzaPlugins",
-        "branch": "main"
-    }
+  "_appTitle": "TF3 Yakuza Plugins",
+  "_appFooter": "Copyright (c) 2022 Kaplas",
+  "_appLogoPath": "images/logo_48.png",
+  "_appFaviconPath": "images/favicon.png",
+  "_enableSearch": true,
+  "_enableNewTab": true,
+  "_gitContribute": {
+    "apiSpecFolder": "docs/apidoc",
+    "repo": "https://github.com/kaplas80/TF3.YakuzaPlugins",
+    "branch": "main"
+  }
 }

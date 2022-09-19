@@ -1,4 +1,4 @@
-// Copyright (c) 2021 Kaplas
+// Copyright (c) 2022 Kaplas
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -17,66 +17,70 @@
 // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
-namespace TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp
+
+namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Armp
 {
     using System;
-    using System.Linq;
-    using TF3.YarhlPlugin.YakuzaKiwami2.Enums;
-    using TF3.YarhlPlugin.YakuzaKiwami2.Formats;
+    using TF3.YarhlPlugin.YakuzaCommon.Enums;
+    using TF3.YarhlPlugin.YakuzaCommon.Formats;
     using Yarhl.FileFormat;
     using Yarhl.Media.Text;
 
     /// <summary>
-    /// Inserts strings from Po file to an Armp table.
+    /// Extracts Yakuza Kiwami 2 ARMP translatable strings to a Po file.
     /// </summary>
-    public class Translate : IConverter<ArmpTable, ArmpTable>, IInitializer<Po>
+    public class ExtractStrings : IConverter<ArmpTable, Po>, IInitializer<PoHeader>
     {
-        private Po _translation = null;
+        private PoHeader _poHeader = new PoHeader("NoName", "dummy@dummy.com", "en");
 
         /// <summary>
         /// Converter initializer.
         /// </summary>
-        /// <remarks>
-        /// Initialization is mandatory.
-        /// </remarks>
-        /// <param name="parameters">Po with translation.</param>
-        public void Initialize(Po parameters) => _translation = parameters;
+        /// <param name="parameters">Header to use in created Po elements.</param>
+        public void Initialize(PoHeader parameters) => _poHeader = parameters;
 
         /// <summary>
-        /// Inserts the translated strings from Po file in a Armp table.
+        /// Extracts strings to a Po file.
         /// </summary>
-        /// <param name="source">Original Armp.</param>
-        /// <returns>Translated Armp.</returns>
-        public ArmpTable Convert(ArmpTable source)
+        /// <param name="source">Input format.</param>
+        /// <returns>The po file.</returns>
+        /// <exception cref="ArgumentNullException">Thrown if source is null.</exception>
+        public Po Convert(ArmpTable source)
         {
             if (source == null)
             {
                 throw new ArgumentNullException(nameof(source));
             }
 
-            if (_translation == null)
-            {
-                throw new InvalidOperationException("Uninitialized");
-            }
+            var po = new Po(_poHeader);
 
-            ArmpTable result = source;
+            Extract(source, "Main", po);
 
-            InsertStrings(result, "Main");
-
-            return result;
+            return po;
         }
 
-        private void InsertStrings(ArmpTable table, string name)
+        private void Extract(ArmpTable table, string name, Po po)
         {
-            foreach (PoEntry entry in _translation.Entries.Where(x => x.Context.Split('#')[0] == name))
+            if (table.ValueStringCount > 0)
             {
-                int index = int.Parse(entry.Context.Split('#')[1]);
-                table.ValueStrings[index] = entry.Translated.Replace("\\\\", "\\").Replace("\n", "\r\n");
+                for (int i = 0; i < table.ValueStringCount; i++)
+                {
+                    if (!string.IsNullOrEmpty(table.ValueStrings[i]))
+                    {
+                        var entry = new PoEntry()
+                        {
+                            Original = table.ValueStrings[i].Replace("\\", "\\\\").Replace("\r\n", "\n"),
+                            Translated = table.ValueStrings[i].Replace("\\", "\\\\").Replace("\r\n", "\n"),
+                            Context = $"{name}#{i}",
+                        };
+                        po.Add(entry);
+                    }
+                }
             }
 
             if (table.Indexer != null)
             {
-                InsertStrings(table.Indexer, $"{name}_Idx");
+                Extract(table.Indexer, $"{name}_Idx", po);
             }
 
             for (int fieldIndex = 0; fieldIndex < table.FieldCount; fieldIndex++)
@@ -112,7 +116,7 @@ namespace TF3.YarhlPlugin.YakuzaKiwami2.Converters.Armp
                                 recordId = table.RecordIds[recordIndex];
                             }
 
-                            InsertStrings((ArmpTable)obj, $"[{recordIndex}, {fieldIndex}]{recordId} ({fieldId})");
+                            Extract((ArmpTable)obj, $"[{recordIndex}, {fieldIndex}]{recordId} ({fieldId})", po);
                         }
                     }
                 }
