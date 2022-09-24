@@ -3,6 +3,7 @@
     <ItemGroup>
         <PackageVersion Include="Yarhl" Version="4.0.0-preview.167" />
         <PackageVersion Include="Yarhl.Media.Text" Version="4.0.0-preview.167" />
+        <PackageVersion Include="TF3.YarhlPlugin.Common" Version="0.1.2-preview.59" />
 
         <PackageVersion Include="DotNetZip" Version="1.16.0" />
         <PackageVersion Include="EPPlus" Version="6.0.6" />
