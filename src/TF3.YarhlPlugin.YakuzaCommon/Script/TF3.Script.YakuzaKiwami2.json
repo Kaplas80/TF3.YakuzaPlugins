@@ -15,7 +15,7 @@
       "Id": "charTableOffset",
       "TypeName": "TF3.YarhlPlugin.YakuzaCommon.Converters.Font.ReaderParameters, TF3.YarhlPlugin.YakuzaCommon, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
       "Value": {
-        "Offset": 38595888
+        "Offset": "0x024CED30"
       }
     }
   ],
@@ -41982,9 +41982,9 @@
         "Path": "YakuzaKiwami2.exe",
         "Checksum": "0x0"
       },
-      "VirtualAddress": 4096,
-      "RawAddress": 1024,
-      "Patch": "TF3.Patch.YakuzaCommonVWF.1337"
+      "VirtualAddress": "0x1000",
+      "RawAddress": "0x400",
+      "Patch": "TF3.Patch.YakuzaKiwami2VWF.1337"
     }
   ]
 }
