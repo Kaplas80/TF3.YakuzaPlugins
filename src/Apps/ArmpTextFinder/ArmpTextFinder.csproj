@@ -16,6 +16,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../../TF3.YarhlPlugin.Yakuza6\TF3.YarhlPlugin.Yakuza6.csproj" />
+    <ProjectReference Include="../../TF3.YarhlPlugin.YakuzaCommon\TF3.YarhlPlugin.YakuzaCommon.csproj" />
   </ItemGroup>
 </Project>

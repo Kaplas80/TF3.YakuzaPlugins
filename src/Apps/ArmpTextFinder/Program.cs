@@ -81,8 +81,8 @@ namespace ArmpTextFinder
 
                 try
                 {
-                    n.TransformWith<TF3.YarhlPlugin.Yakuza6.Converters.Armp.Reader>();
-                    n.TransformWith<TF3.YarhlPlugin.Yakuza6.Converters.Armp.ExtractStrings>();
+                    n.TransformWith<TF3.YarhlPlugin.YakuzaCommon.Converters.Armp.Reader>();
+                    n.TransformWith<TF3.YarhlPlugin.YakuzaCommon.Converters.Armp.ExtractStrings>();
 
                     Yarhl.Media.Text.Po po = n.GetFormatAs<Yarhl.Media.Text.Po>();
 
