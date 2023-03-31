@@ -1,3 +1,4 @@
+
 {
     "editor.rulers": [
         80,
@@ -10,7 +11,12 @@
     },
     "[csharp]": {
         "editor.defaultFormatter": "ms-dotnettools.csharp",
-        "editor.formatOnType": true
     },
     "prettier.proseWrap": "always",
+    "cSpell.words": [
+        "kaplas",
+        "Kiwami",
+        "Yakuza",
+        "Yarhl"
+    ]
 }
