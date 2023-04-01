@@ -17,13 +17,4 @@
     <PackageReference Include="DotNetZip" />
     <PackageReference Include="EPPlus" />
   </ItemGroup>
-
-  <ItemGroup>
-    <None Update="Patches/*.1337">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="Script/*.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
 </Project>
