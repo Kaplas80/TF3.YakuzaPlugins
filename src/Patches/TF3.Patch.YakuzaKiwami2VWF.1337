@@ -10,7 +10,7 @@
 ;
 ; This patch adds 2 small functions that gets the index for the ISO-8859-1 character, so the exe can use the VWF table.
 ;
->yakuzakiwami2.exe
+>YakuzaKiwami2.exe
 00000000001DF933:81->E8 ; Check (cmp esi, 0x100) replaced with function call
 00000000001DF934:FE->FB
 00000000001DF935:00->75

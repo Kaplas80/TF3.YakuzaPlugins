@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RuntimeIdentifiers>win-x64;linux-x64;osx-x64</RuntimeIdentifiers>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <SelfContained>false</SelfContained>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" />
+    <PackageReference Include="Yarhl" />
+    <PackageReference Include="Yarhl.Media.Text" />
+    <PackageReference Include="Standart.Hash.xxHash" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../TF3.YarhlPlugin.YakuzaCommon\TF3.YarhlPlugin.YakuzaCommon.csproj" />
+  </ItemGroup>
+</Project>

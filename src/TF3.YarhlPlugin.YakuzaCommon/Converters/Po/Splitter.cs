@@ -1,4 +1,4 @@
-// Copyright (c) 2021 Kaplas
+// Copyright (c) 2022 Kaplas
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -18,7 +18,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-namespace TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po
+namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Po
 {
     using System;
     using Yarhl.FileFormat;
@@ -34,6 +34,7 @@ namespace TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po
         /// </summary>
         /// <param name="source">Original Po file.</param>
         /// <returns>A container with the smaller parts.</returns>
+        /// <exception cref="ArgumentNullException"><paramref name="source"/> is <c>null</c>.</exception>
         public NodeContainerFormat Convert(Yarhl.Media.Text.Po source)
         {
             if (source == null)
@@ -44,8 +45,10 @@ namespace TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po
             var result = new NodeContainerFormat();
 
             string currentContext = string.Empty;
-            Yarhl.Media.Text.Po currentPo = new ();
-            currentPo.Header = source.Header;
+            var currentPo = new Yarhl.Media.Text.Po()
+            {
+                Header = source.Header,
+            };
 
             for (int i = 0; i < source.Entries.Count; i++)
             {
@@ -61,8 +64,10 @@ namespace TF3.YarhlPlugin.YakuzaKiwami2.Converters.Po
                 if (!string.IsNullOrEmpty(currentContext) && contextSplit[0] != currentContext)
                 {
                     result.Root.Add(new Node(currentContext, currentPo));
-                    currentPo = new ();
-                    currentPo.Header = source.Header;
+                    currentPo = new Yarhl.Media.Text.Po()
+                    {
+                        Header = source.Header,
+                    };
                 }
 
                 currentPo.Add(source.Entries[i]);

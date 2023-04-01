@@ -1,4 +1,4 @@
-// Copyright (c) 2021 Kaplas
+// Copyright (c) 2022 Kaplas
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -17,6 +17,7 @@
 // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
+
 namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Par
 {
     using System;
@@ -33,7 +34,7 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Par
     /// </summary>
     public class Reader : IConverter<BinaryFormat, NodeContainerFormat>, IInitializer<ReaderParameters>
     {
-        private ReaderParameters _readerParameters = new ();
+        private ReaderParameters _readerParameters = new ReaderParameters();
 
         /// <summary>
         /// Initializes the reader parameters.
@@ -54,7 +55,7 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Par
                 throw new ArgumentNullException(nameof(source));
             }
 
-            source.Stream.Seek(0);
+            _ = source.Stream.Seek(0);
 
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
 

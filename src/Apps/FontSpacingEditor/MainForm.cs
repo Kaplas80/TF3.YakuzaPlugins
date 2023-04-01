@@ -1,4 +1,4 @@
-// Copyright (c) 2021 Kaplas
+// Copyright (c) 2022 Kaplas
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -248,7 +248,7 @@ namespace FontSpacingEditor
             int col = (int)(_selectedChar % 16);
 
             using var pen = new System.Drawing.Pen(System.Drawing.Color.Yellow, 1);
-            e.Graphics.DrawRectangle(pen, col * charWidth, row * charWidth, charWidth, charHeight);
+            e.Graphics.DrawRectangle(pen, col * charWidth, row * charHeight, charWidth, charHeight);
         }
 
         private void CharPicturePaint(object sender, PaintEventArgs e)
@@ -403,11 +403,11 @@ namespace FontSpacingEditor
             {
                 using FileStream fs = File.OpenRead(imageFile);
 
-                BcDecoder decoder = new ();
+                var decoder = new BcDecoder();
                 decoder.OutputOptions.Bc4Component = ColorComponent.Luminance;
 
                 using Image<Rgba32> image = decoder.DecodeToImageRgba32(fs);
-                using MemoryStream outFs = new ();
+                using var outFs = new MemoryStream();
                 image.SaveAsBmp(outFs);
 
                 _fontImage = System.Drawing.Image.FromStream(outFs);

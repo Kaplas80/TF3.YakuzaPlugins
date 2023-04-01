@@ -1,4 +1,4 @@
-// Copyright (c) 2021 Kaplas
+// Copyright (c) 2022 Kaplas
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -37,7 +37,7 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Par
     /// </summary>
     public class Writer : IConverter<NodeContainerFormat, BinaryFormat>, IInitializer<WriterParameters>
     {
-        private WriterParameters _writerParameters = new ();
+        private WriterParameters _writerParameters = new WriterParameters();
 
         /// <summary>
         /// Initializes the writer parameters.

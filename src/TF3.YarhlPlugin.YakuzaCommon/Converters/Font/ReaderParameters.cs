@@ -1,4 +1,4 @@
-// Copyright (c) 2021 Kaplas
+// Copyright (c) 2022 Kaplas
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -20,6 +20,8 @@
 
 namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Font
 {
+    using System.Text.Json.Serialization;
+    using TF3.YarhlPlugin.Common.Helpers;
     using TF3.YarhlPlugin.YakuzaCommon.Enums;
 
     /// <summary>
@@ -44,6 +46,7 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Font
         /// <summary>
         /// Gets or sets the table offset.
         /// </summary>
+        [JsonConverter(typeof(HexStringJsonConverter<long>))]
         public long Offset { get; set; }
     }
 }

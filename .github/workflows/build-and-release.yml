@@ -6,15 +6,12 @@ on:
   pull_request:
   push:
     # Preview
-    branches: [ main ]
+    branches: [main]
     # Stable
-    tags: [ "v*" ]
-  release:
-    types:
-      - published
+    tags: ["v*"]
 
 env:
-  NET_SDK: '6.0.x'
+  NET_SDK: "6.0.406"
 
 jobs:
   build_main:
@@ -32,14 +29,12 @@ jobs:
           dotnet-version: ${{ env.NET_SDK }}
 
       - name: "Install build tools"
-        run: |
-          dotnet tool restore
-          dotnet cake --bootstrap
+        run: dotnet tool restore
 
       - name: "Generate release notes"
         run: dotnet cake --target=Generate-ReleaseNotes --verbosity=diagnostic
         env:
-          GITHUB_TOKEN: ${{ secrets.RELEASE_GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: "Build, test and stage"
         run: dotnet cake --target=Stage-Artifacts --configuration=Release --verbosity=diagnostic
@@ -65,7 +60,7 @@ jobs:
     name: "[${{ matrix.os }}] Build and test"
     strategy:
       matrix:
-        os: [ macos-latest, windows-latest ]
+        os: [macos-latest, windows-latest]
     runs-on: ${{ matrix.os }}
     steps:
       - name: "Checkout"
@@ -79,9 +74,7 @@ jobs:
           dotnet-version: ${{ env.NET_SDK }}
 
       - name: "Install build tools"
-        run: |
-          dotnet tool restore
-          dotnet cake --bootstrap
+        run: dotnet tool restore
 
       # No need to stage as one job can create the binaries for all platforms
       - name: "Build and test"
@@ -92,11 +85,11 @@ jobs:
   push_artifacts:
     name: "Push artifacts"
     if: github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags/v')
-    needs: [ "build_main", "build_sec" ]
+    needs: ["build_main", "build_sec"]
     runs-on: ubuntu-latest
     env:
       # Needed only for Azure DevOps Artifacts due to its weird auth method.
-      PREVIEW_NUGET_FEED: 'https://pkgs.dev.azure.com/benito356/NetDevOpsTest/_packaging/Example-Preview/nuget/v3/index.json'
+      PREVIEW_NUGET_FEED: "https://pkgs.dev.azure.com/kaplas80/TF3/_packaging/TF3-Preview/nuget/v3/index.json"
     steps:
       - name: "Checkout"
         uses: actions/checkout@v2
@@ -115,11 +108,17 @@ jobs:
           dotnet-version: ${{ env.NET_SDK }}
 
       - name: "Install build tools"
-        run: |
-          dotnet tool restore
-          dotnet cake --bootstrap
+        run: dotnet tool restore
+
+      # Weird way to authenticate in Azure DevOps Artifacts
+      # Then, we need to setup VSS_NUGET_EXTERNAL_FEED_ENDPOINTS
+      - name: "Install Azure Artifacts Credential Provider"
+        run: wget -qO- https://aka.ms/install-artifacts-credprovider.sh | bash
 
       - name: "Publish artifacts"
         run: dotnet cake --target=Push-Artifacts --verbosity=diagnostic
         env:
-          GITHUB_TOKEN: ${{ secrets.RELEASE_GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          STABLE_NUGET_FEED_TOKEN: ${{ secrets.STABLE_NUGET_FEED_TOKEN }}
+          PREVIEW_NUGET_FEED_TOKEN: "az" # Dummy, auth via below env var
+          VSS_NUGET_EXTERNAL_FEED_ENDPOINTS: '{"endpointCredentials": [{"endpoint":"${{ env.PREVIEW_NUGET_FEED }}", "username":"", "password":"${{ secrets.PREVIEW_NUGET_FEED_TOKEN }}"}]}'

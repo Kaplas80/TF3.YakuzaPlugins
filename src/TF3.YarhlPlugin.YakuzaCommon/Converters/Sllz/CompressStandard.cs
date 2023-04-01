@@ -1,4 +1,4 @@
-// Copyright (c) 2021 Kaplas
+// Copyright (c) 2022 Kaplas
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -36,7 +36,7 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz
         private const uint MaxWindowSize = 4096;
         private const uint MaxEncodedLength = 18;
 
-        private CompressorParameters _compressorParameters = new ()
+        private CompressorParameters _compressorParameters = new CompressorParameters()
         {
             CompressionType = CompressionType.Standard,
             Endianness = Endianness.LittleEndian,

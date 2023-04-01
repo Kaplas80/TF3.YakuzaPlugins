@@ -12,7 +12,9 @@
 
   <ItemGroup>
     <PackageReference Include="Yarhl" />
+    <PackageReference Include="Yarhl.Media.Text" />
+    <PackageReference Include="TF3.YarhlPlugin.Common" />
     <PackageReference Include="DotNetZip" />
+    <PackageReference Include="EPPlus" />
   </ItemGroup>
-
 </Project>

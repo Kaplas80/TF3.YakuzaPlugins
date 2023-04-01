@@ -1,4 +1,4 @@
-// Copyright (c) 2021 Kaplas
+// Copyright (c) 2022 Kaplas
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -17,6 +17,7 @@
 // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
+
 namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz
 {
     using System;
@@ -34,7 +35,7 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz
     /// </summary>
     public class CompressZlib : IConverter<BinaryFormat, ParFile>, IInitializer<CompressorParameters>
     {
-        private CompressorParameters _compressorParameters = new ()
+        private CompressorParameters _compressorParameters = new CompressorParameters()
         {
             CompressionType = CompressionType.Zlib,
             Endianness = Endianness.LittleEndian,
@@ -52,6 +53,7 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz
         /// </summary>
         /// <param name="source">Original format.</param>
         /// <returns>The compressed binary.</returns>
+        /// <exception cref="ArgumentNullException"><paramref name="source"/> is <c>null</c>.</exception>
         public ParFile Convert(BinaryFormat source)
         {
             if (source == null)
@@ -59,7 +61,7 @@ namespace TF3.YarhlPlugin.YakuzaCommon.Converters.Sllz
                 throw new ArgumentNullException(nameof(source));
             }
 
-            source.Stream.Seek(0);
+            _ = source.Stream.Seek(0);
 
             byte[] data = new byte[source.Stream.Length];
             _ = source.Stream.Read(data, 0, data.Length);
