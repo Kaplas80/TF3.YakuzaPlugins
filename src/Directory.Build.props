@@ -20,6 +20,7 @@
     <PackageIcon>icon.png</PackageIcon>
     <PackageTags>net;csharp;romhacking;translation;yakuza</PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
   </PropertyGroup>
 
   <!-- Deterministic and source link -->

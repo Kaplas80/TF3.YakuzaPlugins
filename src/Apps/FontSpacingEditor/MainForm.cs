@@ -248,7 +248,7 @@ namespace FontSpacingEditor
             int col = (int)(_selectedChar % 16);
 
             using var pen = new System.Drawing.Pen(System.Drawing.Color.Yellow, 1);
-            e.Graphics.DrawRectangle(pen, col * charWidth, row * charWidth, charWidth, charHeight);
+            e.Graphics.DrawRectangle(pen, col * charWidth, row * charHeight, charWidth, charHeight);
         }
 
         private void CharPicturePaint(object sender, PaintEventArgs e)
