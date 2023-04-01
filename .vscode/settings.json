@@ -8,6 +8,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "[markdown]": {
         "editor.formatOnSave": true,
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
     },
     "[csharp]": {
         "editor.defaultFormatter": "ms-dotnettools.csharp",
