@@ -15,6 +15,8 @@ Task("Define-Project")
     info.AddLibraryProjects("TF3.YarhlPlugin.YakuzaCommon");
 
     info.AddTestProjects("TF3.Tests.Yakuza");
+
+    info.PreviewNuGetFeed = "https://pkgs.dev.azure.com/kaplas80/TF3/_packaging/TF3-Preview/nuget/v3/index.json";
 });
 
 Task("Default")
